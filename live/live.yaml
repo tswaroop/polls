@@ -1,0 +1,24 @@
+variables:
+  DB_ENGINE_LIVE_KARVY: 'mssql+pyodbc://gramener18:gramener18@nw18karvy'
+  DB_ENGINE_LIVE_ETV: 'mssql+pyodbc://gramener18:gramener18@nw18etv'
+url:
+    live_res_temp:
+        pattern: /temp_live_karvy
+        handler: QueryHandler
+        kwargs:
+            url: $DB_ENGINE_LIVE_KARVY
+            sql: >
+                select ec_mst.*, cc_mst.STATE_ID, cc_mst.CONST_NAME_LANG2 STATE_NAME
+                FROM ELECA_CANDMAST ec_mst left join CONST_MST cc_mst
+                on ec_mst.CCODE = cc_mst.CONST_ID
+                where cc_mst.CONST_NAME_LANG2=:state
+            default:
+                state: uttar pradesh
+
+    temp_get_livedata:
+        pattern: /temp_get_livedata
+        handler: FunctionHandler
+        kwargs:
+           function: live.get_livedata
+           headers:
+               Content-Type: application/json

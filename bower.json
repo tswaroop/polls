@@ -1,0 +1,32 @@
+{
+  "name": "network18-elections",
+  "main": "index.js",
+  "authors": [
+    "Vijay Yellepeddi <vijay.yellepeddi@gramener.com>"
+  ],
+  "description": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "",
+    "jquery": "",
+    "d3": "4.0",
+    "bootstrap": "",
+    "font-awesome": "",
+    "topojson": "",
+    "leaflet": "",
+    "EasyAutocomplete": "",
+    "moment": ""
+  },
+  "resolutions": {
+    "jquery": "~1.11.0"
+  }
+}

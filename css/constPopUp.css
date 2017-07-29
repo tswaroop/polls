@@ -1,0 +1,402 @@
+
+@font-face {
+  font-family: "Helvetica Inserat LT Std";
+  src: url("/css/helvetica-inserat.otf") format("opentype");
+}
+
+
+
+#rectangle_box_shadow {
+               box-shadow: 1px 1px 2px 2px #888888;
+             }
+
+#const_body{
+    padding: 0px;
+    background-image: url("/img/counting_bg_tv.png");
+    font-family: "Helvetica Inserat LT Std" !important;
+    background-size: cover;
+    width: 98% !important;
+    font-weight: bold;
+}
+
+.homepage_header{
+  text-align: center;
+    font-family: "Helvetica Inserat LT Std" !important;
+    background-size: cover;
+}
+
+#const_body{
+  padding:30px;
+}
+
+#const_scroll {
+  height:630px;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip-container{
+  display: block !important;
+}
+
+
+#ac_comp_details{
+  background-color: rgba(1, 44, 96, 0.179);
+  border-radius: 30px;
+  border: 1px solid #979797;
+  overflow:hidden !important;
+}
+
+#ac_map{
+  height: 700px;
+  overflow:auto;
+  overflow:hidden;
+}
+
+#ac_map svg{
+  margin-left: 0px !important;
+}
+.ac_detail_list{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ac_det_DISTRICT{
+  width: 400px !important;
+  margin-right: 0 !important;
+}
+#ac_det_ac_det_GEOSTATUS{
+  margin-right: 30px;
+}
+
+.const_acdata{
+  /*width:20px;*/
+  font-size: 41px;
+  color:red;
+}
+.const_columns{
+  width:20px;
+  font-size: 30px;
+}
+  .forward {
+      fill: #D8D8D8;
+    }
+    .forward_big {
+      fill: #D8D8D8;
+    }
+.forward1 {
+  fill: #D0021B;
+  }
+.top {
+  fill : #E7E5E5;
+}
+.top_big {
+  fill : #E7E5E5;
+}
+
+.side {
+  fill: #A1A0A0;
+}
+.side_big {
+  fill: #A1A0A0;
+}
+.back {
+  fill: #555555;
+}
+.ac-const-name{
+  font-size: 80px;
+}
+#const_body{
+  /*left: 0;*/
+  top: 0;
+}
+#const_body {
+    padding: 10px;
+}
+
+@media screen and (min-width: 1920px) {
+  .ac-const-name {
+    font-size: 70px;
+  }
+  .glyphicon.glyphicon-star{
+    top: -30px !important;
+    font-size: 40px !important;
+  }
+  #remove_const, #refresh_const{
+    font-size: 50px !important;
+  }
+  .cond-details svg{
+    height: 110px;
+  }
+  #const_body {
+    padding: 5px 30px;
+    background-image: url("/img/counting_bg_tv.png");
+  }
+  #prev_winner svg{
+    height: 370px;
+    width: 70%; 
+  }
+}
+
+@media screen and (min-width: 3200px) {
+  #prev_winner svg {
+    height: 340px;
+    width: 58%;
+  }
+  #ac_det_DISTRICT {
+    width: 480px !important;
+  }
+  #const_body{
+    background: #f0f0f0;
+    background: -moz-linear-gradient(left, #f0f0f0 0%, #999999 100%);
+    background: -webkit-linear-gradient(left, #f0f0f0 0%,#999999 100%);
+    background: linear-gradient(to right, #f0f0f0 0%,#999999 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#999999',GradientType=1 );
+  }
+  #const_body{
+    width: 78% !important;
+  }
+  .ac-const-name{
+    font-size: 80px;
+  }
+  .cond-details svg text{
+    font-size: 40px;
+  }
+  .cond-details svg{
+    height: 140px;
+  }
+  .cond-count{
+    height: 170px;
+  }
+  .glyphicon.glyphicon-star{
+    top: -30px !important;
+    font-size: 50px !important;
+  }
+  #remove_const, #refresh_const{
+    font-size: 60px !important;
+  }
+  .leaflet-pane.leaflet-overlay-pane{
+    width: 100%;
+    /*margin-left: -75px;*/
+  }
+  #ac_det_DISTRICT{
+    width:300px;
+    margin-right: 90px;
+  }
+  #ac_det_ac_det_GEOSTATUS{
+    margin-right: 30px;
+  }
+  #ac_map{
+    height: 785px;
+    /*width: 1350px;*/
+    padding: 30px;
+  }
+  .const_acdata {
+    font-size: 50px;
+  }
+  .const_columns{
+    font-size: 40px;
+  }
+  .cond-details{
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #const_body{
+    font-family: "Roboto" !important;
+    background: #fff;
+  }
+  #prev_winner svg{
+    height: 200px;
+    width: 70%;
+  }
+  .ac-const-name {
+    font-size: 45px !important;
+  }
+  #refresh_const{
+    font-size: 30px !important;
+  }
+  #remove_const{
+    font-size: 30px !important;
+  }
+  #ac_map{
+    height: 500px !important;
+  }
+  .glyphicon.glyphicon-star{
+    font-size: 28px !important;
+    color: #930215;
+    top: -17px !important;
+  }
+  #const_scroll {
+    height: 440px !important;
+  }
+  .const_acdata{
+    font-size: 25px !important;
+  }
+  .const_columns {
+    font-size: 15px !important;
+  }
+  #ac_det_PHASE{
+    width: 22% !important;
+  }
+  #ac_det_DISTRICT{
+    width:300px !important;
+    margin-right: 90px;
+  }
+  #ac_det_ac_det_GEOSTATUS{
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #ac_map {
+    height: 480px !important;
+  }
+}
+@media screen and (max-width: 1205px) {
+  #prev_winner svg {
+      height: 180px;
+      width: 70%;
+  }
+  .const_acdata {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .const_acdata {
+      font-size: 18px !important;
+  }
+  .ac-const-name {
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  #prev_winner svg {
+      height: 168px;
+      width: 90%;
+  }
+  .const_acdata {
+    font-size: 15px !important;
+  }
+  #ac_det_DISTRICT {
+    width: 175px !important;
+  }
+  .ac-const-name {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #refresh_const, #remove_const {
+      font-size: 21px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  #candidate_details, #ac_comp_details{
+    width: 100%;
+  }
+  #prev_winner svg{
+    height: 260px;
+  }
+  .const_acdata {
+    font-size: 25px !important;
+  }
+  #ac_det_DISTRICT {
+    width: 380px !important;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  #rectangle_box_shadow, .cond-count{
+    margin-top: 0 !important;
+  }
+    #const_scroll {
+      height: 300px !important;
+  }
+  #const_body{
+    width: 96% !important;
+  }
+  #ac_det_DISTRICT {
+    width: 55% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #const_scroll {
+      height: 300px !important;
+  }
+  #prev_winner svg{
+    height: 225px;
+    margin-top: 0 !important;
+  }
+  #ac_map{
+    height: 450px !important;
+  }
+  .leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-tile-container, .leaflet-pane > svg, .leaflet-pane > canvas, .leaflet-zoom-box, .leaflet-image-layer, .leaflet-layer {
+    top: -10px !important;
+  }
+  .const_acdata {
+    font-size: 17px !important;
+  }
+  .ac-const-name {
+    font-size: 25px !important;
+  }
+  #ac_det_DISTRICT {
+    width: 55% !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #const_body {
+    width: 98% !important;
+    left: 0;
+  }
+}
+@media screen and (max-width: 568px) {
+  #prev_winner svg {
+    height: 175px;
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #cand_1{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .cond-details{
+    margin-top: 10px;
+  }
+  .ac-const-name {
+    font-size: 20px !important;
+  }
+  #candidate_details, #ac_comp_details{
+    padding: 0;
+  }
+  #prev_winner svg {
+    height: 130px;
+    margin-top: 0 !important;
+  }
+  #refresh_const, #remove_const {
+    font-size: 20px !important;
+    margin: -20px 5px 5px !important;
+  }
+  #ac_name{
+    margin-top: 20px;
+  }
+  #const_scroll {
+    height: 220px !important;
+  }
+  #ac_map {
+    height: 380px !important;
+  }
+  .const_acdata{
+    font-size: 14px;
+  }
+  #ac_comp_details{
+    border-radius: 0;
+  }
+  #ac_det_DISTRICT {
+    width: 100% !important;
+  }
+
+}

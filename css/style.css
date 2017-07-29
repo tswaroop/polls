@@ -1,0 +1,1376 @@
+@font-face {
+	font-family: "Helvetica Inserat LT Std";
+	src: url("helvetica-inserat.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("roboto.ttf") format("opentype");
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("roboto-bold.ttf") format("opentype");
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	padding: 15px;
+	background: #f0f0f0;
+	background: -moz-linear-gradient(left, #f0f0f0 0%, #999999 100%);
+	background: -webkit-linear-gradient(left, #f0f0f0 0%,#999999 100%);
+	background: linear-gradient(to right, #f0f0f0 0%,#999999 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#999999',GradientType=1 );
+}
+
+.bold-weight{font-weight: bold}
+.year-type{display: inline-block;}
+.fixed-top-contestant{
+	position: fixed;
+	z-index: 5001;
+	/*width: 390px;*/
+	width: 28%;
+	background: rgba(107,107,107,1);
+	padding: 0px 10px;
+}
+.fixed-top-header{margin-top: 75px;}
+.logo-tv{display: none}
+.logo-desktop{display: block}
+
+#header{
+	height: 62px;
+	background: #d8d8d8;
+	border: 1px solid #979797;
+	position: fixed;
+	z-index: 5000;
+	width: 98%;
+}
+
+#eac-submitBtn{
+	background: black !important;
+	color: white !important;
+	padding: 7.5px 10px !important;
+}
+
+#map{
+	margin-top: 75px;
+	height: 550px;
+}
+
+#title{
+	margin-top: 10px;
+	margin-left: calc(50% - 175px);
+	font-size: 32px;
+	color: #241A0F;
+	margin-right: 100px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left:-15px;
+}
+
+#filter-state,  #filter-year, #filter-agency{
+	color: #FFFFFF;
+	font-family: "Roboto";
+	background: rgb(107, 107, 107);
+	font-size: 20px;
+	padding: 17.5px 20px;
+	min-width: 20px;
+	margin: -2px 0 0 -1px;
+}
+
+.dropdown{
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+		display: none;
+		position: absolute;
+		background-color: rgb(107, 107, 107);
+		border: 0.25px solid #DECDCC;
+		min-width: 200px;
+		margin-left: -20px;
+		margin-top: 17.5px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+		z-index: 9999;
+}
+
+.dropdown-content > p {
+	width: 175px;
+}
+
+.dropdown:hover .dropdown-content {
+		display: block;
+}
+
+.none{
+	display: none !important;
+}
+
+.dropdown-content p{
+	margin:0;
+}
+
+.dropdown-content p:hover, .dropdown span:hover{
+	color: black;
+}
+
+.top_3_imgs{
+	width: 60px;
+	height: 60px;
+}
+
+.curr-cont-img{
+	width: 52.5px;
+	height: 52.5px;
+}
+
+div.border-right{
+	position: relative;
+}
+
+div.border-right:before{
+	content: '';
+	position:absolute;
+	left: 100%;
+	top: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 33px solid transparent;
+	border-left: 33px solid rgb(107, 107, 107);
+}
+
+div.separator{
+	width: 1px;
+}
+
+div.border{
+	border-right: 4px solid black;
+}
+
+.leaflet-container {
+	background-color: transparent;
+	margin: 0 auto;
+}
+
+.btn-filter{
+	font-family: "Roboto";
+	border: 0px;
+	font-size: 15px;
+	padding: 4px 10px;
+	border-radius: 100px;
+}
+
+.btn-filter-clearall, .btn-filter-clearall:hover, .btn-filter-clearall:active{
+	background-color: black !important;
+	color: #fff !important;
+	font-family: "Roboto-Bold";
+}
+
+.btn-filter-type, .btn-filter-type:visited{
+	margin: 0 0 2.5px 5px;
+	background-color: #050505 !important;
+	color: white !important;
+}
+
+.close-info{
+	margin: 5px -5px;
+	background-color: #050505 !important;
+	color: white !important;
+	float: right;
+	height: 30px;
+	width: 35px;
+}
+
+.btn-filter-type:hover{
+	color: white;
+}
+
+.filter-types{
+	margin-right: 10px;
+	font-family: "Roboto";
+	font-size: 15px;
+	line-height: 40px;
+	color: black;
+}
+
+.color-white{
+	color: white !important;
+}
+
+#filters p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+button:focus {outline:none !important}
+
+.btn-filter-active, .btn-filter-active:hover, .btn-filter-active:active, .btn-filter-active:visited{
+	border: 2px solid #000 !important;
+	background: rgb(107, 107,107) !important;
+}
+
+.info{
+	font-family: "Roboto";
+	font-size: 20px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.margin-left-90{
+	margin-left: 70px !important;
+}
+
+.margin-left-10{
+	margin-left: 10px !important;
+}
+
+
+.contestant-info{
+	background: rgb(107, 107, 107);
+	height: 550px;
+	overflow-y: scroll;
+	box-shadow: inset 5px 5px 0px 0px rgb(130, 130, 130);
+}
+
+svg{
+	margin-left: 50px !important;
+	/*margin-top: -250px !important;*/
+}
+
+.padding-20{
+	padding: 20px
+}
+
+/*::-webkit-scrollbar {
+		display: none;
+}*/
+
+.legendbtn{
+	background: #241A0F;
+	box-shadow: inset 10px 10px 15px 0 rgba(144,138,138,0.5);
+}
+.circle-shadow {
+		-webkit-filter: drop-shadow( -5px -5px 5px #000 );
+						filter: drop-shadow( -5px -5px 5px #000 );
+}
+
+.leaflet-control{
+	width: 275px !important;
+	text-align: left !important;
+	margin-left: 0px !important;
+	margin-top: 50px !important;
+}
+
+.leaflet-popup-content {
+		margin: 5px 10px;
+		line-height: 1.4;
+		font-size: 15px;
+		background: black;
+		color: white;
+}
+
+.leaflet-popup-content-wrapper{
+	background: black;
+    margin-left: 150px;
+}
+
+.leaflet-popup-tip-container{
+    display: none;
+}
+
+.leaflet-popup-tip{
+	background: black;
+    margin-left: 2.5px;
+    margin-top: -30px;
+}
+
+
+.legendPara{
+	margin: 0;
+}
+
+#filters{
+	margin-top: 75px;
+}
+
+.font-50{
+	font-size: 25px !important;
+}
+
+.font-40{
+	font-size: 20px !important;
+}
+
+
+#totalseats{
+	margin-left: 20px;
+	font-size: 25px;
+	font-family: "Roboto";
+	color:black;
+	font-weight: bold;
+}
+
+.btn-legend{
+	width: 80% !important;
+	font-size: 50px !important;
+}
+
+#area-votes-classify{
+	 margin: 0px;
+	 display: none;
+}
+
+.info-votes{
+	margin-right: 30px;
+	font-size: 20px;
+	font-family: "Helvetica Inserat LT Std";
+}
+
+.margin-top-10{
+	margin-top: 0px !important;
+}
+
+.font-30{
+	font-size: 15px !important
+}
+
+.font-35{
+	font-size: 20px !important
+}
+
+.padding-top-5{
+	padding-top: 5px !important;
+}
+
+.margin-right-30{
+	margin-right: 30px !important;
+}
+
+.margin-top-35{
+	margin-top:15px !important;
+}
+
+.font-25{
+	font-size: 15px !important;
+}
+
+.font-20{
+	font-size: 20px !important;
+}
+
+#curr-cont-label{
+	font-size: 20px;
+	color: white;
+	font-family: "Roboto";
+	margin-top: 10px;
+}
+
+#curr-cont-line{
+	margin-top: -22.5px;
+	width: 55%;
+	margin-right: 0;
+}
+
+.curr-cont-contestants{
+	margin-left: 60px;
+	margin-top: -52.5px;
+}
+
+#gramener-logo{
+	margin-right: 10px;
+    margin-top: -72.5px;
+    width: 160px;
+    height: 50px;
+}
+
+#constituency{
+	margin-top: 75px;
+}
+
+.filter-close-icon{
+	margin-top: -2px;
+}
+
+.btn-filter-remove{
+	font-size: 10px;
+	line-height: 20px;
+}
+
+.easy-autocomplete{
+	width: 100% !important;
+	font-size: 15px !important;
+	margin-bottom: 10px !important;
+	font-family: 'Roboto' !important;
+	cursor: pointer !important;
+}
+
+#constFilter{
+	width: 100%;
+}
+
+.eac-item{
+	font-size: 15px !important;
+}
+
+.leaflet-control button{
+	width: 50% !important;
+	font-size: 20px !important;
+}
+
+#filters p:first-child span{
+	font-size: 32px !important;
+}
+.btn-landing {
+	font-size:25px;
+	font-family: "Roboto";
+	text-transform: uppercase;
+	color:black;
+	line-height:50px;
+	border: 3px solid #000;
+	border-radius: 100px;
+	padding: 10px;
+}
+.btn-landing:hover{
+	text-decoration: none;
+	color:white;
+	background: #920000;
+}
+
+#landing-div{
+	margin-top: 125px;
+	text-align: center;
+}
+
+#landing-title{
+	margin-bottom: 75px;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: "Roboto";
+}
+
+#landing-news18-logo{
+	width: 140px;
+	height: 45px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#landing-gramener-logo{
+	width: 200px;
+	height: 60px;
+	margin-left: 10px;
+}
+
+.btn-block{margin-bottom: 20px}
+.landing-row{margin-bottom: 20px}
+.leaflet-right > .leaflet-control > button{
+	/*margin-left: 100px !important;*/
+	/*margin-top: 20px !important;*/
+	display: none;
+}
+#home-news18-logo{
+	display: inline-block;
+}
+#landing-news18-logo{
+	display: none;
+}
+
+/* CSS for large devices */
+
+@media screen and (min-width: 1920px) {
+	.homepage_header{
+		line-height: 105px;
+		padding-top: 0px;
+	}
+	#landing-news18-logo{
+		display: inline-block;
+	}
+	#home-news18-logo{
+		display: none;
+	}
+
+	::-webkit-scrollbar {
+		display: none;
+	}
+	#filter-state,  #filter-year, #filter-agency{
+		background: #920000;
+	}
+	.leaflet-right{display: none}
+	.btn-block{margin-bottom: 20px}
+	.landing-row{margin-bottom: 20px}
+	.logo-tv{display: block}
+	.logo-desktop{display: none}
+	.fixed-top-contestant{
+		width: 100%;
+		position: inherit;
+		background: #B90000;
+	}
+	.fixed-top-header{margin-top: 40px;}
+	#area-votes-classify{display: block}
+	.contestant-info{
+		background: #B00000;
+		height: 550px;
+		overflow-y: scroll;
+		box-shadow: inset 5px 5px 0px 0px #8C0604;
+	}
+
+	.btn-filter-clearall, .btn-filter-clearall:hover, .btn-filter-clearall:active{
+		background-color: black !important;
+		color: #FCB2AD !important;
+		font-family: "Helvetica Inserat LT Std";
+	}
+
+
+	body{
+		background: url(../../img/counting_bg_tv.png) repeat fixed !important;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-size: cover;
+		font-family: "Helvetica Inserat LT Std";
+		padding: 15px;
+	}
+	.contestant-info{
+		background: #B90000;
+		box-shadow: inset 5px 5px 0px 0px #920000;
+	}
+
+	#filter-state,  #filter-year, #filter-agency{
+		font-size: 46px;
+		padding: 18px 30px;
+		font-family: "Helvetica Inserat LT Std";
+	}
+
+	#title{
+		margin-top: -2px;
+		font-size: 75px;
+		margin-left: calc(50% - 250px);
+		font-family: "Helvetica Inserat LT Std";
+		font-weight: bold;
+	}
+
+	.year-type{display: none}
+
+	div.border-right:before{
+		border-top: 50px solid transparent;
+		border-bottom: 50px solid transparent;
+		border-left: 50px solid #920000;
+	}
+
+	.leaflet-control{
+		margin-top: 150px !important;
+	}
+
+	#totalseats{
+		margin-left: 0px !important;
+		font-size: 50px !important;
+		color: #000 !important;
+		font-family: "Helvetica Inserat LT Std";
+	}
+
+	.leaflet-control button{
+		width: 80% !important;
+		font-size: 50px !important;
+	}
+
+	#filters{
+		margin-top: 175px;
+	}
+
+	#filters p:first-child span{
+		font-size: 50px;
+	}
+
+	.filter-types{
+		font-size: 25px;
+		color: #000 !important;
+		line-height: 70px !important;
+		font-family: "Helvetica Inserat LT Std";
+	}
+
+	.btn-filter{
+		font-size: 25px;
+		padding: 10px 20px;
+		font-family: "Helvetica Inserat LT Std";
+		box-shadow: inset 5px 5px 10px 0 rgba(192,192,192,0.5);
+	}
+
+	.easy-autocomplete{
+		font-size: 30px !important;
+		font-family: "Helvetica Inserat LT Std" !important;
+	}
+
+	.font-35 {
+		font-size: 35px !important;
+	}
+
+	.font-50 {
+		font-size: 50px !important;
+		font-weight: bold;
+	}
+
+	.btn-filter-type, .btn-filter-type:visited{
+		margin: 0 5px 10px 5px !important;
+	}
+
+	.leaflet-control{
+		margin-top: 150px !important;
+		width: 350px !important;
+		text-align: center !important;
+		margin-left: 0px !important;
+	}
+
+	.margin-bottom-10{
+		margin-bottom: 10px !important;
+	}
+
+	.margin-top-20{
+		margin-top: 20px !important;
+	}
+
+	.margin-bottom-20{
+		margin-bottom: 20px !important;
+	}
+
+	.margin-bottom-35{
+		margin-bottom: 35px !important;
+	}
+
+	#filters{
+		margin-top: 175px;
+	}
+
+	svg{
+		margin-top: 0px !important;
+		margin-left: 150px !important;
+	}
+
+	.leaflet-popup-content-wrapper, .leaflet-popup-tip-container{
+		display: none;
+	}
+
+	.btn-filter-active, .btn-filter-active:hover, .btn-filter-active:active, .btn-filter-active:visited{
+		border: 5px solid #FFF !important;
+	}
+
+	.btn-filter-remove{
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	#constituency{
+		margin-top: 150px;
+	}
+
+	.curr-cont-contestants{
+		margin-left: 95px;
+		margin-top: -80px;
+	}
+
+	.close-info{
+		margin: 5px 5px 0px 5px;
+		height: 55px;
+		width: 55px;
+	}
+
+	.font-30{
+		font-size: 30px !important
+	}
+
+	.font-35{
+		font-size: 35px !important
+	}
+
+	.font-25{
+		font-size: 25px !important
+	}
+
+	.info-votes{
+		font-size: 30px;
+	}
+
+	.top_3_imgs{
+		width: 85px;
+		height: 85px;
+	}
+
+	.margin-top-35{
+		margin-top:35px !important;
+	}
+
+	.margin-left-90{
+		margin-left: 95px !important;
+	}
+
+	.font-40{
+		font-size: 40px !important;
+	}
+
+	#curr-cont-line{
+		margin-top: -32.5px;
+		width: 55%;
+	}
+
+	.curr-cont-img{
+		width: 85px;
+		height: 85px;
+	}
+
+	.font-25{
+		font-size: 25px !important;
+	}
+
+	.font-20{
+		font-size: 20px !important;
+	}
+
+	#map{
+		height: 1000px;
+	}
+
+	.contestant-info{
+		height: 1000px;
+	}
+
+	#header{
+		height: 100px !important;
+		width: 98.5% !important;
+		box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		background: radial-gradient(circle, #F9F8F8 0%, #A4A4A2 100%) !important;
+	}
+
+	#gramener-logo{
+		margin-top: -130px;
+	    margin-right: 20px;
+	    width: 250px;
+	    height: 75px;
+	}
+
+	.dropdown-content{
+			display: none;
+			position: absolute;
+			background-color: #920000;
+			border: 0.25px solid #DECDCC;
+			min-width: 300px;
+			margin-left: -30px;
+			margin-top: 17.5px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			padding: 12px 16px;
+			z-index: 1;
+	}
+
+	.dropdown-content > p {
+		width: 500px;
+	}
+
+	.eac-item{
+		font-size: 25px !important;
+	}
+
+	#curr-cont-label{
+		font-size: 35px;
+		font-family: "Helvetica Inserat LT Std";
+	}
+
+	.margin-top-10{
+		margin-top: 10px !important;
+	}
+
+	#eac-submitBtn{
+		background: #000 !important;
+		color: #fff !important;
+		padding: 12.5px 20px !important;
+	}
+
+	.btn-landing {
+		font-size:75px;
+		font-family: "Helvetica Inserat LT Std";
+		color:black;
+		border: 3px solid #000;
+		padding: 25px;
+	}
+
+	.btn-landing:hover{
+		text-decoration: none;
+		color:white;
+		background: #920000;
+		border-color: black;
+
+	}
+
+	#landing-div{
+		margin-top: 175px;
+		text-align: center;
+	}
+
+	#landing-title{
+		margin-bottom: 125px;
+		font-weight: bold;
+		font-size: 75px;
+		font-family: "Helvetica Inserat LT Std";
+		color: #000 !important;
+		font-weight: bold;
+	}
+
+	#landing-news18-logo{
+		width: 200px;
+		height: 75px;
+	}
+
+	#landing-gramener-logo{
+		width: 200px;
+		height: 80px;
+		margin-top: 10px;
+	}
+
+}
+
+@media screen and (min-width: 3200px) {
+	.homepage_header{
+		padding-top: 30px;
+	}
+	.home-row{
+		margin-top: 10px !important;
+		padding-top: 0 !important;
+	}
+	.homepage_header{
+		padding-top: 25px;
+
+	}
+	.dropdown-content > p {
+	    width: 550px !important;
+	}
+	#footer{
+		position: relative;
+	}
+	.footer-web{
+		right: 0;
+	}
+	.margin-bottom-20 {
+	    margin-bottom: 35px !important;
+	}
+	.margin-top-20 {
+	    margin-top: 35px !important;
+	}
+	#filters p {
+	    margin-top: 30.5px;
+	}
+	/*body{
+		background: url(../../img/counting_bg_tv.png) repeat fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+	}*/
+	body{
+		background: #d9d9d9 !important;
+		background: -moz-linear-gradient(left, #d9d9d9 0%, #999999 100%) !important;
+		background: -webkit-linear-gradient(left, #d9d9d9 0%,#999999 100%) !important;
+		background: linear-gradient(to right, #d9d9d9 0%,#999999 100%) !important;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#999999',GradientType=1 );
+		width: 79%;
+		margin: 0 7% 0 14%;
+	}
+	#header{
+		height: 160px !important;
+		width: 78% !important;
+	}
+	#landing-title{
+		color: #000 !important;
+	}
+	.btn-landing{
+		border: 3px solid #000;
+		color: #000;
+	}
+	.btn-landing:hover{
+	    color: #fff;
+        background: #920000;
+	}
+
+	#header {
+    	height: 160px !important;
+    }
+    #landing-news18-logo {
+	    width: 350px;
+	    height: 140px;
+	    margin-top: 6px;
+	}
+	#landing-gramener-logo {
+	    width: 350px;
+	    height: 135px;
+	    margin-top: 10px;
+	}
+	#landing-title{
+		font-size: 80px;
+	}
+	#landing-div {
+	    margin-top: 250px;
+	    text-align: center;
+	}
+	.landing-row {
+	    margin-bottom: 40px;
+	}
+	.btn-landing {
+	    font-size: 80px !important;
+	    padding: 45px 0 !important;
+	}
+	#filter-state, #filter-year, #filter-agency {
+	    font-size: 72px !important;
+	    padding: 30px 30px !important;
+	    margin: -2px 0 0 -2px !important;
+	}
+	div.border {
+	    border-right: 9px solid black;
+	}
+	#totalseats{
+		font-size: 80px !important;
+	}
+	.leaflet-control{
+		width: 500px !important;
+	}
+	.dropdown-content{
+		min-width: 500px !important;
+	}
+	.leaflet-control button{
+		font-size: 80px !important;
+	}
+	div.border-right:before {
+	    border-top: 84px solid transparent;
+	    border-bottom: 80px solid transparent;
+	    border-left: 80px solid #920000;
+	}
+	#title {
+	    margin-top: 30px;
+	    font-size: 75px;
+	    margin-left: calc(50% - 300px);
+	}
+	#gramener-logo {
+	    margin-top: -137px;
+	    width: 320px;
+	    height: 125px;
+	}
+	.easy-autocomplete input{
+		padding: 30px 25px;
+		font-size: 50px !important;
+	}
+	.easy-autocomplete-container ul li, .easy-autocomplete-container ul li .eac-item{
+		font-size: 50px !important;
+	}
+	#eac-submitBtn {
+	    padding: 33px 55px !important;
+	    font-size: 50px !important;
+	}
+	.filter-types{
+		font-size: 36px !important;
+	}
+	.font-50{
+		font-size: 80px !important;
+		line-height: 100px !important;
+	}
+	.btn-filter {
+	    font-size: 38px;
+	    padding: 9px 27px;
+	}
+	.close-info {
+	    height: 75px;
+	    width: 80px;
+	}
+	.font-35 {
+	    font-size: 56px !important;
+	}
+	.padding-top-5 {
+	    padding-top: 15px !important;
+	}
+	.font-40 {
+	    font-size: 55px !important;
+	}
+	.info-votes {
+	    font-size: 48px;
+	}
+	.font-30 {
+	    font-size: 48px !important;
+	}
+	.contestant-info{
+		height: 1100px;
+	}
+	#map {
+	    height: 1300px;
+	}
+	.margin-top-10 {
+	    margin-top: 30px !important;
+	}
+	.poll-filter{
+		font-size: 28px !important;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+	.fixed-top-contestant{
+		position: static;
+		width: 98%;
+	}
+	.fixed-top-header {
+	    margin-top: 30px;
+	}
+	.leaflet-right{display: none}
+	.logo-tv{display: none}
+	.logo-desktop{display: block}
+
+	#title {
+	    font-size: 28px;
+	    margin-left: calc(50% - 90px);
+	    font-family: "roboto-bold";
+	}
+	.leaflet-control p:first-child{
+		float: none;
+		width: 100% !important;
+	}
+	#gramener-logo {
+	    height: 50px;
+	    margin-right: 10px;
+	    margin-top: -61.5px;
+	    width: 160px;
+	}
+	#header{
+		width: 97%;
+	}
+	.btn-block{
+		margin-bottom: 20px;
+	}
+	svg{
+		margin-left: 200px;
+	}
+	#constituency,#filters,#mapContainer{width:100%;}
+	.landing-row{
+		margin-bottom: 0px;
+	.btn-filter {
+	    border: 0 none;
+	    border-radius: 100px;
+	    font-family: "Roboto";
+	    font-size: 15px;
+	    padding: 3px 8px;
+	}
+	.btn-filter{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 992px) {
+	body{
+		position: relative;
+	}
+	.map-container {
+		width: 100%;
+		text-align: center;
+	}
+	.leaflet-left{
+		left: 0% !important;
+	}
+	#filters {
+	    margin: 0 14%;
+	    width: 86%;
+	}
+	.logo-container{
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+	}
+	#header{
+		position: static;
+	}
+	#title {
+	    font-size: 20px;
+	    margin-left: calc(50% - 6px);
+	    margin-top: 17px;
+	}
+	#map{
+		margin-top: 0 !important;
+	}
+	#constituency{
+		width: 100% !important;
+	}
+}
+@media screen and (max-width: 800px) {
+	#header{
+		width: 96%;
+	}
+	#gramener-logo{
+		margin-top: 0;
+	}
+	#title {
+	    font-size: 24px;
+	    margin-right: 40px;
+	    text-align: right;
+	    margin-top: 12px;
+	}
+	#gramener-logo {
+	    margin-top: 40px;
+	}
+	#constituency {
+	    margin: 0px;
+	    width: 100%;
+	}
+	#filter-state, #filter-year, #filter-agency {
+	    /*background: #920000 none repeat scroll 0 0;*/
+	    color: #ffffff;
+	    font-family: "Roboto";
+	    font-size: 15px;
+	    margin: -1px 0 0 -1px;
+	    min-width: 20px;
+	    padding: 12px 20px;
+	}
+	#header{
+		height: 45px;
+		position: static;
+		width: 100%;
+		background: none;
+		border-width: 0;
+	}
+	div.border-right::before {
+	    border-bottom: 21px solid transparent;
+	    /*border-left: 23px solid #920000;*/
+	    border-top: 24px solid transparent;
+	    content: "";
+	    left: 100%;
+	    position: absolute;
+	    top: 0;
+	}
+	#title {
+	    font-size: 18px;
+	    margin-top: 9px;
+	    text-align: right;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#landing-title{
+		font-size: 45px !important;
+	}
+	.header-home{
+		border-width: 0 !important;
+		background: none !important;
+	}
+	#landing-div{
+		margin-top: 90px;
+	}
+	#title{
+		margin-right: 20px;
+	}
+	#filters {
+	    margin: 0 0%;
+	    width: 100%;
+	}
+	svg{
+		margin-left: 0px !important;
+		margin-top: 40px;
+	}
+	.leaflet-control p{
+		width: 218px !important;
+	}
+}
+@media screen and (max-width: 640px) {
+	.btn-filter-active, .btn-filter-active:hover, .btn-filter-active:active, .btn-filter-active:visited {
+	    border: 0px solid #000 !important;
+	}
+	#filter-state, #filter-year, #filter-agency {
+	    /*background: #920000 none repeat scroll 0 0;*/
+	    color: #ffffff;
+	    font-family: "Roboto";
+	    font-size: 15px;
+	    margin: -1px 0 0 -1px;
+	    min-width: 20px;
+	    padding: 12px 20px;
+	}
+	#header{
+		height: 45px;
+		position: static;
+		width: 100%;
+	}
+	div.border-right::before {
+	    border-bottom: 21px solid transparent;
+	    /*border-left: 23px solid #920000;*/
+	    border-top: 24px solid transparent;
+	    content: "";
+	    left: 100%;
+	    position: absolute;
+	    top: 0;
+	}
+	#title {
+	    font-size: 18px;
+	    margin-top: 9px;
+	    text-align: right;
+	}
+	.leaflet-left {
+	    left: 0;
+	}
+	#map{
+		margin-top: -60px !important;
+		height: 700px !important;
+	}
+	.leaflet-control{
+		margin-top: 80px !important;
+	}
+	#landing-title{ font-size: 30px !important; margin-top: 30px; }
+	#landing-div{margin-top: 75px;}
+	#landing-gramener-logo {
+	    height: 40px;
+	    margin-left: 10px;
+	    width: 130px;
+	}
+	#landing-news18-logo {
+	    height: 40px;
+	    margin-left: 0;
+	    margin-top: 2px;
+	    width: 140px;
+	}
+	#landing-title {
+	    margin-bottom: 40px;
+	}
+	#landing-div {
+	    margin-top: 4px;
+	}
+	.leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-tile-container, .leaflet-pane > svg, .leaflet-pane > canvas, .leaflet-zoom-box, .leaflet-image-layer, .leaflet-layer{
+		top:15px;
+	}
+	.leaflet-top {
+	    top: -25px;
+	}
+	#constituency {
+	    margin: 0;
+	}
+	#title {
+	    font-size: 18px;
+	    margin-top: 20px;
+	    text-align: center;
+	    margin-left: 0;
+	    margin-right: 0;
+	    float: left;
+	    width: 100%;
+	}
+	.dropdown-content{
+		margin-top: 11px;
+	}
+	div.border-right::before{
+		display: none;
+	}
+	#map {
+	    margin-top: 0;
+	}
+	.leaflet-control{
+		width: 100% !important;
+		margin-top: 0;
+	}
+	#header{
+		background: none;
+		border-width: 0;
+	}
+	#filter-state{
+		margin-left: 2%;
+	}
+
+	.leaflet-control p{
+		width: 190px;
+		float: left;
+		margin-bottom: 0;
+	}
+	.leaflet-control button{
+		width: 80% !important;
+	}
+	.leaflet-left {
+	    left: 10%;
+	}
+	.dropdown-content{
+		z-index: 99999;
+	}
+}
+@media screen and (max-width: 480px) {
+	#title {
+	    font-size: 18px;
+	    margin-top: 20px;
+	    text-align: center;
+	    margin-left: 0;
+	    margin-right: 0;
+	    float: left;
+	    width: 100%;
+	}
+	.dropdown-content{
+		margin-top: 11px;
+	}
+	div.border-right::before{
+		display: none;
+	}
+	#map {
+	    margin-top: 0;
+	}
+	.leaflet-control{
+		width: 100% !important;
+		margin-top: 0;
+	}
+	#header{
+		background: none;
+		border-width: 0;
+	}
+	#filter-state{
+		margin-left: 2%;
+	}
+	.leaflet-control p{
+		width: 170px !important;
+		float: left;
+		margin-bottom: 0;
+	}
+	.leaflet-control button{
+		width: 80% !important;
+	}
+	.leaflet-left {
+	    left: 10%;
+	}
+	#gramener-logo {
+		margin-top: 10px;
+	    /*height: 36px;
+	    margin-right: 10px;
+	    width: 100px;*/
+	}
+	.leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-tile-container, .leaflet-pane > svg, .leaflet-pane > canvas, .leaflet-zoom-box, .leaflet-image-layer, .leaflet-layer{
+		top:20px;
+	}
+	.leaflet-top {
+	    top: -25px;
+	}
+	#constituency {
+	    margin: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#filter-state{
+		margin-left: 2%;
+	}
+	.leaflet-left {
+	    left: 2%;
+	}
+	.leaflet-control p{
+		width: 140px;
+	}
+	#filters {
+	    margin: 0 1%;
+	    width: 98%;
+	}
+	#constituency {
+	    margin: 0 5%;
+	}
+	.btn-filter-remove{
+		font-size: 15px;
+	}
+	#landing-gramener-logo {
+		height: 50px;
+		margin-left: 10px;
+		width: 120px;
+	}
+
+}

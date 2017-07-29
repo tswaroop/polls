@@ -1,0 +1,6 @@
+bower_components/
+**/__pycache__/
+**/*.pyc
+strike-rate/strike_rate_data.csv
+key_candidate/images/key_images
+*.zip

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Return on Time Invested</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="../bower_components/EasyAutocomplete/dist/easy-autocomplete.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/constPopUp.css">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="../bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="../bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="../bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script> -->
+        <script type="text/javascript" src="../bower_components/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+        <script type="text/javascript" src="../js/G.min.js"></script>
+
+        <style type="text/css">
+            #mapContainer{
+                height: 500px !important;
+            }
+            body{
+                background: url("../../img/background_map_up.png") no-repeat center center fixed !important;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+/*            #individual_candidate [id^=bar_]{
+                width: 400px;
+                height: 100px;
+            }*/
+        </style>
+    </head>
+
+    <body class="uttar_pradesh">
+        <div class="roti_main container-fluid">
+        <!-- <div style="width: 99%; background-color: white; display: none; position: absolute; z-index: 1000;" id="const_body"> -->
+        </div>
+
+        <script type="text/javascript" src="/js/rectangle.js"></script>
+        <script type="text/javascript" src="/js/data_retreive.js"></script>
+
+        <script type="text/javascript" src="../js/util.js"></script>
+        <script type="text/javascript" src="../js/global_utilities.js"></script>
+        <script type="text/javascript" src="../components/root.js"></script>
+        <script type="text/javascript" src="../components/map.js"></script>
+        <script type="text/javascript" src="../components/stackedbar.js"></script>
+        <script type="text/javascript" src="../components/roti_components.js"></script>
+
+        <script id="up_body_template" type="text/template">
+            
+              <div id="header">
+      
+                  <div class="pull-left dropdown border-right" id="filter-state">
+                    <span>UTTAR PRADESH</span><i class="margin-left-10 fa"></i>
+                    <!-- <div class="dropdown-content" id="otherstates">
+                        <p data-type="state"><%= mask_to_hindi('PUNJAB'.toUpperCase()) %></p>              
+                    </div> -->
+                  </div>
+
+                  <div class="pull-left dropdown border-right" id="filter-year">
+                    <span>2017</span><i class="margin-left-10"></i>
+                  </div>
+
+                  <div id="title"><p><%= mask_to_hindi('RETURN ON TIME INVESTED') %></p></div>
+                  <!-- <div class="pull-right logo-container logo-tv">
+                    <img id="gramener-logo" src="../../img/gramener_logo.png" alt="">
+                  </div>
+                 -->
+                  <div class="pull-right live-logo-container">
+                    <a href="#"> <img class="gramener-logo-live" src="../img/gramener_LOGO_STANDARD_WHITE_.png" alt="Gramener" title="Gramener"> </a>
+                    <a href="#"> <img class="refresh" src="../img/refresh.png" alt="refresh" title="refresh"> </a>
+                  </div>
+
+                </div>
+                        <div class="clearfix"></div>
+                        <br>
+                        <div id="modal_container"></div>
+                        <div class="row">
+                            <div id="individual_candidate_container" style="display: none;">
+                                <div class="col-xs-12 col-md-6 col-lg-6" id="individual_candidate"></div>
+                                <div class="map_encloser col-md-6 col-lg-5">
+                                    <div id="mapContainer-up" class="row leaflet-container leaflet-touch leaflet-fade-anim" style="position: relative;"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"></div></div></div>
+                                    <div id="map_filters"></div>
+                                </div>
+                            </div>
+                <!--             <div class="col-xs-4 col-md-4" id="filters"></div>
+                            <div class="col-xs-4 col-md-4" style="display: none" id="constituency"></div> -->
+                            <div id="candidate_comparison_container">
+                                <div class="col-md-1 col-lg-1" style="display: none;"></div>
+                                <div id="candidate_comparison" class="col-md-10 col-lg-12">
+
+              <div class="row">
+              
+
+                <div class="col-lg-3">
+                  <div>
+                    <div class="row">
+                      <div class="col-lg-8 col-md-4 col-sm-6" id="tile_NARENDRA_MODI">
+                        <svg width="150%" height="950" viewBox="-30 -70 550 1000" class="left uttar_pradesh multiple_candidates" preserveAspectRatio="xMinYMin meet">
+                            <g transform="translate(15,-25)">
+                                <rect x="10" y="10" width="100%" height="600px" fill="#C77900" class="up_tile"></rect>
+                                <image x="10" y="0" width="90%" height="720px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../img/party_candidate_images/Narendra Modi-Transparent.png" class="up_tile"></image>
+                                <rect x="-40" y="710px" width="100%" height="250px" fill="#747474" class="up_bottom"></rect>
+                                <rect x="10" y="610px" width="100%" height="150px" fill="#A93700" class="up_tile"></rect>
+                                <rect x="13" y="-11" width="90%" height="50px" fill="#C77900" transform="translate(-40, -30) skewX(45)" fill-opacity="0.6"></rect>
+                                <rect x="-39" y="-2" width="9%" height="600px" fill="#C77900" transform="skewY(45)" fill-opacity="0.71"></rect>
+                                <text x="20" y="700" fill="#FFF" font-size="70px" class="hindi_text"><%= mask_to_hindi('Narendra Modi'.toUpperCase()) %></text>
+                                <rect x="-39" y="600px" width="9%" height="150px" fill="#A93700" transform="skewY(45)"></rect>
+                                <text x="125" y="900" font-size="70px" class="tile_bottom"></text>
+                            </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <!-- <div class="col-lg-4" id="bar_RAHUL_GANDHI"></div> -->
+                  </div>
+                </div>
+
+                <div class="col-lg-3">
+                  <div>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-4 col-sm-6" id="tile_RAHUL_GANDHI">
+                          <svg width="150%" height="950" viewBox="-30 -70 550 1000" class="left uttar_pradesh multiple_candidates" preserveAspectRatio="xMinYMin meet">
+                            <g transform="translate(15,-25)">
+                                <rect x="10" y="10" width="100%" height="600px" fill="#007DD8" class="up_tile"></rect>
+                                <image x="10" y="0" width="90%" height="720px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../img/party_candidate_images/RAHUL_GANDHI.png" class="up_tile"></image>
+                                <rect x="-40" y="710px" width="100%" height="250px" fill="#747474" class="up_bottom"></rect>
+                                <rect x="10" y="610px" width="100%" height="150px" fill="#121869" class="up_tile"></rect>
+                                <rect x="13" y="-11" width="90%" height="50px" fill="#007DD8" transform="translate(-40, -30) skewX(45)" fill-opacity="0.6"></rect>
+                                <rect x="-39" y="-2" width="9%" height="600px" fill="#007DD8" transform="skewY(45)" fill-opacity="0.71"></rect>
+                                <text x="40" y="700" fill="#FFF" font-size="70px" class="hindi_text"><%= mask_to_hindi('Rahul Gandhi'.toUpperCase()) %></text>
+                                <rect x="-39" y="600px" width="9%" height="150px" fill="#121869" transform="skewY(45)"></rect>
+                                <text x="125" y="900" font-size="70px" class="tile_bottom"></text>
+                            </g>
+                          </svg>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4" id="bar_RAHUL_GANDHI"></div> -->
+                  </div>
+                </div>
+              
+
+                <div class="col-lg-3">
+                  <div>
+                    <div class="row">
+                      <div class="col-lg-8 col-md-4 col-sm-6" id="tile_AKHILESH_YADAV">
+                          <svg width="150%" height="950" viewBox="-30 -70 550 1000" class="left uttar_pradesh multiple_candidates" preserveAspectRatio="xMinYMin meet">
+                            <g transform="translate(15,-25)">
+                                <rect x="10" y="10" width="100%" height="600px" fill="#0C9753" class="up_tile"></rect>
+                                <image x="10" y="0" width="90%" height="720px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../img/party_candidate_images/AKHILESH_YADAV.png" class="up_tile"></image>
+                                <rect x="-40" y="710px" width="100%" height="250px" fill="#747474" class="up_bottom"></rect>
+                                <rect x="10" y="610px" width="100%" height="150px" fill="#0C9753" class="up_tile"></rect>
+                                <rect x="13" y="-11" width="90%" height="50px" fill="#0C9753" transform="translate(-40, -30) skewX(45)" fill-opacity="0.6"></rect>
+                                <rect x="-39" y="-2" width="9%" height="600px" fill="#0C9753" transform="skewY(45)" fill-opacity="0.71"></rect>
+                                <text x="25" y="700" fill="#FFF" font-size="70px" class="hindi_text"><%= mask_to_hindi('Akhilesh Yadav'.toUpperCase()) %></text>
+                                <rect x="-39" y="600px" width="9%" height="150px" fill="#0C9753" transform="skewY(45)"></rect>
+                                <text x="125" y="900" font-size="70px" class="tile_bottom"></text>
+                            </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <!-- <div class="col-lg-4" id="bar_RAHUL_GANDHI"></div> -->
+                  </div>
+                </div>
+              
+
+                <div class="col-lg-3">
+                  <div>
+                    <div class="row">
+                      <div class="col-lg-8 col-md-4 col-sm-6" id="tile_MAYAWATI">
+                        <svg width="150%" height="950" viewBox="-30 -70 550 1000" class="left uttar_pradesh multiple_candidates" preserveAspectRatio="xMinYMin meet">
+                            <g transform="translate(15,-25)">
+                                <rect x="10" y="10" width="100%" height="600px" fill="#D62CA8" class="up_tile"></rect>
+                                <image x="10" y="0" width="90%" height="720px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../img/party_candidate_images/MAYAWATI.png" class="up_tile"></image>
+                                <rect x="-40" y="710px" width="100%" height="250px" fill="#747474" class="up_bottom"></rect>
+                                <rect x="10" y="610px" width="100%" height="150px" fill="#D62CA8" class="up_tile"></rect>
+                                <rect x="13" y="-11" width="90%" height="50px" fill="#D62CA8" transform="translate(-40, -30) skewX(45)" fill-opacity="0.6"></rect>
+                                <rect x="-39" y="-2" width="9%" height="600px" fill="#D62CA8" transform="skewY(45)" fill-opacity="0.71"></rect>
+                                <text x="40" y="700" fill="#FFF" font-size="70px" class="hindi_text"><%= mask_to_hindi('Mayawati'.toUpperCase()) %></text>
+                                <rect x="-39" y="600px" width="9%" height="150px" fill="#D62CA8" transform="skewY(45)"></rect>
+                                <text x="125" y="900" font-size="70px" class="tile_bottom"></text>
+                            </g>
+                        </svg>
+                      </div>
+                    </div>
+                    <!-- <div class="col-lg-4" id="bar_RAHUL_GANDHI"></div> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-1 col-lg-1" style="display: none;"></div>
+                    </div>
+                </div>
+                <div class="pull-right logo-container logo-desktop">
+                    <img id="gramener-logo" src="../img/gramener.png" alt="">
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+        </script>
+        <script type="text/javascript">
+            // English to Hindi Translation
+            d3.json('../data/eng_hindi_map.json', function(error, data){
+                var hindi_words_mapping = data;
+                
+
+                /*Returns Hindi Phrase equivalent to English Phrase.*/
+                function mask_to_hindi(english_phrase) {
+
+                  var parsed_url = G.url.parse(location.href)
+                  var lang = parsed_url.searchKey.lang || null
+
+                  if(lang && lang.toUpperCase() == 'HIN'){
+                    console.log(hindi_words_mapping[english_phrase.toUpperCase()], "@@@@@@@@@");
+                  var hindi_phrase = hindi_words_mapping[english_phrase.toUpperCase()];
+                  return hindi_phrase || english_phrase
+                  }else{
+                  return english_phrase
+                  }
+
+                }
+
+
+
+                var htm = _.template($('#up_body_template').html())({});
+                $('.roti_main').html(htm)
+                $('#header').on('click', '#title', function(){
+                  var args = G.url.parse(location.href).searchKey;
+                  var lang = args.lang;
+                  if (lang != undefined){
+                    window.location.href = "/countinghome"+'?lang='+lang;
+                  }
+                  else{
+                    window.location.href = "/countinghome";
+                  }
+                });
+
+                $('#candidate_comparison [id^="tile_"] svg g').on('click', function(){
+                    var cur_id = $(this).parent().parent().attr("id");
+                    var name_of_person = cur_id.split('tile_')[1].replace('_', ' ').toLowerCase();
+                    var args = G.url.parse(location.href).searchKey;
+                    var lang = args.lang;
+                    if (lang == undefined){
+                        window.location.href = '/roticandidate?state=up&candidate='+name_of_person;
+                    }
+                    else{
+                        window.location.href = '/roticandidate?state=up&candidate='+name_of_person+'&lang='+lang;
+                    }
+                })
+
+                function load_data(){
+                    d3.json('/get_candidates_data?state=uttar pradesh&phases=&regions=', function(error, data){
+                        var data = data["data"];
+                        _.each(data, function(e){
+                            d3.select('#tile_'+e.Name.toUpperCase().replace(' ', '_')+' .tile_bottom')
+                            .text(0)
+                            .transition()
+                            .delay(500 * data.indexOf(e))
+                            .duration(2000)
+                            .tween('text', function(d) {
+                                var interpolation = d3.interpolateNumber(0, e.Percentage)
+                                var that = d3.select(this)
+                                return function(t) {
+                                    return that.text(d3.format(".0f")(interpolation(t)) + '%')
+                                }
+                            })
+                        })
+                        $('[id^=tile_]').removeClass("up_tile_active");
+                        var max_data_person = data[_.findIndex(data, function(d){ return d.Percentage == _.max(_.map(data, 'Percentage')) })].Name;
+                        $('#tile_'+max_data_person.toUpperCase().replace(' ', '_')).addClass('up_tile_active');
+                    })
+                }
+
+                // Loads the dashboard, Default Load
+                load_data();
+
+                $('.refresh').on('click', function(){
+                    var state = 'uttar pradesh'
+                    d3.json('/refresh_roti_data?state='+state, function(data){
+                        load_data();
+                    })
+                })
+
+                $("body")
+                    .on("click", ".dropdown p", function() {
+                        var state = $(this).text()
+                        var args = G.url.parse(location.href).searchKey;
+                        var lang = args.lang;
+                        if (state == 'PUNJAB') {
+                            var url_redirect = lang == undefined ? '/roti/punjab': '/roti/punjab'+'?lang='+lang
+                            window.location.href = url_redirect
+                        } else if (state == 'UTTAR PRADESH') {
+                            var url_redirect = lang == undefined ? '/roti/up': '/roti/up'+'?lang='+lang
+                            window.location.href = url_redirect
+                        } else {
+
+                        }
+                    })
+            })
+
+
+        </script>
+            
+    </body>
+</html>

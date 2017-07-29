@@ -1,0 +1,1191 @@
+ConstId,ConstName,PartyCode,CandiCode,CandiName,Votes,Abbr,CandiStatus,ValidVotes,CandiAllId,CandiMapPCode,StateCode,StateName,AllianceName,Rank
+03001,Ratabari,019,2,Kripanath Mallah,53975.0,BJP,WON,112608.0,3.0,019,AS,Assam,BJP+,1
+03001,Ratabari,034,1,Akhil Ranjan Talukdar,29449.0,INC,LOST,112608.0,1.0,034,AS,Assam,CONG,2
+03001,Ratabari,010,3,Rajib Biswas,23926.0,AIUDF,LOST,112608.0,2.0,010,AS,Assam,AUDF,3
+03001,Ratabari,359,14,Setul Chandra Namasudra,908.0,IND,LOST,112608.0,0.0,359,AS,Assam,OTH,4
+03001,Ratabari,999,15,Nota,889.0,NOTA,LOST,112608.0,0.0,999,AS,Assam,OTH,5
+03001,Ratabari,073,4,Nirmal Mallick,542.0,SP,LOST,112608.0,0.0,073,AS,Assam,OTH,6
+03001,Ratabari,355,10,Prabir Bardhan,487.0,IND,LOST,112608.0,0.0,355,AS,Assam,OTH,7
+03001,Ratabari,358,13,Sanjoy Kumar Mallah,419.0,IND,LOST,112608.0,0.0,358,AS,Assam,OTH,8
+03001,Ratabari,353,8,Kalipada Biswas,380.0,IND,LOST,112608.0,0.0,353,AS,Assam,OTH,9
+03001,Ratabari,356,11,Manilal Rabidas,370.0,IND,LOST,112608.0,0.0,356,AS,Assam,OTH,10
+03001,Ratabari,077,5,Satyendra Namasudra,354.0,SUCI(C),LOST,112608.0,0.0,077,AS,Assam,OTH,11
+03001,Ratabari,354,9,Niranjan Mallah,267.0,IND,LOST,112608.0,0.0,354,AS,Assam,OTH,12
+03001,Ratabari,357,12,Ranju Roy,247.0,IND,LOST,112608.0,0.0,357,AS,Assam,OTH,13
+03001,Ratabari,352,7,Umesh Malah,204.0,IND,LOST,112608.0,0.0,352,AS,Assam,OTH,14
+03001,Ratabari,351,6,Amulya Namasudra,191.0,IND,LOST,112608.0,0.0,351,AS,Assam,OTH,15
+03002,Patharkandi,019,2,Krishnendu Paul,46544.0,BJP,WON,122694.0,3.0,019,AS,Assam,BJP+,1
+03002,Patharkandi,010,3,Debendra Kumar Sinha,37276.0,AIUDF,LOST,122694.0,2.0,010,AS,Assam,AUDF,2
+03002,Patharkandi,034,4,Moni Lal Gowala,32048.0,INC,LOST,122694.0,1.0,034,AS,Assam,CONG,3
+03002,Patharkandi,023,1,Kripesh Ranjan Dasgupta,1638.0,CPI(M),LOST,122694.0,0.0,023,AS,Assam,OTH,4
+03002,Patharkandi,999,12,Nota,1030.0,NOTA,LOST,122694.0,0.0,999,AS,Assam,OTH,5
+03002,Patharkandi,352,8,Kabir Ahmed,892.0,IND,LOST,122694.0,0.0,352,AS,Assam,OTH,6
+03002,Patharkandi,355,11,Rahim Uddin Ahmed,743.0,IND,LOST,122694.0,0.0,355,AS,Assam,OTH,7
+03002,Patharkandi,073,6,Misbaque Uddin,599.0,SP,LOST,122694.0,0.0,073,AS,Assam,OTH,8
+03002,Patharkandi,077,5,Debangshu Nath,509.0,SUCI(C),LOST,122694.0,0.0,077,AS,Assam,OTH,9
+03002,Patharkandi,351,7,Asad Uddin Ahmed,501.0,IND,LOST,122694.0,0.0,351,AS,Assam,OTH,10
+03002,Patharkandi,353,9,Nitai Dey,495.0,IND,LOST,122694.0,0.0,353,AS,Assam,OTH,11
+03002,Patharkandi,354,10,Nihar Ranjan Deb Nath,419.0,IND,LOST,122694.0,0.0,354,AS,Assam,OTH,12
+03003,Karimganj North,034,1,Kamalakhya Dey Purkayastha,45289.0,INC,WON,130781.0,1.0,034,AS,Assam,CONG,1
+03003,Karimganj North,019,2,Mission Ranjan Das,44821.0,BJP,LOST,130781.0,3.0,019,AS,Assam,BJP+,2
+03003,Karimganj North,010,3,Sahabul Islam Choudhury,34207.0,AIUDF,LOST,130781.0,2.0,010,AS,Assam,AUDF,3
+03003,Karimganj North,357,12,Nazrul Islam Choudhury,1704.0,IND,LOST,130781.0,0.0,357,AS,Assam,OTH,4
+03003,Karimganj North,352,7,Abdul Ahad Choudhury,1052.0,IND,LOST,130781.0,0.0,352,AS,Assam,OTH,5
+03003,Karimganj North,358,13,Moin Uddin,708.0,IND,LOST,130781.0,0.0,358,AS,Assam,OTH,6
+03003,Karimganj North,999,16,Nota,674.0,NOTA,LOST,130781.0,0.0,999,AS,Assam,OTH,7
+03003,Karimganj North,077,4,Arunangshu Bhattacharjee,468.0,SUCI(C),LOST,130781.0,0.0,077,AS,Assam,OTH,8
+03003,Karimganj North,359,14,Muhammad Muhsin Alam,420.0,IND,LOST,130781.0,0.0,359,AS,Assam,OTH,9
+03003,Karimganj North,360,15,Sibir Ahmed,265.0,IND,LOST,130781.0,0.0,360,AS,Assam,OTH,10
+03003,Karimganj North,018,5,Bikash Kanti Roy,253.0,BGANP,LOST,130781.0,0.0,018,AS,Assam,OTH,11
+03003,Karimganj North,356,11,Deepan Nath,241.0,IND,LOST,130781.0,0.0,356,AS,Assam,OTH,12
+03003,Karimganj North,354,9,Kaysar Ahmed Choudhury,237.0,IND,LOST,130781.0,0.0,354,AS,Assam,OTH,13
+03003,Karimganj North,353,8,Amjad Hussain,161.0,IND,LOST,130781.0,0.0,353,AS,Assam,OTH,14
+03003,Karimganj North,355,10,Taj Uddin Choudhury,144.0,IND,LOST,130781.0,0.0,355,AS,Assam,OTH,15
+03003,Karimganj North,351,6,Arun Kumar Das,137.0,IND,LOST,130781.0,0.0,351,AS,Assam,OTH,16
+03004,Karimganj South,010,1,Aziz Ahmed Khan,58060.0,AIUDF,WON,128442.0,2.0,010,AS,Assam,AUDF,1
+03004,Karimganj South,034,2,Siddeque Ahmed,53644.0,INC,LOST,128442.0,1.0,034,AS,Assam,CONG,2
+03004,Karimganj South,019,3,Sipra Goon,11861.0,BJP,LOST,128442.0,3.0,019,AS,Assam,BJP+,3
+03004,Karimganj South,363,16,Monarul Haque,815.0,IND,LOST,128442.0,0.0,363,AS,Assam,OTH,4
+03004,Karimganj South,364,17,Mosud Ahmed,592.0,IND,LOST,128442.0,0.0,364,AS,Assam,OTH,5
+03004,Karimganj South,351,4,Azir Uddin,391.0,IND,LOST,128442.0,0.0,351,AS,Assam,OTH,6
+03004,Karimganj South,362,15,Moin Uddin,366.0,IND,LOST,128442.0,0.0,362,AS,Assam,OTH,7
+03004,Karimganj South,365,18,Maynul Haque,265.0,IND,LOST,128442.0,0.0,365,AS,Assam,OTH,8
+03004,Karimganj South,371,24,Sufian Ahmed,264.0,IND,LOST,128442.0,0.0,371,AS,Assam,OTH,9
+03004,Karimganj South,361,14,Bilal Uddin,242.0,IND,LOST,128442.0,0.0,361,AS,Assam,OTH,10
+03004,Karimganj South,359,12,Taj Md Kamal Uddin Khan,212.0,IND,LOST,128442.0,0.0,359,AS,Assam,OTH,11
+03004,Karimganj South,358,11,Jamal Ahmed,199.0,IND,LOST,128442.0,0.0,358,AS,Assam,OTH,12
+03004,Karimganj South,999,26,Nota,173.0,NOTA,LOST,128442.0,0.0,999,AS,Assam,OTH,13
+03004,Karimganj South,353,6,Abdul Hamid,159.0,IND,LOST,128442.0,0.0,353,AS,Assam,OTH,14
+03004,Karimganj South,354,7,Ahmed Ali,157.0,IND,LOST,128442.0,0.0,354,AS,Assam,OTH,15
+03004,Karimganj South,352,5,Abu Barkat Nizam Uddin Ahmed,150.0,IND,LOST,128442.0,0.0,352,AS,Assam,OTH,16
+03004,Karimganj South,366,19,Muktar Hussain,122.0,IND,LOST,128442.0,0.0,366,AS,Assam,OTH,17
+03004,Karimganj South,357,10,Sad Uddin,106.0,IND,LOST,128442.0,0.0,357,AS,Assam,OTH,18
+03004,Karimganj South,370,23,Sahajan Ahmed,105.0,IND,LOST,128442.0,0.0,370,AS,Assam,OTH,19
+03004,Karimganj South,356,9,Quamrul Islam,98.0,IND,LOST,128442.0,0.0,356,AS,Assam,OTH,20
+03004,Karimganj South,369,22,Sarif Uddin,97.0,IND,LOST,128442.0,0.0,369,AS,Assam,OTH,21
+03004,Karimganj South,360,13,Faizul Haque,95.0,IND,LOST,128442.0,0.0,360,AS,Assam,OTH,22
+03004,Karimganj South,355,8,Kabir Uddin,90.0,IND,LOST,128442.0,0.0,355,AS,Assam,OTH,23
+03004,Karimganj South,372,25,Salim Uddin,80.0,IND,LOST,128442.0,0.0,372,AS,Assam,OTH,24
+03004,Karimganj South,368,21,Sabir Ahmed,56.0,IND,LOST,128442.0,0.0,368,AS,Assam,OTH,25
+03004,Karimganj South,367,20,Rajib Das,43.0,IND,LOST,128442.0,0.0,367,AS,Assam,OTH,26
+03005,Badarpur,034,2,Jamal Uddin Ahmed,38266.0,INC,WON,112519.0,1.0,034,AS,Assam,CONG,1
+03005,Badarpur,010,1,Abdul Aziz,36178.0,AIUDF,LOST,112519.0,2.0,010,AS,Assam,AUDF,2
+03005,Badarpur,019,3,Dipek Deb,35694.0,BJP,LOST,112519.0,3.0,019,AS,Assam,BJP+,3
+03005,Badarpur,999,13,Nota,596.0,NOTA,LOST,112519.0,0.0,999,AS,Assam,OTH,4
+03005,Badarpur,357,11,Sazidul Hoque,418.0,IND,LOST,112519.0,0.0,357,AS,Assam,OTH,5
+03005,Badarpur,073,4,Kamrul Islam,303.0,SP,LOST,112519.0,0.0,073,AS,Assam,OTH,6
+03005,Badarpur,358,12,Subodh Suklabaidya,295.0,IND,LOST,112519.0,0.0,358,AS,Assam,OTH,7
+03005,Badarpur,351,5,Oliour Rahaman Tapadar,168.0,IND,LOST,112519.0,0.0,351,AS,Assam,OTH,8
+03005,Badarpur,356,10,Solmon Shaikh,147.0,IND,LOST,112519.0,0.0,356,AS,Assam,OTH,9
+03005,Badarpur,352,6,Abdus Sukkur Beig,142.0,IND,LOST,112519.0,0.0,352,AS,Assam,OTH,10
+03005,Badarpur,354,8,Khasruzzaman Talukdar,132.0,IND,LOST,112519.0,0.0,354,AS,Assam,OTH,11
+03005,Badarpur,353,7,Anam Uddin,101.0,IND,LOST,112519.0,0.0,353,AS,Assam,OTH,12
+03005,Badarpur,355,9,Binoy Namasudra,79.0,IND,LOST,112519.0,0.0,355,AS,Assam,OTH,13
+03006,Hailakandi,010,3,Anwar Hussain Laskar,41647.0,AIUDF,WON,112993.0,2.0,010,AS,Assam,AUDF,1
+03006,Hailakandi,019,4,Soumyajit Dutta Choudhury,39039.0,BJP,LOST,112993.0,3.0,019,AS,Assam,BJP+,2
+03006,Hailakandi,357,13,Zakir Hussain Laskar,15633.0,IND,LOST,112993.0,0.0,357,AS,Assam,OTH,3
+03006,Hailakandi,034,2,Anam Uddin Laskar,9287.0,INC,LOST,112993.0,1.0,034,AS,Assam,CONG,4
+03006,Hailakandi,367,23,Haji Salim Uddin Barbhuiya,1119.0,IND,LOST,112993.0,0.0,367,AS,Assam,OTH,5
+03006,Hailakandi,360,16,Premraj Goala,1104.0,IND,LOST,112993.0,0.0,360,AS,Assam,OTH,6
+03006,Hailakandi,073,5,Samir Uddin Laskar,602.0,SP,LOST,112993.0,0.0,073,AS,Assam,OTH,7
+03006,Hailakandi,361,17,Fakrul Alam Mazarbhuiya,579.0,IND,LOST,112993.0,0.0,361,AS,Assam,OTH,8
+03006,Hailakandi,356,12,Ali Hussain Mira,430.0,IND,LOST,112993.0,0.0,356,AS,Assam,OTH,9
+03006,Hailakandi,358,14,Niren Das,376.0,IND,LOST,112993.0,0.0,358,AS,Assam,OTH,10
+03006,Hailakandi,056,1,Ajit Kumar Paul,372.0,NCP,LOST,112993.0,0.0,056,AS,Assam,OTH,11
+03006,Hailakandi,364,20,Lutfur Rahman Laskar,366.0,IND,LOST,112993.0,0.0,364,AS,Assam,OTH,12
+03006,Hailakandi,354,10,Amit Kumar Deb,363.0,IND,LOST,112993.0,0.0,354,AS,Assam,OTH,13
+03006,Hailakandi,999,24,Nota,281.0,NOTA,LOST,112993.0,0.0,999,AS,Assam,OTH,14
+03006,Hailakandi,363,19,Mituzzaman Laskar,244.0,IND,LOST,112993.0,0.0,363,AS,Assam,OTH,15
+03006,Hailakandi,359,15,Parbej Khasru Laskar,228.0,IND,LOST,112993.0,0.0,359,AS,Assam,OTH,16
+03006,Hailakandi,353,9,Amar Chand Bhowmik,211.0,IND,LOST,112993.0,0.0,353,AS,Assam,OTH,17
+03006,Hailakandi,362,18,Burhan Uddin Barbhuiya,199.0,IND,LOST,112993.0,0.0,362,AS,Assam,OTH,18
+03006,Hailakandi,366,22,Saharuzzaman Laskar,180.0,IND,LOST,112993.0,0.0,366,AS,Assam,OTH,19
+03006,Hailakandi,355,11,Abul Hussain Barbhuiya,176.0,IND,LOST,112993.0,0.0,355,AS,Assam,OTH,20
+03006,Hailakandi,077,6,Sushil Paul,163.0,SUCI(C),LOST,112993.0,0.0,077,AS,Assam,OTH,21
+03006,Hailakandi,352,8,Adhir Chanda,158.0,IND,LOST,112993.0,0.0,352,AS,Assam,OTH,22
+03006,Hailakandi,351,7,Ajay Kumar Roy,122.0,IND,LOST,112993.0,0.0,351,AS,Assam,OTH,23
+03006,Hailakandi,365,21,Sankar Chakrobarty,114.0,IND,LOST,112993.0,0.0,365,AS,Assam,OTH,24
+03007,Katlichera,010,4,Suzam Uddin Laskar,50676.0,AIUDF,WON,124831.0,2.0,010,AS,Assam,AUDF,1
+03007,Katlichera,034,1,Gautam Roy,35592.0,INC,LOST,124831.0,1.0,034,AS,Assam,CONG,2
+03007,Katlichera,019,3,Raj Kumar Das,32164.0,BJP,LOST,124831.0,3.0,019,AS,Assam,BJP+,3
+03007,Katlichera,999,14,Nota,931.0,NOTA,LOST,124831.0,0.0,999,AS,Assam,OTH,4
+03007,Katlichera,056,2,Mulneilal Hrangkhol,898.0,NCP,LOST,124831.0,0.0,056,AS,Assam,OTH,5
+03007,Katlichera,358,13,Suzam Uddin Laskar,782.0,IND,LOST,124831.0,0.0,358,AS,Assam,OTH,6
+03007,Katlichera,073,5,Anil Nath,755.0,SP,LOST,124831.0,0.0,073,AS,Assam,OTH,7
+03007,Katlichera,355,10,Bhaskar Deb,661.0,IND,LOST,124831.0,0.0,355,AS,Assam,OTH,8
+03007,Katlichera,353,8,Bachchu Paul,567.0,IND,LOST,124831.0,0.0,353,AS,Assam,OTH,9
+03007,Katlichera,356,11,Minnotulla Choudhury,429.0,IND,LOST,124831.0,0.0,356,AS,Assam,OTH,10
+03007,Katlichera,357,12,Mohan Deb,383.0,IND,LOST,124831.0,0.0,357,AS,Assam,OTH,11
+03007,Katlichera,351,6,Ashik Ahmed Laskar,364.0,IND,LOST,124831.0,0.0,351,AS,Assam,OTH,12
+03007,Katlichera,354,9,Bappa Purkayastha,329.0,IND,LOST,124831.0,0.0,354,AS,Assam,OTH,13
+03007,Katlichera,352,7,Norokanto Das,300.0,IND,LOST,124831.0,0.0,352,AS,Assam,OTH,14
+03008,Algapur,010,2,Nizam Uddin Choudhury,50531.0,AIUDF,WON,119393.0,2.0,010,AS,Assam,AUDF,1
+03008,Algapur,019,1,Kaushik Rai,32777.0,BJP,LOST,119393.0,3.0,019,AS,Assam,BJP+,2
+03008,Algapur,034,4,Rahul Roy,25927.0,INC,LOST,119393.0,1.0,034,AS,Assam,CONG,3
+03008,Algapur,013,3,Mehnaz Sahid Choudhury,5822.0,AGP,LOST,119393.0,3.0,013,AS,Assam,BJP+,4
+03008,Algapur,999,15,Nota,768.0,NOTA,LOST,119393.0,0.0,999,AS,Assam,OTH,5
+03008,Algapur,073,5,Sahidul Islam Laskar,585.0,SP,LOST,119393.0,0.0,073,AS,Assam,OTH,6
+03008,Algapur,352,7,Ahmed Hussain Laskar,509.0,IND,LOST,119393.0,0.0,352,AS,Assam,OTH,7
+03008,Algapur,357,12,Raju Das,475.0,IND,LOST,119393.0,0.0,357,AS,Assam,OTH,8
+03008,Algapur,358,13,Rupu Deb,475.0,IND,LOST,119393.0,0.0,358,AS,Assam,OTH,8
+03008,Algapur,359,14,Samin Ahmed Choudhury,461.0,IND,LOST,119393.0,0.0,359,AS,Assam,OTH,10
+03008,Algapur,351,6,Ahmed Karim Barbhuiya,260.0,IND,LOST,119393.0,0.0,351,AS,Assam,OTH,11
+03008,Algapur,353,8,Imadul Islam Laskar,229.0,IND,LOST,119393.0,0.0,353,AS,Assam,OTH,12
+03008,Algapur,356,11,Binayak Deb,222.0,IND,LOST,119393.0,0.0,356,AS,Assam,OTH,13
+03008,Algapur,354,9,Kazi Muzakkir Hussain,179.0,IND,LOST,119393.0,0.0,354,AS,Assam,OTH,14
+03008,Algapur,355,10,Saleh Ahmed Mazumder,173.0,IND,LOST,119393.0,0.0,355,AS,Assam,OTH,15
+03009,Silchar,019,1,Sri Dilip Kumar Paul,94787.0,BJP,WON,156594.0,3.0,019,AS,Assam,BJP+,1
+03009,Silchar,034,2,Bithika Dev,54867.0,INC,LOST,156594.0,1.0,034,AS,Assam,CONG,2
+03009,Silchar,023,3,Supriya Bhattacharjee,1961.0,CPI(M),LOST,156594.0,0.0,023,AS,Assam,OTH,3
+03009,Silchar,999,16,Nota,1143.0,NOTA,LOST,156594.0,0.0,999,AS,Assam,OTH,4
+03009,Silchar,359,15,Shuvadip Datta,657.0,IND,LOST,156594.0,0.0,359,AS,Assam,OTH,5
+03009,Silchar,358,14,Rita Mazumder,526.0,IND,LOST,156594.0,0.0,358,AS,Assam,OTH,6
+03009,Silchar,352,8,Imdad Hussain Laskar,512.0,IND,LOST,156594.0,0.0,352,AS,Assam,OTH,7
+03009,Silchar,073,6,Sahin Ahmed Choudhury,332.0,SP,LOST,156594.0,0.0,073,AS,Assam,OTH,8
+03009,Silchar,077,5,Pradip Kumar Deb,324.0,SUCI(C),LOST,156594.0,0.0,077,AS,Assam,OTH,9
+03009,Silchar,355,11,Biju Chanda,318.0,IND,LOST,156594.0,0.0,355,AS,Assam,OTH,10
+03009,Silchar,354,10,Khairul Alam Barbhuiya,270.0,IND,LOST,156594.0,0.0,354,AS,Assam,OTH,11
+03009,Silchar,356,12,Brojalal Das,232.0,IND,LOST,156594.0,0.0,356,AS,Assam,OTH,12
+03009,Silchar,353,9,Ascham Uddin Laskar,211.0,IND,LOST,156594.0,0.0,353,AS,Assam,OTH,13
+03009,Silchar,018,4,Nilom Sanjib Sarmah,199.0,BGANP,LOST,156594.0,0.0,018,AS,Assam,OTH,14
+03009,Silchar,357,13,Monilal Das,158.0,IND,LOST,156594.0,0.0,357,AS,Assam,OTH,15
+03009,Silchar,351,7,Ashim Kumar Das,97.0,IND,LOST,156594.0,0.0,351,AS,Assam,OTH,16
+03010,Sonai,019,1,Aminul Haque Laskar,44236.0,BJP,WON,122302.0,3.0,019,AS,Assam,BJP+,1
+03010,Sonai,034,2,Anamul Haque,36683.0,INC,LOST,122302.0,1.0,034,AS,Assam,CONG,2
+03010,Sonai,010,3,Karim Uddin Barbhuiya,32109.0,AIUDF,LOST,122302.0,2.0,010,AS,Assam,AUDF,3
+03010,Sonai,352,7,Ibungobi Singha,2987.0,IND,LOST,122302.0,0.0,352,AS,Assam,OTH,4
+03010,Sonai,351,6,Anwar Hussain Laskar,2408.0,IND,LOST,122302.0,0.0,351,AS,Assam,OTH,5
+03010,Sonai,356,11,Sanjib Kumar Das,943.0,IND,LOST,122302.0,0.0,356,AS,Assam,OTH,6
+03010,Sonai,357,12,Santosh Das,598.0,IND,LOST,122302.0,0.0,357,AS,Assam,OTH,7
+03010,Sonai,355,10,Rejaul Islam Barbhuiya,579.0,IND,LOST,122302.0,0.0,355,AS,Assam,OTH,8
+03010,Sonai,050,4,Pranesh Nath,522.0,LJP,LOST,122302.0,0.0,050,AS,Assam,OTH,9
+03010,Sonai,073,5,Manindra Chandra Das,401.0,SP,LOST,122302.0,0.0,073,AS,Assam,OTH,10
+03010,Sonai,353,8,Jawahar Lal Goala,401.0,IND,LOST,122302.0,0.0,353,AS,Assam,OTH,10
+03010,Sonai,354,9,Maksus Ahmed Laskar,306.0,IND,LOST,122302.0,0.0,354,AS,Assam,OTH,12
+03010,Sonai,999,13,Nota,129.0,NOTA,LOST,122302.0,0.0,999,AS,Assam,OTH,13
+03011,Dholai,019,2,Parimal Suklabaidya,68694.0,BJP,WON,128303.0,3.0,019,AS,Assam,BJP+,1
+03011,Dholai,034,1,Girindra Mallik,41857.0,INC,LOST,128303.0,1.0,034,AS,Assam,CONG,2
+03011,Dholai,010,3,Lalta Prosad Mala,13382.0,AIUDF,LOST,128303.0,2.0,010,AS,Assam,AUDF,3
+03011,Dholai,999,6,Nota,2110.0,NOTA,LOST,128303.0,0.0,999,AS,Assam,OTH,4
+03011,Dholai,077,4,Gour Chandra Das,1146.0,SUCI(C),LOST,128303.0,0.0,077,AS,Assam,OTH,5
+03011,Dholai,351,5,Nihar Ranjan Das,1114.0,IND,LOST,128303.0,0.0,351,AS,Assam,OTH,6
+03012,Udharbond,019,2,Mihir Kanti Shome,54204.0,BJP,WON,112161.0,3.0,019,AS,Assam,BJP+,1
+03012,Udharbond,034,1,Ajit Singh,45598.0,INC,LOST,112161.0,1.0,034,AS,Assam,CONG,2
+03012,Udharbond,010,3,Liakat Ali Laskar,8715.0,AIUDF,LOST,112161.0,2.0,010,AS,Assam,AUDF,3
+03012,Udharbond,999,7,Nota,1745.0,NOTA,LOST,112161.0,0.0,999,AS,Assam,OTH,4
+03012,Udharbond,352,6,Sadik Hussain Barlaskar,882.0,IND,LOST,112161.0,0.0,352,AS,Assam,OTH,5
+03012,Udharbond,073,4,Aparna Tewari,542.0,SP,LOST,112161.0,0.0,073,AS,Assam,OTH,6
+03012,Udharbond,351,5,Moinul Hoque Laskar,475.0,IND,LOST,112161.0,0.0,351,AS,Assam,OTH,7
+03013,Lakhipur,034,2,Rajdeep Goala,60135.0,INC,WON,109338.0,1.0,034,AS,Assam,CONG,1
+03013,Lakhipur,019,1,Thoiba Singha,35768.0,BJP,LOST,109338.0,3.0,019,AS,Assam,BJP+,2
+03013,Lakhipur,043,4,Lalthomlien Hmar,8923.0,JD(U),LOST,109338.0,0.0,043,AS,Assam,OTH,3
+03013,Lakhipur,077,3,Joy Singh Chatri,1346.0,SUCI(C),LOST,109338.0,0.0,077,AS,Assam,OTH,4
+03013,Lakhipur,999,8,Nota,1309.0,NOTA,LOST,109338.0,0.0,999,AS,Assam,OTH,5
+03013,Lakhipur,353,7,Sanjay Kumar Thakur,741.0,IND,LOST,109338.0,0.0,353,AS,Assam,OTH,6
+03013,Lakhipur,351,5,Ajmul Hussain Laskar,660.0,IND,LOST,109338.0,0.0,351,AS,Assam,OTH,7
+03013,Lakhipur,352,6,Ujjal Dhubi,456.0,IND,LOST,109338.0,0.0,352,AS,Assam,OTH,8
+03014,Barkhola,019,1,Kishor Nath,36482.0,BJP,WON,104534.0,3.0,019,AS,Assam,BJP+,1
+03014,Barkhola,354,8,Misbahul Islam Laskar,36440.0,IND,LOST,104534.0,0.0,354,AS,Assam,OTH,2
+03014,Barkhola,034,4,Dr. Rumi Nath,21946.0,INC,LOST,104534.0,1.0,034,AS,Assam,CONG,3
+03014,Barkhola,010,3,Jahurul Islam Barbhuiya,4051.0,AIUDF,LOST,104534.0,2.0,010,AS,Assam,AUDF,4
+03014,Barkhola,023,2,Chunilal Bhattacharjee,2438.0,CPI(M),LOST,104534.0,0.0,023,AS,Assam,OTH,5
+03014,Barkhola,999,9,Nota,1621.0,NOTA,LOST,104534.0,0.0,999,AS,Assam,OTH,6
+03014,Barkhola,353,7,Badrul Islam Mazumder,619.0,IND,LOST,104534.0,0.0,353,AS,Assam,OTH,7
+03014,Barkhola,351,5,Anam Uddin Mazumder,473.0,IND,LOST,104534.0,0.0,351,AS,Assam,OTH,8
+03014,Barkhola,352,6,Nazmul Hoque Laskar,464.0,IND,LOST,104534.0,0.0,352,AS,Assam,OTH,9
+03015,Katigorah,019,1,Amar Chand Jain,59764.0,BJP,WON,135712.0,3.0,019,AS,Assam,BJP+,1
+03015,Katigorah,010,3,Khalil Uddin Mazumder,50956.0,AIUDF,LOST,135712.0,2.0,010,AS,Assam,AUDF,2
+03015,Katigorah,034,2,Ataur Rahman Mazarbhuiya,16418.0,INC,LOST,135712.0,1.0,034,AS,Assam,CONG,3
+03015,Katigorah,353,9,Trayabashi Das,1949.0,IND,LOST,135712.0,0.0,353,AS,Assam,OTH,4
+03015,Katigorah,022,4,Moinul Hoque,1372.0,CPI,LOST,135712.0,0.0,022,AS,Assam,OTH,5
+03015,Katigorah,357,13,Samujjal Das,906.0,IND,LOST,135712.0,0.0,357,AS,Assam,OTH,6
+03015,Katigorah,999,15,Nota,906.0,NOTA,LOST,135712.0,0.0,999,AS,Assam,OTH,6
+03015,Katigorah,358,14,Hanif Alom Mazarbhuiya,826.0,IND,LOST,135712.0,0.0,358,AS,Assam,OTH,8
+03015,Katigorah,073,5,Ala Uddin Choudhury,552.0,SP,LOST,135712.0,0.0,073,AS,Assam,OTH,9
+03015,Katigorah,352,8,Saleh Ahmed Talukdar,541.0,IND,LOST,135712.0,0.0,352,AS,Assam,OTH,10
+03015,Katigorah,351,7,Arun Karmakar,425.0,IND,LOST,135712.0,0.0,351,AS,Assam,OTH,11
+03015,Katigorah,356,12,Rafique Uzzaman Laskar,356.0,IND,LOST,135712.0,0.0,356,AS,Assam,OTH,12
+03015,Katigorah,355,11,Mahendra Sinha,284.0,IND,LOST,135712.0,0.0,355,AS,Assam,OTH,13
+03015,Katigorah,040,6,Sujata Sinha,273.0,JNCP,LOST,135712.0,0.0,040,AS,Assam,OTH,14
+03015,Katigorah,354,10,Dipak Lal Das,184.0,IND,LOST,135712.0,0.0,354,AS,Assam,OTH,15
+03016,Haflong,019,1,Bir Bhadra Hagjer,52037.0,BJP,WON,102496.0,3.0,019,AS,Assam,BJP+,1
+03016,Haflong,034,3,Nirmal Langthasa,43731.0,INC,LOST,102496.0,1.0,034,AS,Assam,CONG,2
+03016,Haflong,351,4,Mayasing Daulagupu,2893.0,IND,LOST,102496.0,0.0,351,AS,Assam,OTH,3
+03016,Haflong,010,2,Neikhol Haolai Changsan,2723.0,AIUDF,LOST,102496.0,2.0,010,AS,Assam,AUDF,4
+03016,Haflong,999,5,Nota,1111.0,NOTA,LOST,102496.0,0.0,999,AS,Assam,OTH,5
+03017,Bokajan,019,2,Numal Momin,40170.0,BJP,WON,107156.0,3.0,019,AS,Assam,BJP+,1
+03017,Bokajan,034,1,Klengdoon Engti,35426.0,INC,LOST,107156.0,1.0,034,AS,Assam,CONG,2
+03017,Bokajan,351,5,Jagat Sing Engti,25388.0,IND,LOST,107156.0,0.0,351,AS,Assam,OTH,3
+03017,Bokajan,999,7,Nota,2144.0,NOTA,LOST,107156.0,0.0,999,AS,Assam,OTH,4
+03017,Bokajan,055,3,Daniel Momin,1628.0,NPEP,LOST,107156.0,0.0,055,AS,Assam,OTH,5
+03017,Bokajan,352,6,Sanjay Kemprai,1441.0,IND,LOST,107156.0,0.0,352,AS,Assam,OTH,6
+03017,Bokajan,040,4,Bikha Tokbi,959.0,JNCP,LOST,107156.0,0.0,040,AS,Assam,OTH,7
+03018,Howraghat,019,2,Joy Ram Engleng,43378.0,BJP,WON,98170.0,3.0,019,AS,Assam,BJP+,1
+03018,Howraghat,034,1,Khorsing Engti,36987.0,INC,LOST,98170.0,1.0,034,AS,Assam,CONG,2
+03018,Howraghat,351,3,Chomang Kro,15899.0,IND,LOST,98170.0,0.0,351,AS,Assam,OTH,3
+03018,Howraghat,999,4,Nota,1906.0,NOTA,LOST,98170.0,0.0,999,AS,Assam,OTH,4
+03019,Diphu,019,1,Sum Ronghang,64421.0,BJP,WON,138262.0,3.0,019,AS,Assam,BJP+,1
+03019,Diphu,034,2,Bidya Sing Engleng,36185.0,INC,LOST,138262.0,1.0,034,AS,Assam,CONG,2
+03019,Diphu,351,5,Dr. Jayanta Rongpi,31647.0,IND,LOST,138262.0,0.0,351,AS,Assam,OTH,3
+03019,Diphu,999,6,Nota,2803.0,NOTA,LOST,138262.0,0.0,999,AS,Assam,OTH,4
+03019,Diphu,050,3,Dipendra Rongpi,1975.0,LJP,LOST,138262.0,0.0,050,AS,Assam,OTH,5
+03019,Diphu,040,4,Mary Kramsapi,1231.0,JNCP,LOST,138262.0,0.0,040,AS,Assam,OTH,6
+03020,Baithalangso,034,2,Mansing Rongpi,62596.0,INC,WON,146110.0,1.0,034,AS,Assam,CONG,1
+03020,Baithalangso,019,1,Arun Terang,53077.0,BJP,LOST,146110.0,3.0,019,AS,Assam,BJP+,2
+03020,Baithalangso,351,4,Holiram Terang,25171.0,IND,LOST,146110.0,0.0,351,AS,Assam,OTH,3
+03020,Baithalangso,999,5,Nota,2981.0,NOTA,LOST,146110.0,0.0,999,AS,Assam,OTH,4
+03020,Baithalangso,040,3,Dhonsing Hanse,2285.0,JNCP,LOST,146110.0,0.0,040,AS,Assam,OTH,5
+03021,Mankachar,034,3,Dr. Motiur Rohman Mondal,54181.0,INC,WON,171625.0,1.0,034,AS,Assam,CONG,1
+03021,Mankachar,010,2,Md. Aminul Islam,49868.0,AIUDF,LOST,171625.0,2.0,010,AS,Assam,AUDF,2
+03021,Mankachar,352,7,Zabed Islam,48358.0,IND,LOST,171625.0,0.0,352,AS,Assam,OTH,3
+03021,Mankachar,019,1,Abdul Salam Shah,8490.0,BJP,LOST,171625.0,3.0,019,AS,Assam,BJP+,4
+03021,Mankachar,351,6,Aminul Islam,6718.0,IND,LOST,171625.0,0.0,351,AS,Assam,OTH,5
+03021,Mankachar,353,8,Rukunur Zaman,1399.0,IND,LOST,171625.0,0.0,353,AS,Assam,OTH,6
+03021,Mankachar,077,4,Pahchan Ali,1186.0,SUCI(C),LOST,171625.0,0.0,077,AS,Assam,OTH,7
+03021,Mankachar,999,9,Nota,835.0,NOTA,LOST,171625.0,0.0,999,AS,Assam,OTH,8
+03021,Mankachar,073,5,Mostaque Md Moksedur Hassan,590.0,SP,LOST,171625.0,0.0,073,AS,Assam,OTH,9
+03022,Salmara South,034,1,Wazed Ali Choudhury,80066.0,INC,WON,147097.0,1.0,034,AS,Assam,CONG,1
+03022,Salmara South,010,2,Badruddin Ajmal,63343.0,AIUDF,LOST,147097.0,2.0,010,AS,Assam,AUDF,2
+03022,Salmara South,019,3,Shiraj Hussain,1954.0,BJP,LOST,147097.0,3.0,019,AS,Assam,BJP+,3
+03022,Salmara South,077,4,Dewan Joynal Abedin,1153.0,SUCI(C),LOST,147097.0,0.0,077,AS,Assam,OTH,4
+03022,Salmara South,999,5,Nota,581.0,NOTA,LOST,147097.0,0.0,999,AS,Assam,OTH,5
+03023,Dhubri,010,4,Najrul Hoque,60933.0,AIUDF,WON,152023.0,2.0,010,AS,Assam,AUDF,1
+03023,Dhubri,352,9,Nazibul Umar,36847.0,IND,LOST,152023.0,0.0,352,AS,Assam,OTH,2
+03023,Dhubri,019,3,Dr. Debamoy Sanyal,33648.0,BJP,LOST,152023.0,3.0,019,AS,Assam,BJP+,3
+03023,Dhubri,034,1,Abedur Zaman,13126.0,INC,LOST,152023.0,1.0,034,AS,Assam,CONG,4
+03023,Dhubri,353,10,Rasul Hoque,3486.0,IND,LOST,152023.0,0.0,353,AS,Assam,OTH,5
+03023,Dhubri,999,11,Nota,1069.0,NOTA,LOST,152023.0,0.0,999,AS,Assam,OTH,6
+03023,Dhubri,351,8,Ali Hussain,975.0,IND,LOST,152023.0,0.0,351,AS,Assam,OTH,7
+03023,Dhubri,023,2,Sopiar Rahman,669.0,CPI(M),LOST,152023.0,0.0,023,AS,Assam,OTH,8
+03023,Dhubri,077,5,Azahar Hussain,552.0,SUCI(C),LOST,152023.0,0.0,077,AS,Assam,OTH,9
+03023,Dhubri,068,7,Mukta Begum,406.0,RPI(A),LOST,152023.0,0.0,068,AS,Assam,OTH,10
+03023,Dhubri,066,6,Baharul Sk.,312.0,RSSC,LOST,152023.0,0.0,066,AS,Assam,OTH,11
+03024,Gauripur,010,1,Nijanur Rahman,73423.0,AIUDF,WON,160797.0,2.0,010,AS,Assam,AUDF,1
+03024,Gauripur,021,2,Banendra Kumar Mushahary,53512.0,BOPF,LOST,160797.0,3.0,021,AS,Assam,BJP+,2
+03024,Gauripur,034,3,Sushil Kumar Roy,23102.0,INC,LOST,160797.0,1.0,034,AS,Assam,CONG,3
+03024,Gauripur,354,10,Sukumar Roy,5420.0,IND,LOST,160797.0,0.0,354,AS,Assam,OTH,4
+03024,Gauripur,999,12,Nota,1447.0,NOTA,LOST,160797.0,0.0,999,AS,Assam,OTH,5
+03024,Gauripur,351,7,Abdur Razzaque Sheikh,768.0,IND,LOST,160797.0,0.0,351,AS,Assam,OTH,6
+03024,Gauripur,355,11,Sunil Das,669.0,IND,LOST,160797.0,0.0,355,AS,Assam,OTH,7
+03024,Gauripur,353,9,Moinul Hoque,595.0,IND,LOST,160797.0,0.0,353,AS,Assam,OTH,8
+03024,Gauripur,066,6,Helim Zaman,539.0,RSSC,LOST,160797.0,0.0,066,AS,Assam,OTH,9
+03024,Gauripur,352,8,Bikromjit Roy,534.0,IND,LOST,160797.0,0.0,352,AS,Assam,OTH,10
+03024,Gauripur,079,4,Md. Mahijur Rahman,487.0,TNRMPI,LOST,160797.0,0.0,079,AS,Assam,OTH,11
+03024,Gauripur,068,5,Mir Hussain Sarkar,301.0,RPI(A),LOST,160797.0,0.0,068,AS,Assam,OTH,12
+03025,Golakganj,019,1,Ashwini Ray Sarkar,74644.0,BJP,WON,161555.0,3.0,019,AS,Assam,BJP+,1
+03025,Golakganj,034,2,Abdus Sobahan Ali Sarkar,68253.0,INC,LOST,161555.0,1.0,034,AS,Assam,CONG,2
+03025,Golakganj,010,3,Safer Ali Ahmed,16843.0,AIUDF,LOST,161555.0,2.0,010,AS,Assam,AUDF,3
+03025,Golakganj,999,5,Nota,1001.0,NOTA,LOST,161555.0,0.0,999,AS,Assam,OTH,4
+03025,Golakganj,351,4,Jalal Uddin Khan,814.0,IND,LOST,161555.0,0.0,351,AS,Assam,OTH,5
+03026,Bilasipara West,010,4,Hafiz Bashir Ahmed,44407.0,AIUDF,WON,137513.0,2.0,010,AS,Assam,AUDF,1
+03026,Bilasipara West,352,10,Ali Akbar Miah,33205.0,IND,LOST,137513.0,0.0,352,AS,Assam,OTH,2
+03026,Bilasipara West,034,3,Sabana Aktar,25515.0,INC,LOST,137513.0,1.0,034,AS,Assam,CONG,3
+03026,Bilasipara West,013,1,Ali Azom Sheikh,14688.0,AGP,LOST,137513.0,3.0,013,AS,Assam,BJP+,4
+03026,Bilasipara West,022,2,Gias Uddin Ahmed,6792.0,CPI,LOST,137513.0,0.0,022,AS,Assam,OTH,5
+03026,Bilasipara West,355,13,Biplab Mukherjee,5812.0,IND,LOST,137513.0,0.0,355,AS,Assam,OTH,6
+03026,Bilasipara West,351,9,Atowar Hussain,1997.0,IND,LOST,137513.0,0.0,351,AS,Assam,OTH,7
+03026,Bilasipara West,353,11,Saiful Islam,1412.0,IND,LOST,137513.0,0.0,353,AS,Assam,OTH,8
+03026,Bilasipara West,999,15,Nota,766.0,NOTA,LOST,137513.0,0.0,999,AS,Assam,OTH,9
+03026,Bilasipara West,356,14,Sheikh Monshur Rahman,616.0,IND,LOST,137513.0,0.0,356,AS,Assam,OTH,10
+03026,Bilasipara West,073,8,Mohar Uddin Mondal,577.0,SP,LOST,137513.0,0.0,073,AS,Assam,OTH,11
+03026,Bilasipara West,068,6,Afzalur Rahman,498.0,RPI(A),LOST,137513.0,0.0,068,AS,Assam,OTH,12
+03026,Bilasipara West,040,5,Ajmira Aktar,492.0,JNCP,LOST,137513.0,0.0,040,AS,Assam,OTH,13
+03026,Bilasipara West,354,12,Prakrita Kumar N Ath,486.0,IND,LOST,137513.0,0.0,354,AS,Assam,OTH,14
+03026,Bilasipara West,035,7,Yousub Ali Ahmed,250.0,IUML,LOST,137513.0,0.0,035,AS,Assam,OTH,15
+03027,Bilasipara East,019,2,Ashok Kumar Singhi,59206.0,BJP,WON,167738.0,3.0,019,AS,Assam,BJP+,1
+03027,Bilasipara East,034,1,Amrit Badsha,54110.0,INC,LOST,167738.0,1.0,034,AS,Assam,CONG,2
+03027,Bilasipara East,010,3,Moshlem Uddin Choudhury,43213.0,AIUDF,LOST,167738.0,2.0,010,AS,Assam,AUDF,3
+03027,Bilasipara East,353,8,Anwar Hussain,4941.0,IND,LOST,167738.0,0.0,353,AS,Assam,OTH,4
+03027,Bilasipara East,999,13,Nota,1073.0,NOTA,LOST,167738.0,0.0,999,AS,Assam,OTH,5
+03027,Bilasipara East,354,9,Siddique Hussein,1047.0,IND,LOST,167738.0,0.0,354,AS,Assam,OTH,6
+03027,Bilasipara East,351,6,Amarendra Nath,749.0,IND,LOST,167738.0,0.0,351,AS,Assam,OTH,7
+03027,Bilasipara East,357,12,Martial Russel,733.0,IND,LOST,167738.0,0.0,357,AS,Assam,OTH,8
+03027,Bilasipara East,356,11,Nishil Kumar Ray,720.0,IND,LOST,167738.0,0.0,356,AS,Assam,OTH,9
+03027,Bilasipara East,355,10,Tridip Pati Singha,700.0,IND,LOST,167738.0,0.0,355,AS,Assam,OTH,10
+03027,Bilasipara East,073,4,Amzad Hussein,500.0,SP,LOST,167738.0,0.0,073,AS,Assam,OTH,11
+03027,Bilasipara East,352,7,Dr. Ashwin Kumar Mahanta,406.0,IND,LOST,167738.0,0.0,352,AS,Assam,OTH,12
+03027,Bilasipara East,068,5,Mominur Ali Sheikh,340.0,RPI(A),LOST,167738.0,0.0,068,AS,Assam,OTH,13
+03028,Gossaigaon,021,2,Majendra Narzary,45517.0,BOPF,WON,142540.0,3.0,021,AS,Assam,BJP+,1
+03028,Gossaigaon,010,3,Ravi Sankar Kasireddy,39476.0,AIUDF,LOST,142540.0,2.0,010,AS,Assam,AUDF,2
+03028,Gossaigaon,034,1,Ashim Hasda,32187.0,INC,LOST,142540.0,1.0,034,AS,Assam,CONG,3
+03028,Gossaigaon,353,7,Somnath Narzary,17924.0,IND,LOST,142540.0,0.0,353,AS,Assam,OTH,4
+03028,Gossaigaon,351,5,Wilson Hasda,3786.0,IND,LOST,142540.0,0.0,351,AS,Assam,OTH,5
+03028,Gossaigaon,999,8,Nota,1482.0,NOTA,LOST,142540.0,0.0,999,AS,Assam,OTH,6
+03028,Gossaigaon,068,4,Mithun Nath,1199.0,RPI(A),LOST,142540.0,0.0,068,AS,Assam,OTH,7
+03028,Gossaigaon,352,6,Rajendra Mushahary,969.0,IND,LOST,142540.0,0.0,352,AS,Assam,OTH,8
+03029,Kokrajhar West,021,2,Rabiram Narzary,64423.0,BOPF,WON,140941.0,3.0,021,AS,Assam,BJP+,1
+03029,Kokrajhar West,010,1,Dahit Chandra Brahma,47083.0,AIUDF,LOST,140941.0,2.0,010,AS,Assam,AUDF,2
+03029,Kokrajhar West,352,4,Urkhao Gwra Brahma,18629.0,IND,LOST,140941.0,0.0,352,AS,Assam,OTH,3
+03029,Kokrajhar West,353,5,Nilima Brahma,3545.0,IND,LOST,140941.0,0.0,353,AS,Assam,OTH,4
+03029,Kokrajhar West,354,6,Bhadreswar Brahma,1437.0,IND,LOST,140941.0,0.0,354,AS,Assam,OTH,5
+03029,Kokrajhar West,999,11,Nota,1285.0,NOTA,LOST,140941.0,0.0,999,AS,Assam,OTH,6
+03029,Kokrajhar West,355,7,Mukunda Koch,1116.0,IND,LOST,140941.0,0.0,355,AS,Assam,OTH,7
+03029,Kokrajhar West,358,10,Subhadra Narzary,1044.0,IND,LOST,140941.0,0.0,358,AS,Assam,OTH,8
+03029,Kokrajhar West,357,9,Sujila Basumatary,977.0,IND,LOST,140941.0,0.0,357,AS,Assam,OTH,9
+03029,Kokrajhar West,351,3,Aruna Brahma,775.0,IND,LOST,140941.0,0.0,351,AS,Assam,OTH,10
+03029,Kokrajhar West,356,8,Ranjoy Kumar Brahma,627.0,IND,LOST,140941.0,0.0,356,AS,Assam,OTH,11
+03030,Kokrajhar East,021,1,Pramila Rani Brahma,76496.0,BOPF,WON,138229.0,3.0,021,AS,Assam,BJP+,1
+03030,Kokrajhar East,352,4,Pratibha Brahma,36405.0,IND,LOST,138229.0,0.0,352,AS,Assam,OTH,2
+03030,Kokrajhar East,010,2,Manu Borgayary,12588.0,AIUDF,LOST,138229.0,2.0,010,AS,Assam,AUDF,3
+03030,Kokrajhar East,353,5,Basanta Kumar Medhi,6994.0,IND,LOST,138229.0,0.0,353,AS,Assam,OTH,4
+03030,Kokrajhar East,999,7,Nota,2288.0,NOTA,LOST,138229.0,0.0,999,AS,Assam,OTH,5
+03030,Kokrajhar East,351,3,Ajay Kumar Narzary,1816.0,IND,LOST,138229.0,0.0,351,AS,Assam,OTH,6
+03030,Kokrajhar East,354,6,Rajesh Narzary,1642.0,IND,LOST,138229.0,0.0,354,AS,Assam,OTH,7
+03031,Sidli,021,1,Chandan Brahma,66037.0,BOPF,WON,157247.0,3.0,021,AS,Assam,BJP+,1
+03031,Sidli,353,5,Rwngwra Narzary,57049.0,IND,LOST,157247.0,0.0,353,AS,Assam,OTH,2
+03031,Sidli,351,3,Dilip Kumar Sarania,21601.0,IND,LOST,157247.0,0.0,351,AS,Assam,OTH,3
+03031,Sidli,010,2,Pankaj Islary,8083.0,AIUDF,LOST,157247.0,2.0,010,AS,Assam,AUDF,4
+03031,Sidli,999,6,Nota,2929.0,NOTA,LOST,157247.0,0.0,999,AS,Assam,OTH,5
+03031,Sidli,352,4,Phalmarston Brahma,1548.0,IND,LOST,157247.0,0.0,352,AS,Assam,OTH,6
+03032,Bongaigaon,013,1,Phani Bhusan Choudhury,77292.0,AGP,WON,137947.0,3.0,013,AS,Assam,BJP+,1
+03032,Bongaigaon,034,2,Shankar Prasad Ray,45972.0,INC,LOST,137947.0,1.0,034,AS,Assam,CONG,2
+03032,Bongaigaon,351,3,Dr. Itesh Bordoloi,7087.0,IND,LOST,137947.0,0.0,351,AS,Assam,OTH,3
+03032,Bongaigaon,999,8,Nota,2376.0,NOTA,LOST,137947.0,0.0,999,AS,Assam,OTH,4
+03032,Bongaigaon,353,5,Dhirabati Choudhury,1902.0,IND,LOST,137947.0,0.0,353,AS,Assam,OTH,5
+03032,Bongaigaon,354,6,Prabhat Baisnab,1404.0,IND,LOST,137947.0,0.0,354,AS,Assam,OTH,6
+03032,Bongaigaon,355,7,Fulbar Ali Molya,1099.0,IND,LOST,137947.0,0.0,355,AS,Assam,OTH,7
+03032,Bongaigaon,352,4,Deepak Kumar Das,815.0,IND,LOST,137947.0,0.0,352,AS,Assam,OTH,8
+03033,Bijni,021,1,Kamalshing Narzary,29240.0,BOPF,WON,119362.0,3.0,021,AS,Assam,BJP+,1
+03033,Bijni,018,5,Ajay Kumar Ray,27562.0,BGANP,LOST,119362.0,0.0,018,AS,Assam,OTH,2
+03033,Bijni,352,8,Santosh Khakhlary,19350.0,IND,LOST,119362.0,0.0,352,AS,Assam,OTH,3
+03033,Bijni,010,2,Kamaleswar Ray,18197.0,AIUDF,LOST,119362.0,2.0,010,AS,Assam,AUDF,4
+03033,Bijni,351,7,Khalilur Rahman,12619.0,IND,LOST,119362.0,0.0,351,AS,Assam,OTH,5
+03033,Bijni,023,3,Gajendra Barman,5991.0,CPI(M),LOST,119362.0,0.0,023,AS,Assam,OTH,6
+03033,Bijni,034,4,Biswajit Ray,3861.0,INC,LOST,119362.0,1.0,034,AS,Assam,CONG,7
+03033,Bijni,999,9,Nota,1306.0,NOTA,LOST,119362.0,0.0,999,AS,Assam,OTH,8
+03033,Bijni,045,6,Philip Marandi,1236.0,JDP,LOST,119362.0,0.0,045,AS,Assam,OTH,9
+03034,Abhayapuri North,034,2,Abdul Hai Nagori,48354.0,INC,WON,136687.0,1.0,034,AS,Assam,CONG,1
+03034,Abhayapuri North,013,4,Bhupen Roy,46211.0,AGP,LOST,136687.0,3.0,013,AS,Assam,BJP+,2
+03034,Abhayapuri North,010,1,Abdul Batin Khandakar,32699.0,AIUDF,LOST,136687.0,2.0,010,AS,Assam,AUDF,3
+03034,Abhayapuri North,352,7,Swapan Mukherjee,3968.0,IND,LOST,136687.0,0.0,352,AS,Assam,OTH,4
+03034,Abhayapuri North,023,3,Taren Chandra Ray,3315.0,CPI(M),LOST,136687.0,0.0,023,AS,Assam,OTH,5
+03034,Abhayapuri North,068,5,Bhagirath Ray,836.0,RPI(A),LOST,136687.0,0.0,068,AS,Assam,OTH,6
+03034,Abhayapuri North,999,8,Nota,803.0,NOTA,LOST,136687.0,0.0,999,AS,Assam,OTH,7
+03034,Abhayapuri North,351,6,Samsul Hoque,501.0,IND,LOST,136687.0,0.0,351,AS,Assam,OTH,8
+03035,Abhayapuri South (Sc),010,1,Ananta Kumar Malo,51525.0,AIUDF,WON,158529.0,2.0,010,AS,Assam,AUDF,1
+03035,Abhayapuri South (Sc),034,2,Chandan Kumar Sarkar,51334.0,INC,LOST,158529.0,1.0,034,AS,Assam,CONG,2
+03035,Abhayapuri South (Sc),013,3,Rabin Banikya,50957.0,AGP,LOST,158529.0,3.0,013,AS,Assam,BJP+,3
+03035,Abhayapuri South (Sc),351,6,Nirmalendu Banikya,1602.0,IND,LOST,158529.0,0.0,351,AS,Assam,OTH,4
+03035,Abhayapuri South (Sc),068,4,Ashok Dutta,1304.0,RPI(A),LOST,158529.0,0.0,068,AS,Assam,OTH,5
+03035,Abhayapuri South (Sc),999,7,Nota,1113.0,NOTA,LOST,158529.0,0.0,999,AS,Assam,OTH,6
+03035,Abhayapuri South (Sc),040,5,Dhiren Majumdar,694.0,JNCP,LOST,158529.0,0.0,040,AS,Assam,OTH,7
+03036,Dudhnai,019,1,Dipak Kumar Rabha,79983.0,BJP,WON,160054.0,3.0,019,AS,Assam,BJP+,1
+03036,Dudhnai,034,4,Sibcharan Basumatary,51316.0,INC,LOST,160054.0,1.0,034,AS,Assam,CONG,2
+03036,Dudhnai,010,3,Meera Basumatary,11305.0,AIUDF,LOST,160054.0,2.0,010,AS,Assam,AUDF,3
+03036,Dudhnai,351,6,Kangkan Khakhalary,7278.0,IND,LOST,160054.0,0.0,351,AS,Assam,OTH,4
+03036,Dudhnai,353,8,Deben Daimary,2936.0,IND,LOST,160054.0,0.0,353,AS,Assam,OTH,5
+03036,Dudhnai,022,2,Bhupendra Rabha,1567.0,CPI,LOST,160054.0,0.0,022,AS,Assam,OTH,6
+03036,Dudhnai,352,7,Tharman Momin,1413.0,IND,LOST,160054.0,0.0,352,AS,Assam,OTH,7
+03036,Dudhnai,068,5,Rajeswar Rabha,1210.0,RPI(A),LOST,160054.0,0.0,068,AS,Assam,OTH,8
+03036,Dudhnai,999,11,Nota,1142.0,NOTA,LOST,160054.0,0.0,999,AS,Assam,OTH,9
+03036,Dudhnai,354,9,Rexstar B. Sangma,1054.0,IND,LOST,160054.0,0.0,354,AS,Assam,OTH,10
+03036,Dudhnai,355,10,Stindro Marak,850.0,IND,LOST,160054.0,0.0,355,AS,Assam,OTH,11
+03037,Goalpara East,034,1,Abul Kalam Rasheed Alam,57374.0,INC,WON,171207.0,1.0,034,AS,Assam,CONG,1
+03037,Goalpara East,019,3,Gauranga Prasad Das,54793.0,BJP,LOST,171207.0,3.0,019,AS,Assam,BJP+,2
+03037,Goalpara East,010,4,Shadeed Mazumder,27778.0,AIUDF,LOST,171207.0,2.0,010,AS,Assam,AUDF,3
+03037,Goalpara East,351,10,Abul Kalam Hussain,12138.0,IND,LOST,171207.0,0.0,351,AS,Assam,OTH,4
+03037,Goalpara East,009,6,Elbarth Marak,7172.0,AITC,LOST,171207.0,0.0,009,AS,Assam,OTH,5
+03037,Goalpara East,055,8,Punam Chand Sharma (Lilu),6710.0,NPEP,LOST,171207.0,0.0,055,AS,Assam,OTH,6
+03037,Goalpara East,999,14,Nota,1064.0,NOTA,LOST,171207.0,0.0,999,AS,Assam,OTH,7
+03037,Goalpara East,056,2,Kofil Uddin Ahmed,971.0,NCP,LOST,171207.0,0.0,056,AS,Assam,OTH,8
+03037,Goalpara East,353,12,Birmal Ray,770.0,IND,LOST,171207.0,0.0,353,AS,Assam,OTH,9
+03037,Goalpara East,020,7,Soleman Ali,592.0,BHARP,LOST,171207.0,0.0,020,AS,Assam,OTH,10
+03037,Goalpara East,352,11,Naren Sankar Rabha,495.0,IND,LOST,171207.0,0.0,352,AS,Assam,OTH,11
+03037,Goalpara East,068,9,Mehbubar Rahman,483.0,RPI(A),LOST,171207.0,0.0,068,AS,Assam,OTH,12
+03037,Goalpara East,354,13,Mujaharul Islam,447.0,IND,LOST,171207.0,0.0,354,AS,Assam,OTH,13
+03037,Goalpara East,077,5,Abdul Hamid,420.0,SUCI(C),LOST,171207.0,0.0,077,AS,Assam,OTH,14
+03038,Goalpara West,034,2,Abdur Rashid Mandal,61007.0,INC,WON,136264.0,1.0,034,AS,Assam,CONG,1
+03038,Goalpara West,010,4,Sheikh Shah Alam,36668.0,AIUDF,LOST,136264.0,2.0,010,AS,Assam,AUDF,2
+03038,Goalpara West,019,3,Jabeen Barbhuiyan,32432.0,BJP,LOST,136264.0,3.0,019,AS,Assam,BJP+,3
+03038,Goalpara West,013,1,Anowar Hussain,1154.0,AGP,LOST,136264.0,3.0,013,AS,Assam,BJP+,4
+03038,Goalpara West,077,10,Mohibul Islam,1016.0,SUCI(C),LOST,136264.0,0.0,077,AS,Assam,OTH,5
+03038,Goalpara West,999,14,Nota,646.0,NOTA,LOST,136264.0,0.0,999,AS,Assam,OTH,6
+03038,Goalpara West,009,9,Zesmina Khatun,582.0,AITC,LOST,136264.0,0.0,009,AS,Assam,OTH,7
+03038,Goalpara West,353,13,Mizanur Rahman,523.0,IND,LOST,136264.0,0.0,353,AS,Assam,OTH,8
+03038,Goalpara West,068,6,Khanindra Chandra Nath,489.0,RPI(A),LOST,136264.0,0.0,068,AS,Assam,OTH,9
+03038,Goalpara West,352,12,Babli Goswami Chakraborty,480.0,IND,LOST,136264.0,0.0,352,AS,Assam,OTH,10
+03038,Goalpara West,038,5,Ali Akbar,457.0,JMBP,LOST,136264.0,0.0,038,AS,Assam,OTH,11
+03038,Goalpara West,351,11,Jali Begum,289.0,IND,LOST,136264.0,0.0,351,AS,Assam,OTH,12
+03038,Goalpara West,055,8,Joynal Abedin,269.0,NPEP,LOST,136264.0,0.0,055,AS,Assam,OTH,13
+03038,Goalpara West,057,7,Gias Uddin Ahmed,252.0,AICP,LOST,136264.0,0.0,057,AS,Assam,OTH,14
+03039,Jaleswar,010,3,Sahab Uddin Ahmed,56003.0,AIUDF,WON,128312.0,2.0,010,AS,Assam,AUDF,1
+03039,Jaleswar,351,6,Aftab Uddin Mollah,49341.0,IND,LOST,128312.0,0.0,351,AS,Assam,OTH,2
+03039,Jaleswar,019,2,Abdur Rahim Zibran,11535.0,BJP,LOST,128312.0,3.0,019,AS,Assam,BJP+,3
+03039,Jaleswar,034,1,Abul Fazal Nasir Uddin Mollah,6567.0,INC,LOST,128312.0,1.0,034,AS,Assam,CONG,4
+03039,Jaleswar,020,5,Abdul Wahab Sheikh,1433.0,BHARP,LOST,128312.0,0.0,020,AS,Assam,OTH,5
+03039,Jaleswar,353,8,Khairul Islam Mondal,1355.0,IND,LOST,128312.0,0.0,353,AS,Assam,OTH,6
+03039,Jaleswar,077,4,Abdus Salam,761.0,SUCI(C),LOST,128312.0,0.0,077,AS,Assam,OTH,7
+03039,Jaleswar,352,7,Innas Ali,690.0,IND,LOST,128312.0,0.0,352,AS,Assam,OTH,8
+03039,Jaleswar,999,9,Nota,627.0,NOTA,LOST,128312.0,0.0,999,AS,Assam,OTH,9
+03040,Sorbhog,019,4,Ranjeet Kumar Dass,56454.0,BJP,WON,169347.0,3.0,019,AS,Assam,BJP+,1
+03040,Sorbhog,034,1,Anurupa Hannan,36928.0,INC,LOST,169347.0,1.0,034,AS,Assam,CONG,2
+03040,Sorbhog,023,3,Manoranjan Talukdar,29082.0,CPI(M),LOST,169347.0,0.0,023,AS,Assam,OTH,3
+03040,Sorbhog,354,12,Pradip Deb Nath,19387.0,IND,LOST,169347.0,0.0,354,AS,Assam,OTH,4
+03040,Sorbhog,010,2,Samsul Hoque,17504.0,AIUDF,LOST,169347.0,2.0,010,AS,Assam,AUDF,5
+03040,Sorbhog,351,9,Anilananda Pathak,3755.0,IND,LOST,169347.0,0.0,351,AS,Assam,OTH,6
+03040,Sorbhog,356,14,Himangshu Bharali,1181.0,IND,LOST,169347.0,0.0,356,AS,Assam,OTH,7
+03040,Sorbhog,999,15,Nota,1129.0,NOTA,LOST,169347.0,0.0,999,AS,Assam,OTH,8
+03040,Sorbhog,355,13,Mohidul Islam,1010.0,IND,LOST,169347.0,0.0,355,AS,Assam,OTH,9
+03040,Sorbhog,353,11,Nirmal Kumar Agarwala,630.0,IND,LOST,169347.0,0.0,353,AS,Assam,OTH,10
+03040,Sorbhog,079,5,Ikbal Hussain,602.0,TNRMPI,LOST,169347.0,0.0,079,AS,Assam,OTH,11
+03040,Sorbhog,068,6,Manju Shabnam,466.0,RPI(A),LOST,169347.0,0.0,068,AS,Assam,OTH,12
+03040,Sorbhog,040,7,Muktar Hussain,435.0,JNCP,LOST,169347.0,0.0,040,AS,Assam,OTH,13
+03040,Sorbhog,018,8,Subal Ch. Das,414.0,BGANP,LOST,169347.0,0.0,018,AS,Assam,OTH,14
+03040,Sorbhog,352,10,Abdul Hakim Ahmed,370.0,IND,LOST,169347.0,0.0,352,AS,Assam,OTH,15
+03041,Bhabanipur,010,1,Abul Kalam Azad,28383.0,AIUDF,WON,110281.0,2.0,010,AS,Assam,AUDF,1
+03041,Bhabanipur,352,8,Phanihdar Talukdar,25944.0,IND,LOST,110281.0,0.0,352,AS,Assam,OTH,2
+03041,Bhabanipur,019,2,Manoj Baruah,22380.0,BJP,LOST,110281.0,3.0,019,AS,Assam,BJP+,3
+03041,Bhabanipur,354,10,Milan Boro,14500.0,IND,LOST,110281.0,0.0,354,AS,Assam,OTH,4
+03041,Bhabanipur,351,7,Kanak Chandra Boro,8748.0,IND,LOST,110281.0,0.0,351,AS,Assam,OTH,5
+03041,Bhabanipur,034,3,Rajib Das,6620.0,INC,LOST,110281.0,1.0,034,AS,Assam,CONG,6
+03041,Bhabanipur,066,5,Kazi Shamsul Arfin,921.0,RSSC,LOST,110281.0,0.0,066,AS,Assam,OTH,7
+03041,Bhabanipur,999,13,Nota,707.0,NOTA,LOST,110281.0,0.0,999,AS,Assam,OTH,8
+03041,Bhabanipur,353,9,Bhupendra Kalita,511.0,IND,LOST,110281.0,0.0,353,AS,Assam,OTH,9
+03041,Bhabanipur,068,6,Satyacharan Arjya,447.0,RPI(A),LOST,110281.0,0.0,068,AS,Assam,OTH,10
+03041,Bhabanipur,063,4,Anowar Islam Akand,401.0,RAJPA,LOST,110281.0,0.0,063,AS,Assam,OTH,11
+03041,Bhabanipur,356,12,Haidar Ali,378.0,IND,LOST,110281.0,0.0,356,AS,Assam,OTH,12
+03041,Bhabanipur,355,11,Meser Mollah,341.0,IND,LOST,110281.0,0.0,355,AS,Assam,OTH,13
+03042,Patacharkuchi,013,1,Pabindra Deka,64558.0,AGP,WON,104592.0,3.0,013,AS,Assam,BJP+,1
+03042,Patacharkuchi,034,2,Sailen Kalita,12582.0,INC,LOST,104592.0,1.0,034,AS,Assam,CONG,2
+03042,Patacharkuchi,351,3,Kamaleswar Medhi,12306.0,IND,LOST,104592.0,0.0,351,AS,Assam,OTH,3
+03042,Patacharkuchi,356,8,Manoranjan Das,8227.0,IND,LOST,104592.0,0.0,356,AS,Assam,OTH,4
+03042,Patacharkuchi,352,4,Kartik Deka,3134.0,IND,LOST,104592.0,0.0,352,AS,Assam,OTH,5
+03042,Patacharkuchi,999,9,Nota,1043.0,NOTA,LOST,104592.0,0.0,999,AS,Assam,OTH,6
+03042,Patacharkuchi,355,7,Baikuntha Sarma,960.0,IND,LOST,104592.0,0.0,355,AS,Assam,OTH,7
+03042,Patacharkuchi,354,6,Puspak Dutta,936.0,IND,LOST,104592.0,0.0,354,AS,Assam,OTH,8
+03042,Patacharkuchi,353,5,Nilima Bhattacharjya,846.0,IND,LOST,104592.0,0.0,353,AS,Assam,OTH,9
+03043,Barpeta,013,3,Gunindra Nath Das,63563.0,AGP,WON,163152.0,3.0,013,AS,Assam,BJP+,1
+03043,Barpeta,034,2,A.Rahim Ahmed,57753.0,INC,LOST,163152.0,1.0,034,AS,Assam,CONG,2
+03043,Barpeta,010,1,Abdur Rahim Khan,37697.0,AIUDF,LOST,163152.0,2.0,010,AS,Assam,AUDF,3
+03043,Barpeta,999,8,Nota,937.0,NOTA,LOST,163152.0,0.0,999,AS,Assam,OTH,4
+03043,Barpeta,353,7,Sanjay Kumar Das,936.0,IND,LOST,163152.0,0.0,353,AS,Assam,OTH,5
+03043,Barpeta,067,4,Atikur Rahman,820.0,RPI,LOST,163152.0,0.0,067,AS,Assam,OTH,6
+03043,Barpeta,352,6,Faruk Khan,774.0,IND,LOST,163152.0,0.0,352,AS,Assam,OTH,7
+03043,Barpeta,351,5,Sorhab Hussain,672.0,IND,LOST,163152.0,0.0,351,AS,Assam,OTH,8
+03044,Jania,034,1,Abdul Khaleque,86930.0,INC,WON,154131.0,1.0,034,AS,Assam,CONG,1
+03044,Jania,010,4,Rafiqul Islam,57194.0,AIUDF,LOST,154131.0,2.0,010,AS,Assam,AUDF,2
+03044,Jania,019,2,Benazir Arfan,6067.0,BJP,LOST,154131.0,3.0,019,AS,Assam,BJP+,3
+03044,Jania,023,3,Mainul Hoque,1976.0,CPI(M),LOST,154131.0,0.0,023,AS,Assam,OTH,4
+03044,Jania,066,5,Amir Hussain,769.0,RSSC,LOST,154131.0,0.0,066,AS,Assam,OTH,5
+03044,Jania,999,7,Nota,689.0,NOTA,LOST,154131.0,0.0,999,AS,Assam,OTH,6
+03044,Jania,063,6,Md. Sultan Mahmud,506.0,RAJPA,LOST,154131.0,0.0,063,AS,Assam,OTH,7
+03045,Baghbar,034,3,Sherman Ali Ahmed,73340.0,INC,WON,127374.0,1.0,034,AS,Assam,CONG,1
+03045,Baghbar,010,2,Sheikh Abdul Hamid,29907.0,AIUDF,LOST,127374.0,2.0,010,AS,Assam,AUDF,2
+03045,Baghbar,352,9,Rajib Ahmed,18357.0,IND,LOST,127374.0,0.0,352,AS,Assam,OTH,3
+03045,Baghbar,019,1,Md. Abdul Barik,1418.0,BJP,LOST,127374.0,3.0,019,AS,Assam,BJP+,4
+03045,Baghbar,041,4,Altaf Hussain,1022.0,JCPB,LOST,127374.0,0.0,041,AS,Assam,OTH,5
+03045,Baghbar,999,10,Nota,974.0,NOTA,LOST,127374.0,0.0,999,AS,Assam,OTH,6
+03045,Baghbar,020,6,Jamal Uddin,868.0,BHARP,LOST,127374.0,0.0,020,AS,Assam,OTH,7
+03045,Baghbar,351,8,Jahidul Islam,642.0,IND,LOST,127374.0,0.0,351,AS,Assam,OTH,8
+03045,Baghbar,067,7,Rejaul Karim,435.0,RPI,LOST,127374.0,0.0,067,AS,Assam,OTH,9
+03045,Baghbar,009,5,Ali Asgar,411.0,AITC,LOST,127374.0,0.0,009,AS,Assam,OTH,10
+03046,Sarukhetri,034,4,Jakir Hussain Sikdar,70062.0,INC,WON,155492.0,1.0,034,AS,Assam,CONG,1
+03046,Sarukhetri,013,3,Chittaranjan Barman,45815.0,AGP,LOST,155492.0,3.0,013,AS,Assam,BJP+,2
+03046,Sarukhetri,010,2,Ali Hossain,21460.0,AIUDF,LOST,155492.0,2.0,010,AS,Assam,AUDF,3
+03046,Sarukhetri,351,10,Tara Prasad Das,9623.0,IND,LOST,155492.0,0.0,351,AS,Assam,OTH,4
+03046,Sarukhetri,023,5,Pearul Islam Ahmed,3626.0,CPI(M),LOST,155492.0,0.0,023,AS,Assam,OTH,5
+03046,Sarukhetri,352,11,Hareswar Deka,1308.0,IND,LOST,155492.0,0.0,352,AS,Assam,OTH,6
+03046,Sarukhetri,079,8,Matiar Rahman,836.0,TNRMPI,LOST,155492.0,0.0,079,AS,Assam,OTH,7
+03046,Sarukhetri,999,12,Nota,776.0,NOTA,LOST,155492.0,0.0,999,AS,Assam,OTH,8
+03046,Sarukhetri,018,9,Hemanta Kalita,523.0,BGANP,LOST,155492.0,0.0,018,AS,Assam,OTH,9
+03046,Sarukhetri,063,6,Md. Anowar Islam Akand,516.0,RAJPA,LOST,155492.0,0.0,063,AS,Assam,OTH,10
+03046,Sarukhetri,067,7,Jabidur Rahman Khan,505.0,RPI,LOST,155492.0,0.0,067,AS,Assam,OTH,11
+03046,Sarukhetri,056,1,Arun Das,442.0,NCP,LOST,155492.0,0.0,056,AS,Assam,OTH,12
+03047,Chenga,034,3,Sukur Ali Ahmed,51882.0,INC,WON,109805.0,1.0,034,AS,Assam,CONG,1
+03047,Chenga,010,2,Monowara Khatun,28525.0,AIUDF,LOST,109805.0,2.0,010,AS,Assam,AUDF,2
+03047,Chenga,019,1,Gunajit Adhikary,25902.0,BJP,LOST,109805.0,3.0,019,AS,Assam,BJP+,3
+03047,Chenga,009,4,Shafikul Hoque,2190.0,AITC,LOST,109805.0,0.0,009,AS,Assam,OTH,4
+03047,Chenga,999,6,Nota,667.0,NOTA,LOST,109805.0,0.0,999,AS,Assam,OTH,5
+03047,Chenga,351,5,Surjya Mallique,639.0,IND,LOST,109805.0,0.0,351,AS,Assam,OTH,6
+03048,Boko Sc,034,3,Nandita Das,69986.0,INC,WON,176485.0,1.0,034,AS,Assam,CONG,1
+03048,Boko Sc,013,2,Jyoti Prasad Das,52392.0,AGP,LOST,176485.0,3.0,013,AS,Assam,BJP+,2
+03048,Boko Sc,010,1,Gopi Nath Das,42338.0,AIUDF,LOST,176485.0,2.0,010,AS,Assam,AUDF,3
+03048,Boko Sc,352,5,Dr. Ghanashyam Das,5794.0,IND,LOST,176485.0,0.0,352,AS,Assam,OTH,4
+03048,Boko Sc,351,4,Anirban Das,2976.0,IND,LOST,176485.0,0.0,351,AS,Assam,OTH,5
+03048,Boko Sc,999,7,Nota,1851.0,NOTA,LOST,176485.0,0.0,999,AS,Assam,OTH,6
+03048,Boko Sc,353,6,Nitish Ranjan Das,1148.0,IND,LOST,176485.0,0.0,353,AS,Assam,OTH,7
+03049,Chaygaon,034,3,Rekibuddin Ahmed,72211.0,INC,WON,145411.0,1.0,034,AS,Assam,CONG,1
+03049,Chaygaon,013,1,Dr. Kamala Kanta Kalita,64390.0,AGP,LOST,145411.0,3.0,013,AS,Assam,BJP+,2
+03049,Chaygaon,010,2,Derajuddin Ahmed,4984.0,AIUDF,LOST,145411.0,2.0,010,AS,Assam,AUDF,3
+03049,Chaygaon,351,4,Sri. Beckniur K. Marak,2225.0,IND,LOST,145411.0,0.0,351,AS,Assam,OTH,4
+03049,Chaygaon,999,5,Nota,1601.0,NOTA,LOST,145411.0,0.0,999,AS,Assam,OTH,5
+03050,Palasbari,019,2,Sri Pranab Kalita,75210.0,BJP,WON,121435.0,3.0,019,AS,Assam,BJP+,1
+03050,Palasbari,034,1,Nabajyoti Talukdar,26468.0,INC,LOST,121435.0,1.0,034,AS,Assam,CONG,2
+03050,Palasbari,352,6,Jatin Mali,15755.0,IND,LOST,121435.0,0.0,352,AS,Assam,OTH,3
+03050,Palasbari,999,7,Nota,1564.0,NOTA,LOST,121435.0,0.0,999,AS,Assam,OTH,4
+03050,Palasbari,351,5,Kushal Chandra Sarma,991.0,IND,LOST,121435.0,0.0,351,AS,Assam,OTH,5
+03050,Palasbari,049,3,Juri Mali,980.0,LDP,LOST,121435.0,0.0,049,AS,Assam,OTH,6
+03050,Palasbari,063,4,Palash Jyoti Das,467.0,RAJPA,LOST,121435.0,0.0,063,AS,Assam,OTH,7
+03051,Jalukbari,019,2,Himanta Biswa Sarma,118390.0,BJP,WON,154506.0,3.0,019,AS,Assam,BJP+,1
+03051,Jalukbari,034,1,Niren Deka,32455.0,INC,LOST,154506.0,1.0,034,AS,Assam,CONG,2
+03051,Jalukbari,999,11,Nota,1074.0,NOTA,LOST,154506.0,0.0,999,AS,Assam,OTH,3
+03051,Jalukbari,352,10,Ramen Chandra Lahkar,636.0,IND,LOST,154506.0,0.0,352,AS,Assam,OTH,4
+03051,Jalukbari,063,3,Amit Basfor,614.0,RAJPA,LOST,154506.0,0.0,063,AS,Assam,OTH,5
+03051,Jalukbari,009,4,Sadek Ali,371.0,AITC,LOST,154506.0,0.0,009,AS,Assam,OTH,6
+03051,Jalukbari,351,9,Naba Kumar Nath,290.0,IND,LOST,154506.0,0.0,351,AS,Assam,OTH,7
+03051,Jalukbari,018,6,Bapi Aich,180.0,BGANP,LOST,154506.0,0.0,018,AS,Assam,OTH,8
+03051,Jalukbari,020,7,Moinul Hoque,168.0,BHARP,LOST,154506.0,0.0,020,AS,Assam,OTH,9
+03051,Jalukbari,065,8,Makani Barman,164.0,RPP,LOST,154506.0,0.0,065,AS,Assam,OTH,10
+03051,Jalukbari,068,5,Nathuni Das,164.0,RPI(A),LOST,154506.0,0.0,068,AS,Assam,OTH,10
+03052,Dispur,019,2,Atul Bora,198378.0,BJP,WON,278869.0,3.0,019,AS,Assam,BJP+,1
+03052,Dispur,034,1,Akon Bora,68181.0,INC,LOST,278869.0,1.0,034,AS,Assam,CONG,2
+03052,Dispur,999,15,Nota,2600.0,NOTA,LOST,278869.0,0.0,999,AS,Assam,OTH,3
+03052,Dispur,023,4,Sangita Das,1944.0,CPI(M),LOST,278869.0,0.0,023,AS,Assam,OTH,4
+03052,Dispur,354,14,Hareswar Rahang,1756.0,IND,LOST,278869.0,0.0,354,AS,Assam,OTH,5
+03052,Dispur,056,3,Pradip Baruah,1259.0,NCP,LOST,278869.0,0.0,056,AS,Assam,OTH,6
+03052,Dispur,009,9,Bidyut Bora,1022.0,AITC,LOST,278869.0,0.0,009,AS,Assam,OTH,7
+03052,Dispur,352,12,Dadhiswar Phangcho,717.0,IND,LOST,278869.0,0.0,352,AS,Assam,OTH,8
+03052,Dispur,353,13,Bishnu Prasad Sarma,614.0,IND,LOST,278869.0,0.0,353,AS,Assam,OTH,9
+03052,Dispur,351,11,Gobinda Das,551.0,IND,LOST,278869.0,0.0,351,AS,Assam,OTH,10
+03052,Dispur,020,10,Rijumoni Gogoi,485.0,BHARP,LOST,278869.0,0.0,020,AS,Assam,OTH,11
+03052,Dispur,049,5,Dr.Jitendra Kumar Talukdar,420.0,LDP,LOST,278869.0,0.0,049,AS,Assam,OTH,12
+03052,Dispur,073,7,Dr. Faruk Ahmed Bhuyan,384.0,SP,LOST,278869.0,0.0,073,AS,Assam,OTH,13
+03052,Dispur,063,8,Bandana Barman Baruah,336.0,RAJPA,LOST,278869.0,0.0,063,AS,Assam,OTH,14
+03052,Dispur,068,6,Parag Koch,222.0,RPI(A),LOST,278869.0,0.0,068,AS,Assam,OTH,15
+03053,Gauhati East,019,2,Siddhartha Bhattacharya,127602.0,BJP,WON,162579.0,3.0,019,AS,Assam,BJP+,1
+03053,Gauhati East,034,1,Bobbeeta Sharma,30965.0,INC,LOST,162579.0,1.0,034,AS,Assam,CONG,2
+03053,Gauhati East,999,13,Nota,1288.0,NOTA,LOST,162579.0,0.0,999,AS,Assam,OTH,3
+03053,Gauhati East,018,3,Dr. Avijit Chakraborty,591.0,BGANP,LOST,162579.0,0.0,018,AS,Assam,OTH,4
+03053,Gauhati East,049,5,Prodyut Kumar Bora,499.0,LDP,LOST,162579.0,0.0,049,AS,Assam,OTH,5
+03053,Gauhati East,354,12,Raktimava Swami,377.0,IND,LOST,162579.0,0.0,354,AS,Assam,OTH,6
+03053,Gauhati East,352,10,Bipul Kumar Talukdar,243.0,IND,LOST,162579.0,0.0,352,AS,Assam,OTH,7
+03053,Gauhati East,353,11,Bhupen Sarma,196.0,IND,LOST,162579.0,0.0,353,AS,Assam,OTH,8
+03053,Gauhati East,066,4,Pradip Kumar Das,189.0,RSSC,LOST,162579.0,0.0,066,AS,Assam,OTH,9
+03053,Gauhati East,079,8,Subhash Chandra Gupta,182.0,TNRMPI,LOST,162579.0,0.0,079,AS,Assam,OTH,10
+03053,Gauhati East,351,9,Kazi Nekib Ahmed,181.0,IND,LOST,162579.0,0.0,351,AS,Assam,OTH,11
+03053,Gauhati East,068,6,Pranab Jyoti Das,137.0,RPI(A),LOST,162579.0,0.0,068,AS,Assam,OTH,12
+03053,Gauhati East,063,7,Bandana Barman Baruah,129.0,RAJPA,LOST,162579.0,0.0,063,AS,Assam,OTH,13
+03054,Gauhati West,013,2,Ramendra Narayan Kalita,132184.0,AGP,WON,206320.0,3.0,013,AS,Assam,BJP+,1
+03054,Gauhati West,034,1,Dr. Jury Sharma Bordoloi,42274.0,INC,LOST,206320.0,1.0,034,AS,Assam,CONG,2
+03054,Gauhati West,354,13,Hemanta Talukdar,12397.0,IND,LOST,206320.0,0.0,354,AS,Assam,OTH,3
+03054,Gauhati West,353,12,Pranab Sarmah,5838.0,IND,LOST,206320.0,0.0,353,AS,Assam,OTH,4
+03054,Gauhati West,009,4,Deba Kumar Barman,4269.0,AITC,LOST,206320.0,0.0,009,AS,Assam,OTH,5
+03054,Gauhati West,999,14,Nota,2280.0,NOTA,LOST,206320.0,0.0,999,AS,Assam,OTH,6
+03054,Gauhati West,352,11,Jayanta Boro,1771.0,IND,LOST,206320.0,0.0,352,AS,Assam,OTH,7
+03054,Gauhati West,079,3,Md. Javed Hussain Tanwar,1741.0,TNRMPI,LOST,206320.0,0.0,079,AS,Assam,OTH,8
+03054,Gauhati West,351,10,Md. Iftazur Rahman,763.0,IND,LOST,206320.0,0.0,351,AS,Assam,OTH,9
+03054,Gauhati West,018,8,Subimal Biswas,684.0,BGANP,LOST,206320.0,0.0,018,AS,Assam,OTH,10
+03054,Gauhati West,050,7,Mitan Sarkar,613.0,LJP,LOST,206320.0,0.0,050,AS,Assam,OTH,11
+03054,Gauhati West,074,5,Pulak Ranjan Chakrabarty,612.0,SHS,LOST,206320.0,0.0,074,AS,Assam,OTH,12
+03054,Gauhati West,065,9,Hasnur Ali,496.0,RPP,LOST,206320.0,0.0,065,AS,Assam,OTH,13
+03054,Gauhati West,063,6,Manas Pratim Das,398.0,RAJPA,LOST,206320.0,0.0,063,AS,Assam,OTH,14
+03055,Hajo,019,4,Suman Haripriya,55096.0,BJP,WON,135168.0,3.0,019,AS,Assam,BJP+,1
+03055,Hajo,034,1,Dulu Ahmed,46188.0,INC,LOST,135168.0,1.0,034,AS,Assam,CONG,2
+03055,Hajo,013,2,Nurul Hussain,16608.0,AGP,LOST,135168.0,3.0,013,AS,Assam,BJP+,3
+03055,Hajo,009,7,Dwipen Pathak,6673.0,AITC,LOST,135168.0,0.0,009,AS,Assam,OTH,4
+03055,Hajo,010,3,Mujibur Rahman,3567.0,AIUDF,LOST,135168.0,2.0,010,AS,Assam,AUDF,5
+03055,Hajo,356,16,Hemanta Kalita,1380.0,IND,LOST,135168.0,0.0,356,AS,Assam,OTH,6
+03055,Hajo,999,17,Nota,1163.0,NOTA,LOST,135168.0,0.0,999,AS,Assam,OTH,7
+03055,Hajo,354,14,Ramani Malakar,1017.0,IND,LOST,135168.0,0.0,354,AS,Assam,OTH,8
+03055,Hajo,055,5,Imdadur Rahman,696.0,NPEP,LOST,135168.0,0.0,055,AS,Assam,OTH,9
+03055,Hajo,355,15,Ramen Chandra Lahkar,556.0,IND,LOST,135168.0,0.0,355,AS,Assam,OTH,10
+03055,Hajo,353,13,Tripti Kana Mazumdar Choudhury,501.0,IND,LOST,135168.0,0.0,353,AS,Assam,OTH,11
+03055,Hajo,352,12,Taher Ali Talukdar,369.0,IND,LOST,135168.0,0.0,352,AS,Assam,OTH,12
+03055,Hajo,073,10,Md. Rekibuddin Ahmed,338.0,SP,LOST,135168.0,0.0,073,AS,Assam,OTH,13
+03055,Hajo,065,8,Makani Barman,301.0,RPP,LOST,135168.0,0.0,065,AS,Assam,OTH,14
+03055,Hajo,049,9,Mohan Chandra Malakar,261.0,LDP,LOST,135168.0,0.0,049,AS,Assam,OTH,15
+03055,Hajo,066,6,Tabibar Rahman,240.0,RSSC,LOST,135168.0,0.0,066,AS,Assam,OTH,16
+03055,Hajo,351,11,Taizuddin Ahmed,214.0,IND,LOST,135168.0,0.0,351,AS,Assam,OTH,17
+03056,Kamalpur,013,2,Satyabrat Kalita,78171.0,AGP,WON,135481.0,3.0,013,AS,Assam,BJP+,1
+03056,Kamalpur,034,1,Pranjit Choudhury,41262.0,INC,LOST,135481.0,1.0,034,AS,Assam,CONG,2
+03056,Kamalpur,353,8,Matlebuddin Ahmed,6883.0,IND,LOST,135481.0,0.0,353,AS,Assam,OTH,3
+03056,Kamalpur,351,6,Omar Rashid,3401.0,IND,LOST,135481.0,0.0,351,AS,Assam,OTH,4
+03056,Kamalpur,009,3,Madhabi Deka,1841.0,AITC,LOST,135481.0,0.0,009,AS,Assam,OTH,5
+03056,Kamalpur,355,10,Harmohan Chandra Rajbongshi,1022.0,IND,LOST,135481.0,0.0,355,AS,Assam,OTH,6
+03056,Kamalpur,999,11,Nota,940.0,NOTA,LOST,135481.0,0.0,999,AS,Assam,OTH,7
+03056,Kamalpur,038,4,Ramen Chandra Mahanta,651.0,JMBP,LOST,135481.0,0.0,038,AS,Assam,OTH,8
+03056,Kamalpur,352,7,Saidur Rahman,506.0,IND,LOST,135481.0,0.0,352,AS,Assam,OTH,9
+03056,Kamalpur,354,9,Rekibar Rahman,442.0,IND,LOST,135481.0,0.0,354,AS,Assam,OTH,10
+03056,Kamalpur,077,5,Sisir Kumar Kakati,362.0,SUCI(C),LOST,135481.0,0.0,077,AS,Assam,OTH,11
+03057,Rangia,019,4,Bhabesh Kalita,58353.0,BJP,WON,143287.0,3.0,019,AS,Assam,BJP+,1
+03057,Rangia,034,3,Ghanashyam Kalita,26286.0,INC,LOST,143287.0,1.0,034,AS,Assam,CONG,2
+03057,Rangia,356,10,Mrinal Deka,17772.0,IND,LOST,143287.0,0.0,356,AS,Assam,OTH,3
+03057,Rangia,010,2,Abdul Samad Choudhury,14411.0,AIUDF,LOST,143287.0,2.0,010,AS,Assam,AUDF,4
+03057,Rangia,023,1,Ananta Deka,12261.0,CPI(M),LOST,143287.0,0.0,023,AS,Assam,OTH,5
+03057,Rangia,352,6,Thaneswar Boro,5358.0,IND,LOST,143287.0,0.0,352,AS,Assam,OTH,6
+03057,Rangia,351,5,Samsul Haque,4472.0,IND,LOST,143287.0,0.0,351,AS,Assam,OTH,7
+03057,Rangia,353,7,Pabitra Baro,1230.0,IND,LOST,143287.0,0.0,353,AS,Assam,OTH,8
+03057,Rangia,357,11,Rajib Kokoti,1066.0,IND,LOST,143287.0,0.0,357,AS,Assam,OTH,9
+03057,Rangia,999,12,Nota,892.0,NOTA,LOST,143287.0,0.0,999,AS,Assam,OTH,10
+03057,Rangia,355,9,Biswajit Brahma,616.0,IND,LOST,143287.0,0.0,355,AS,Assam,OTH,11
+03057,Rangia,354,8,Babul Boro,570.0,IND,LOST,143287.0,0.0,354,AS,Assam,OTH,12
+03058,Tamulpur,021,1,Emmanuel Mosahary,63031.0,BOPF,WON,167039.0,3.0,021,AS,Assam,BJP+,1
+03058,Tamulpur,034,2,Rabindra Biswas,43084.0,INC,LOST,167039.0,1.0,034,AS,Assam,CONG,2
+03058,Tamulpur,352,6,Chandi Basumatary,21704.0,IND,LOST,167039.0,0.0,352,AS,Assam,OTH,3
+03058,Tamulpur,355,9,Hiranya Choudhury,21697.0,IND,LOST,167039.0,0.0,355,AS,Assam,OTH,4
+03058,Tamulpur,353,7,Jamir Uddin Ahmed,5331.0,IND,LOST,167039.0,0.0,353,AS,Assam,OTH,5
+03058,Tamulpur,351,5,Girish Chandra Mahanta,3532.0,IND,LOST,167039.0,0.0,351,AS,Assam,OTH,6
+03058,Tamulpur,354,8,Mandal Baskey,3120.0,IND,LOST,167039.0,0.0,354,AS,Assam,OTH,7
+03058,Tamulpur,999,10,Nota,2674.0,NOTA,LOST,167039.0,0.0,999,AS,Assam,OTH,8
+03058,Tamulpur,049,3,Derhagra Mochahary,1527.0,LDP,LOST,167039.0,0.0,049,AS,Assam,OTH,9
+03058,Tamulpur,068,4,Ranjit Kr Biswas,1339.0,RPI(A),LOST,167039.0,0.0,068,AS,Assam,OTH,10
+03059,Nalbari,019,1,Ashok Sarma,99131.0,BJP,WON,157535.0,3.0,019,AS,Assam,BJP+,1
+03059,Nalbari,034,2,Pradyut Kumar Bhuyan,46087.0,INC,LOST,157535.0,1.0,034,AS,Assam,CONG,2
+03059,Nalbari,351,6,Khurshid Alam,3608.0,IND,LOST,157535.0,0.0,351,AS,Assam,OTH,3
+03059,Nalbari,355,10,Shristi Sarma,3028.0,IND,LOST,157535.0,0.0,355,AS,Assam,OTH,4
+03059,Nalbari,023,3,Maheswar Dutta,1676.0,CPI(M),LOST,157535.0,0.0,023,AS,Assam,OTH,5
+03059,Nalbari,999,12,Nota,1576.0,NOTA,LOST,157535.0,0.0,999,AS,Assam,OTH,6
+03059,Nalbari,356,11,Harinarayan Das,698.0,IND,LOST,157535.0,0.0,356,AS,Assam,OTH,7
+03059,Nalbari,353,8,Jyotirmay Goswami,611.0,IND,LOST,157535.0,0.0,353,AS,Assam,OTH,8
+03059,Nalbari,354,9,Maharishi Parasar Chakravarty,398.0,IND,LOST,157535.0,0.0,354,AS,Assam,OTH,9
+03059,Nalbari,352,7,Gopi Baruah,271.0,IND,LOST,157535.0,0.0,352,AS,Assam,OTH,10
+03059,Nalbari,043,4,Jiten Kalita,229.0,JD(U),LOST,157535.0,0.0,043,AS,Assam,OTH,11
+03059,Nalbari,077,5,Munindra Doley,222.0,SUCI(C),LOST,157535.0,0.0,077,AS,Assam,OTH,12
+03060,Barkhetry,019,3,Narayan Deka,69223.0,BJP,WON,146803.0,3.0,019,AS,Assam,BJP+,1
+03060,Barkhetry,034,2,Diganta Barman,60610.0,INC,LOST,146803.0,1.0,034,AS,Assam,CONG,2
+03060,Barkhetry,010,1,Md. Akram Hussain Talukdar,9950.0,AIUDF,LOST,146803.0,2.0,010,AS,Assam,AUDF,3
+03060,Barkhetry,351,7,Kamalesh Deka,2316.0,IND,LOST,146803.0,0.0,351,AS,Assam,OTH,4
+03060,Barkhetry,009,6,Raaju Barman,874.0,AITC,LOST,146803.0,0.0,009,AS,Assam,OTH,5
+03060,Barkhetry,999,13,Nota,782.0,NOTA,LOST,146803.0,0.0,999,AS,Assam,OTH,6
+03060,Barkhetry,038,4,Deepak Kalita,670.0,JMBP,LOST,146803.0,0.0,038,AS,Assam,OTH,7
+03060,Barkhetry,353,9,Bhupen Talukdar,551.0,IND,LOST,146803.0,0.0,353,AS,Assam,OTH,8
+03060,Barkhetry,355,11,Manomati Das,475.0,IND,LOST,146803.0,0.0,355,AS,Assam,OTH,9
+03060,Barkhetry,352,8,Bipul Goswami,382.0,IND,LOST,146803.0,0.0,352,AS,Assam,OTH,10
+03060,Barkhetry,354,10,Mantu Baruah,368.0,IND,LOST,146803.0,0.0,354,AS,Assam,OTH,11
+03060,Barkhetry,356,12,Raju Deka,347.0,IND,LOST,146803.0,0.0,356,AS,Assam,OTH,12
+03060,Barkhetry,049,5,Bhumidhar Barman,255.0,LDP,LOST,146803.0,0.0,049,AS,Assam,OTH,13
+03061,Dharmapur,019,1,Chandra Mohan Patowary,70503.0,BJP,WON,110944.0,3.0,019,AS,Assam,BJP+,1
+03061,Dharmapur,034,2,Nilamani Sen Deka,36560.0,INC,LOST,110944.0,1.0,034,AS,Assam,CONG,2
+03061,Dharmapur,351,4,Dipak Barman,2194.0,IND,LOST,110944.0,0.0,351,AS,Assam,OTH,3
+03061,Dharmapur,999,5,Nota,988.0,NOTA,LOST,110944.0,0.0,999,AS,Assam,OTH,4
+03061,Dharmapur,063,3,Sankar Talukdar,699.0,RAJPA,LOST,110944.0,0.0,063,AS,Assam,OTH,5
+03062,Barama,021,2,Maneswar Brahma,45289.0,BOPF,WON,119486.0,3.0,021,AS,Assam,BJP+,1
+03062,Barama,353,5,Rekha Rani Das Boro,35493.0,IND,LOST,119486.0,0.0,353,AS,Assam,OTH,2
+03062,Barama,351,3,Kati Ram Baro,20870.0,IND,LOST,119486.0,0.0,351,AS,Assam,OTH,3
+03062,Barama,034,1,Pani Ram Rabha,14373.0,INC,LOST,119486.0,1.0,034,AS,Assam,CONG,4
+03062,Barama,999,6,Nota,1977.0,NOTA,LOST,119486.0,0.0,999,AS,Assam,OTH,5
+03062,Barama,352,4,Bhupen Das,1484.0,IND,LOST,119486.0,0.0,352,AS,Assam,OTH,6
+03063,Chapaguri,021,1,Thaneswar Basumatary,43250.0,BOPF,WON,114419.0,3.0,021,AS,Assam,BJP+,1
+03063,Chapaguri,351,2,Sujan Das,41769.0,IND,LOST,114419.0,0.0,351,AS,Assam,OTH,2
+03063,Chapaguri,352,3,Hitesh Basumatary,27342.0,IND,LOST,114419.0,0.0,352,AS,Assam,OTH,3
+03063,Chapaguri,999,4,Nota,2058.0,NOTA,LOST,114419.0,0.0,999,AS,Assam,OTH,4
+03064,Panery,021,1,Kamali Basumatari,38668.0,BOPF,WON,107613.0,3.0,021,AS,Assam,BJP+,1
+03064,Panery,352,5,Nanda Ram Baro,22866.0,IND,LOST,107613.0,0.0,352,AS,Assam,OTH,2
+03064,Panery,034,2,Durgadas Boro,19089.0,INC,LOST,107613.0,1.0,034,AS,Assam,CONG,3
+03064,Panery,353,6,Prabhat Das Panika,12812.0,IND,LOST,107613.0,0.0,353,AS,Assam,OTH,4
+03064,Panery,356,9,Sudhendu Mohan Talukdar,3644.0,IND,LOST,107613.0,0.0,356,AS,Assam,OTH,5
+03064,Panery,354,7,Bikan Chandra Deka,3276.0,IND,LOST,107613.0,0.0,354,AS,Assam,OTH,6
+03064,Panery,999,10,Nota,2427.0,NOTA,LOST,107613.0,0.0,999,AS,Assam,OTH,7
+03064,Panery,355,8,Mahesh Chandra Sarma,1978.0,IND,LOST,107613.0,0.0,355,AS,Assam,OTH,8
+03064,Panery,351,4,Dina Nath Das,1489.0,IND,LOST,107613.0,0.0,351,AS,Assam,OTH,9
+03064,Panery,077,3,Swarnalata Chaliha,1364.0,SUCI(C),LOST,107613.0,0.0,077,AS,Assam,OTH,10
+03065,Kalaigaon,021,3,Maheswar Baro,47206.0,BOPF,WON,132816.0,3.0,021,AS,Assam,BJP+,1
+03065,Kalaigaon,010,2,Nathu Ram Boro,29585.0,AIUDF,LOST,132816.0,2.0,010,AS,Assam,AUDF,2
+03065,Kalaigaon,013,4,Mukunda Ram Choudhury,24287.0,AGP,LOST,132816.0,3.0,013,AS,Assam,BJP+,3
+03065,Kalaigaon,354,12,Babul Basumatary,11344.0,IND,LOST,132816.0,0.0,354,AS,Assam,OTH,4
+03065,Kalaigaon,034,1,Indrajit Kumar Saikia,10367.0,INC,LOST,132816.0,1.0,034,AS,Assam,CONG,5
+03065,Kalaigaon,018,7,Sudhendu Mohan Talukdar,2238.0,BGANP,LOST,132816.0,0.0,018,AS,Assam,OTH,6
+03065,Kalaigaon,356,14,Brajen Mahanta,1411.0,IND,LOST,132816.0,0.0,356,AS,Assam,OTH,7
+03065,Kalaigaon,999,16,Nota,1199.0,NOTA,LOST,132816.0,0.0,999,AS,Assam,OTH,8
+03065,Kalaigaon,357,15,Radhe Shyam Chauhan,1140.0,IND,LOST,132816.0,0.0,357,AS,Assam,OTH,9
+03065,Kalaigaon,355,13,Bijoy Das,783.0,IND,LOST,132816.0,0.0,355,AS,Assam,OTH,10
+03065,Kalaigaon,057,5,Aroon Barooa,708.0,AICP,LOST,132816.0,0.0,057,AS,Assam,OTH,11
+03065,Kalaigaon,353,11,Dr. Nayan Mani Bhagawati,634.0,IND,LOST,132816.0,0.0,353,AS,Assam,OTH,12
+03065,Kalaigaon,050,8,Sushil Kumar Sarma,594.0,LJP,LOST,132816.0,0.0,050,AS,Assam,OTH,13
+03065,Kalaigaon,077,6,Jitendra Chaliha,531.0,SUCI(C),LOST,132816.0,0.0,077,AS,Assam,OTH,14
+03065,Kalaigaon,352,10,Gopal Sarkar,484.0,IND,LOST,132816.0,0.0,352,AS,Assam,OTH,15
+03065,Kalaigaon,351,9,Abdul Sabur,305.0,IND,LOST,132816.0,0.0,351,AS,Assam,OTH,16
+03066,Sipajhar,019,3,Binanda Kumar Saikia,65487.0,BJP,WON,136755.0,3.0,019,AS,Assam,BJP+,1
+03066,Sipajhar,034,2,Dr Zoii Nath Sarmah,53312.0,INC,LOST,136755.0,1.0,034,AS,Assam,CONG,2
+03066,Sipajhar,353,9,Jayanta Saharia,10818.0,IND,LOST,136755.0,0.0,353,AS,Assam,OTH,3
+03066,Sipajhar,010,1,Syed Abdullah,2476.0,AIUDF,LOST,136755.0,2.0,010,AS,Assam,AUDF,4
+03066,Sipajhar,068,4,Tridib Sarma,1033.0,RPI(A),LOST,136755.0,0.0,068,AS,Assam,OTH,5
+03066,Sipajhar,999,12,Nota,953.0,NOTA,LOST,136755.0,0.0,999,AS,Assam,OTH,6
+03066,Sipajhar,354,10,Rejaul Hoque,793.0,IND,LOST,136755.0,0.0,354,AS,Assam,OTH,7
+03066,Sipajhar,355,11,Sarat Chandra Sarma,780.0,IND,LOST,136755.0,0.0,355,AS,Assam,OTH,8
+03066,Sipajhar,050,5,Thaneswar Das,351.0,LJP,LOST,136755.0,0.0,050,AS,Assam,OTH,9
+03066,Sipajhar,352,8,Umesh Bania,339.0,IND,LOST,136755.0,0.0,352,AS,Assam,OTH,10
+03066,Sipajhar,077,6,Paheswari Barua,242.0,SUCI(C),LOST,136755.0,0.0,077,AS,Assam,OTH,11
+03066,Sipajhar,351,7,Amiya Kumar Deka,171.0,IND,LOST,136755.0,0.0,351,AS,Assam,OTH,12
+03067,Mangaldoi,019,1,Gurujyoti Das,73423.0,BJP,WON,177736.0,3.0,019,AS,Assam,BJP+,1
+03067,Mangaldoi,034,2,Basanta Das,51378.0,INC,LOST,177736.0,1.0,034,AS,Assam,CONG,2
+03067,Mangaldoi,010,3,Hiren Kr Das,48417.0,AIUDF,LOST,177736.0,2.0,010,AS,Assam,AUDF,3
+03067,Mangaldoi,999,8,Nota,1384.0,NOTA,LOST,177736.0,0.0,999,AS,Assam,OTH,4
+03067,Mangaldoi,353,7,Jitendra Sarkar,953.0,IND,LOST,177736.0,0.0,353,AS,Assam,OTH,5
+03067,Mangaldoi,050,4,Bhupen Ch. Das,874.0,LJP,LOST,177736.0,0.0,050,AS,Assam,OTH,6
+03067,Mangaldoi,351,5,Arjun Ch. Das,841.0,IND,LOST,177736.0,0.0,351,AS,Assam,OTH,7
+03067,Mangaldoi,352,6,Jagadish Chandra Sarkar,466.0,IND,LOST,177736.0,0.0,352,AS,Assam,OTH,8
+03068,Dalgaon,034,1,Ilias Ali,76607.0,INC,WON,180322.0,1.0,034,AS,Assam,CONG,1
+03068,Dalgaon,010,2,Mazibur Rahman,74287.0,AIUDF,LOST,180322.0,2.0,010,AS,Assam,AUDF,2
+03068,Dalgaon,013,3,Habibar Rahman,24714.0,AGP,LOST,180322.0,3.0,013,AS,Assam,BJP+,3
+03068,Dalgaon,352,6,Sarifuddin Ahmed,1016.0,IND,LOST,180322.0,0.0,352,AS,Assam,OTH,4
+03068,Dalgaon,351,5,Abdur Rahim,926.0,IND,LOST,180322.0,0.0,351,AS,Assam,OTH,5
+03068,Dalgaon,353,7,Mustafa Farook Ahmed,900.0,IND,LOST,180322.0,0.0,353,AS,Assam,OTH,6
+03068,Dalgaon,050,4,Ahmed Ali,707.0,LJP,LOST,180322.0,0.0,050,AS,Assam,OTH,7
+03068,Dalgaon,999,8,Nota,95.0,NOTA,LOST,180322.0,0.0,999,AS,Assam,OTH,8
+03069,Udalguri,021,2,Rihon Daimari,45037.0,BOPF,WON,109995.0,3.0,021,AS,Assam,BJP+,1
+03069,Udalguri,351,3,Anjali Prabha Daimari,20663.0,IND,LOST,109995.0,0.0,351,AS,Assam,OTH,2
+03069,Udalguri,352,4,Dilip Kr. Baro,20204.0,IND,LOST,109995.0,0.0,352,AS,Assam,OTH,3
+03069,Udalguri,034,1,Jaman Singh Brahma,16343.0,INC,LOST,109995.0,1.0,034,AS,Assam,CONG,4
+03069,Udalguri,353,5,Bipul Narzary,3624.0,IND,LOST,109995.0,0.0,353,AS,Assam,OTH,5
+03069,Udalguri,999,7,Nota,2456.0,NOTA,LOST,109995.0,0.0,999,AS,Assam,OTH,6
+03069,Udalguri,354,6,Santosh Madahi,1668.0,IND,LOST,109995.0,0.0,354,AS,Assam,OTH,7
+03070,Majbat,021,1,Charan Boro,48351.0,BOPF,WON,112032.0,3.0,021,AS,Assam,BJP+,1
+03070,Majbat,010,2,Teharu Gour,22133.0,AIUDF,LOST,112032.0,2.0,010,AS,Assam,AUDF,2
+03070,Majbat,034,3,Raphael Kujur,20577.0,INC,LOST,112032.0,1.0,034,AS,Assam,CONG,3
+03070,Majbat,354,8,Rabindra Basumatary,8763.0,IND,LOST,112032.0,0.0,354,AS,Assam,OTH,4
+03070,Majbat,357,11,Sapna Daimary,2841.0,IND,LOST,112032.0,0.0,357,AS,Assam,OTH,5
+03070,Majbat,352,6,Girish Chandra Chaudhury,2117.0,IND,LOST,112032.0,0.0,352,AS,Assam,OTH,6
+03070,Majbat,999,12,Nota,1974.0,NOTA,LOST,112032.0,0.0,999,AS,Assam,OTH,7
+03070,Majbat,356,10,Sunil Sarkar,1906.0,IND,LOST,112032.0,0.0,356,AS,Assam,OTH,8
+03070,Majbat,050,4,Baldev Chouhan,1276.0,LJP,LOST,112032.0,0.0,050,AS,Assam,OTH,9
+03070,Majbat,355,9,Lal Soren,1007.0,IND,LOST,112032.0,0.0,355,AS,Assam,OTH,10
+03070,Majbat,353,7,Manoj Kumar Tamuli,707.0,IND,LOST,112032.0,0.0,353,AS,Assam,OTH,11
+03070,Majbat,351,5,Abul Quasim,380.0,IND,LOST,112032.0,0.0,351,AS,Assam,OTH,12
+03071,Dhekiajuli,019,1,Ashok Singhal,71425.0,BJP,WON,144080.0,3.0,019,AS,Assam,BJP+,1
+03071,Dhekiajuli,034,3,Habul Chakraborty,36430.0,INC,LOST,144080.0,1.0,034,AS,Assam,CONG,2
+03071,Dhekiajuli,010,2,Dhaniram Rajowar,16690.0,AIUDF,LOST,144080.0,2.0,010,AS,Assam,AUDF,3
+03071,Dhekiajuli,352,5,Benudhar Nath,8142.0,IND,LOST,144080.0,0.0,352,AS,Assam,OTH,4
+03071,Dhekiajuli,355,8,Ranjay Basumatary,2972.0,IND,LOST,144080.0,0.0,355,AS,Assam,OTH,5
+03071,Dhekiajuli,999,10,Nota,2368.0,NOTA,LOST,144080.0,0.0,999,AS,Assam,OTH,6
+03071,Dhekiajuli,351,4,Jahirul Islam,2164.0,IND,LOST,144080.0,0.0,351,AS,Assam,OTH,7
+03071,Dhekiajuli,356,9,Satrughna Sasoni,1603.0,IND,LOST,144080.0,0.0,356,AS,Assam,OTH,8
+03071,Dhekiajuli,354,7,Mohan Ch Nag,1159.0,IND,LOST,144080.0,0.0,354,AS,Assam,OTH,9
+03071,Dhekiajuli,353,6,Manoranjan Daimari,1127.0,IND,LOST,144080.0,0.0,353,AS,Assam,OTH,10
+03072,Barchalla,019,1,Ganesh Kumar Limbu,53912.0,BJP,WON,119804.0,3.0,019,AS,Assam,BJP+,1
+03072,Barchalla,034,2,Tanka Bahadur Rai,30230.0,INC,LOST,119804.0,1.0,034,AS,Assam,CONG,2
+03072,Barchalla,010,3,Bina Daimari,23821.0,AIUDF,LOST,119804.0,2.0,010,AS,Assam,AUDF,3
+03072,Barchalla,351,4,Narayan Sarmah,8847.0,IND,LOST,119804.0,0.0,351,AS,Assam,OTH,4
+03072,Barchalla,999,6,Nota,1778.0,NOTA,LOST,119804.0,0.0,999,AS,Assam,OTH,5
+03072,Barchalla,352,5,Biphai Minj,1216.0,IND,LOST,119804.0,0.0,352,AS,Assam,OTH,6
+03073,Tezpur,013,1,Brindaban Goswami,71170.0,AGP,WON,135410.0,3.0,013,AS,Assam,BJP+,1
+03073,Tezpur,034,4,Hiranya Bhuyan,36507.0,INC,LOST,135410.0,1.0,034,AS,Assam,CONG,2
+03073,Tezpur,010,3,Sukendra Nath,22295.0,AIUDF,LOST,135410.0,2.0,010,AS,Assam,AUDF,3
+03073,Tezpur,999,9,Nota,1514.0,NOTA,LOST,135410.0,0.0,999,AS,Assam,OTH,4
+03073,Tezpur,351,7,Bizit Saikia,1096.0,IND,LOST,135410.0,0.0,351,AS,Assam,OTH,5
+03073,Tezpur,077,5,Nayan Moni Choudhury,855.0,SUCI(C),LOST,135410.0,0.0,077,AS,Assam,OTH,6
+03073,Tezpur,352,8,Bhabananda Deka,742.0,IND,LOST,135410.0,0.0,352,AS,Assam,OTH,7
+03073,Tezpur,038,6,Sujit Sarma,662.0,JMBP,LOST,135410.0,0.0,038,AS,Assam,OTH,8
+03073,Tezpur,056,2,Mahendra Bhuyan,569.0,NCP,LOST,135410.0,0.0,056,AS,Assam,OTH,9
+03074,Rangapara,019,1,Pallab Lochan Das,51597.0,BJP,WON,117485.0,3.0,019,AS,Assam,BJP+,1
+03074,Rangapara,034,3,Bhimananda Tanti,28606.0,INC,LOST,117485.0,1.0,034,AS,Assam,CONG,2
+03074,Rangapara,010,2,Bijoy Kumar Tiru,13281.0,AIUDF,LOST,117485.0,2.0,010,AS,Assam,AUDF,3
+03074,Rangapara,023,4,Royal Soreng,8033.0,CPI(M),LOST,117485.0,0.0,023,AS,Assam,OTH,4
+03074,Rangapara,354,8,Christopher Dhanwar,6415.0,IND,LOST,117485.0,0.0,354,AS,Assam,OTH,5
+03074,Rangapara,351,5,Abhijit Hazarika,3438.0,IND,LOST,117485.0,0.0,351,AS,Assam,OTH,6
+03074,Rangapara,999,11,Nota,2321.0,NOTA,LOST,117485.0,0.0,999,AS,Assam,OTH,7
+03074,Rangapara,355,9,Jitendra Kumar Sharma,1362.0,IND,LOST,117485.0,0.0,355,AS,Assam,OTH,8
+03074,Rangapara,356,10,Mithu Malakar,1255.0,IND,LOST,117485.0,0.0,356,AS,Assam,OTH,9
+03074,Rangapara,353,7,Abbas Khan,687.0,IND,LOST,117485.0,0.0,353,AS,Assam,OTH,10
+03074,Rangapara,352,6,Archana Paul Choudhury,490.0,IND,LOST,117485.0,0.0,352,AS,Assam,OTH,11
+03075,Sootea,019,1,Padma Hazarika,60440.0,BJP,WON,131702.0,3.0,019,AS,Assam,BJP+,1
+03075,Sootea,034,2,Praneswar Basumatary,58622.0,INC,LOST,131702.0,1.0,034,AS,Assam,CONG,2
+03075,Sootea,023,3,Khemraj Chetry,4914.0,CPI(M),LOST,131702.0,0.0,023,AS,Assam,OTH,3
+03075,Sootea,352,5,Jyoti Subba,2484.0,IND,LOST,131702.0,0.0,352,AS,Assam,OTH,4
+03075,Sootea,353,6,Mahendra Urang,2112.0,IND,LOST,131702.0,0.0,353,AS,Assam,OTH,5
+03075,Sootea,999,7,Nota,1941.0,NOTA,LOST,131702.0,0.0,999,AS,Assam,OTH,6
+03075,Sootea,351,4,Arun Nath,1189.0,IND,LOST,131702.0,0.0,351,AS,Assam,OTH,7
+03076,Biswanath,019,2,Promod Borthakur,64225.0,BJP,WON,122727.0,3.0,019,AS,Assam,BJP+,1
+03076,Biswanath,034,1,Nurjamal Sarkar,54105.0,INC,LOST,122727.0,1.0,034,AS,Assam,CONG,2
+03076,Biswanath,999,4,Nota,2341.0,NOTA,LOST,122727.0,0.0,999,AS,Assam,OTH,3
+03076,Biswanath,043,3,Gopi Chand Shahabadi,2056.0,JD(U),LOST,122727.0,0.0,043,AS,Assam,OTH,4
+03077,Behali,019,1,Ranjit Dutta,52152.0,BJP,WON,92796.0,3.0,019,AS,Assam,BJP+,1
+03077,Behali,034,2,Rupak Sarma,28551.0,INC,LOST,92796.0,1.0,034,AS,Assam,CONG,2
+03077,Behali,024,3,Bibek Das,8025.0,CPI(ML)(L),LOST,92796.0,0.0,024,AS,Assam,OTH,3
+03077,Behali,999,5,Nota,2495.0,NOTA,LOST,92796.0,0.0,999,AS,Assam,OTH,4
+03077,Behali,351,4,Zulfikar Hussain,1573.0,IND,LOST,92796.0,0.0,351,AS,Assam,OTH,5
+03078,Gohpur,019,1,Utpal Borah,85424.0,BJP,WON,146618.0,3.0,019,AS,Assam,BJP+,1
+03078,Gohpur,034,2,Monika Bora,56489.0,INC,LOST,146618.0,1.0,034,AS,Assam,CONG,2
+03078,Gohpur,999,6,Nota,1621.0,NOTA,LOST,146618.0,0.0,999,AS,Assam,OTH,3
+03078,Gohpur,024,3,Halan Purtti,1189.0,CPI(ML)(L),LOST,146618.0,0.0,024,AS,Assam,OTH,4
+03078,Gohpur,351,4,Sabir Narzary,967.0,IND,LOST,146618.0,0.0,351,AS,Assam,OTH,5
+03078,Gohpur,352,5,Deben Saikia,928.0,IND,LOST,146618.0,0.0,352,AS,Assam,OTH,6
+03079,Jagiroad,019,1,Shri Pijush Hazarika,94550.0,BJP,WON,171965.0,3.0,019,AS,Assam,BJP+,1
+03079,Jagiroad,034,3,Shri Bibekananda Dalai,66224.0,INC,LOST,171965.0,1.0,034,AS,Assam,CONG,2
+03079,Jagiroad,010,2,Shri Putul Das,7192.0,AIUDF,LOST,171965.0,2.0,010,AS,Assam,AUDF,3
+03079,Jagiroad,009,4,Shri Dilip Das,1357.0,AITC,LOST,171965.0,0.0,009,AS,Assam,OTH,4
+03079,Jagiroad,999,8,Nota,1142.0,NOTA,LOST,171965.0,0.0,999,AS,Assam,OTH,5
+03079,Jagiroad,018,5,Shri Sukanta Mazumdar,576.0,BGANP,LOST,171965.0,0.0,018,AS,Assam,OTH,6
+03079,Jagiroad,351,7,Smt. Mamani Das,523.0,IND,LOST,171965.0,0.0,351,AS,Assam,OTH,7
+03079,Jagiroad,049,6,Shri Surjya Kumar Das,401.0,LDP,LOST,171965.0,0.0,049,AS,Assam,OTH,8
+03080,Marigaon,019,3,Rama Kanta Dewri,80669.0,BJP,WON,141292.0,3.0,019,AS,Assam,BJP+,1
+03080,Marigaon,034,1,Jonjonali Baruah,51046.0,INC,LOST,141292.0,1.0,034,AS,Assam,CONG,2
+03080,Marigaon,022,2,Shri Munin Mahanta,3526.0,CPI,LOST,141292.0,0.0,022,AS,Assam,OTH,3
+03080,Marigaon,354,7,Sri Lachit Ch Medhi,2441.0,IND,LOST,141292.0,0.0,354,AS,Assam,OTH,4
+03080,Marigaon,353,6,Shri Ramen Nath,1403.0,IND,LOST,141292.0,0.0,353,AS,Assam,OTH,5
+03080,Marigaon,351,4,Khairun Nessa,920.0,IND,LOST,141292.0,0.0,351,AS,Assam,OTH,6
+03080,Marigaon,999,8,Nota,870.0,NOTA,LOST,141292.0,0.0,999,AS,Assam,OTH,7
+03080,Marigaon,352,5,Dr. Dhiren Chandra Nath,417.0,IND,LOST,141292.0,0.0,352,AS,Assam,OTH,8
+03081,Laharighat,034,2,Dr. Nazrul Islam,57904.0,INC,WON,139870.0,1.0,034,AS,Assam,CONG,1
+03081,Laharighat,010,1,Siddique Ahmed,52098.0,AIUDF,LOST,139870.0,2.0,010,AS,Assam,AUDF,2
+03081,Laharighat,013,3,Shri Jadumoni Patar,25692.0,AGP,LOST,139870.0,3.0,013,AS,Assam,BJP+,3
+03081,Laharighat,352,5,Shri Rabindra Nath Biswas,1752.0,IND,LOST,139870.0,0.0,352,AS,Assam,OTH,4
+03081,Laharighat,351,4,Shri Ranjit Kumar Deka,1494.0,IND,LOST,139870.0,0.0,351,AS,Assam,OTH,5
+03081,Laharighat,999,6,Nota,930.0,NOTA,LOST,139870.0,0.0,999,AS,Assam,OTH,6
+03082,Raha,019,2,Dimbeswar Das,76941.0,BJP,WON,161627.0,3.0,019,AS,Assam,BJP+,1
+03082,Raha,034,3,Sashi Kanta Das,43867.0,INC,LOST,161627.0,1.0,034,AS,Assam,CONG,2
+03082,Raha,010,1,Guneswar Das,38767.0,AIUDF,LOST,161627.0,2.0,010,AS,Assam,AUDF,3
+03082,Raha,999,4,Nota,2052.0,NOTA,LOST,161627.0,0.0,999,AS,Assam,OTH,4
+03083,Dhing,010,2,Aminul Islam,82786.0,AIUDF,WON,173259.0,2.0,010,AS,Assam,AUDF,1
+03083,Dhing,034,1,Anwar Hussain,58233.0,INC,LOST,173259.0,1.0,034,AS,Assam,CONG,2
+03083,Dhing,351,7,Muzibur Rahman,17807.0,IND,LOST,173259.0,0.0,351,AS,Assam,OTH,3
+03083,Dhing,019,3,Mukut Kumar Debnath,8958.0,BJP,LOST,173259.0,3.0,019,AS,Assam,BJP+,4
+03083,Dhing,999,10,Nota,1358.0,NOTA,LOST,173259.0,0.0,999,AS,Assam,OTH,5
+03083,Dhing,353,9,Mubarak Ali Pathan,1004.0,IND,LOST,173259.0,0.0,353,AS,Assam,OTH,6
+03083,Dhing,352,8,Mainul Hoque,843.0,IND,LOST,173259.0,0.0,352,AS,Assam,OTH,7
+03083,Dhing,038,6,Rajani Kanta Nath,823.0,JMBP,LOST,173259.0,0.0,038,AS,Assam,OTH,8
+03083,Dhing,069,4,Jamanur Rahman,737.0,RCPI(R),LOST,173259.0,0.0,069,AS,Assam,OTH,9
+03083,Dhing,009,5,Jehirul Islam,710.0,AITC,LOST,173259.0,0.0,009,AS,Assam,OTH,10
+03084,Batadroba,019,1,Angoorlata Deka,46343.0,BJP,WON,123226.0,3.0,019,AS,Assam,BJP+,1
+03084,Batadroba,034,2,Gautam Bora,40458.0,INC,LOST,123226.0,1.0,034,AS,Assam,CONG,2
+03084,Batadroba,010,3,Najir Uddin Ahmed,33022.0,AIUDF,LOST,123226.0,2.0,010,AS,Assam,AUDF,3
+03084,Batadroba,353,8,Rajasree Bora,830.0,IND,LOST,123226.0,0.0,353,AS,Assam,OTH,4
+03084,Batadroba,999,9,Nota,792.0,NOTA,LOST,123226.0,0.0,999,AS,Assam,OTH,5
+03084,Batadroba,024,4,Sri Arup Kumar Mahanta,559.0,CPI(ML)(L),LOST,123226.0,0.0,024,AS,Assam,OTH,6
+03084,Batadroba,352,7,Mukul Borah,551.0,IND,LOST,123226.0,0.0,352,AS,Assam,OTH,7
+03084,Batadroba,017,5,Paban Pran Rabi Das,434.0,BVM,LOST,123226.0,0.0,017,AS,Assam,OTH,8
+03084,Batadroba,351,6,Dilwar Ahmed,237.0,IND,LOST,123226.0,0.0,351,AS,Assam,OTH,9
+03085,Rupohihat,034,3,Nurul Huda,72627.0,INC,WON,152895.0,1.0,034,AS,Assam,CONG,1
+03085,Rupohihat,010,2,Nurul Amin Chowdhury,50783.0,AIUDF,LOST,152895.0,2.0,010,AS,Assam,AUDF,2
+03085,Rupohihat,019,1,Jakaria Haque Choudhury,15963.0,BJP,LOST,152895.0,3.0,019,AS,Assam,BJP+,3
+03085,Rupohihat,351,5,Abdul Aziz,9671.0,IND,LOST,152895.0,0.0,351,AS,Assam,OTH,4
+03085,Rupohihat,040,4,Abu Hanifa,1019.0,JNCP,LOST,152895.0,0.0,040,AS,Assam,OTH,5
+03085,Rupohihat,353,7,Faizur Rahman,901.0,IND,LOST,152895.0,0.0,353,AS,Assam,OTH,6
+03085,Rupohihat,999,9,Nota,803.0,NOTA,LOST,152895.0,0.0,999,AS,Assam,OTH,7
+03085,Rupohihat,354,8,Biju Boro,709.0,IND,LOST,152895.0,0.0,354,AS,Assam,OTH,8
+03085,Rupohihat,352,6,Nazir Hussain,419.0,IND,LOST,152895.0,0.0,352,AS,Assam,OTH,9
+03086,Nowgong,019,3,Rupak Sarmah,66706.0,BJP,WON,140655.0,3.0,019,AS,Assam,BJP+,1
+03086,Nowgong,034,2,Dr. Durlav Chamua,53442.0,INC,LOST,140655.0,1.0,034,AS,Assam,CONG,2
+03086,Nowgong,010,1,Kartick Saha,18038.0,AIUDF,LOST,140655.0,2.0,010,AS,Assam,AUDF,3
+03086,Nowgong,999,9,Nota,782.0,NOTA,LOST,140655.0,0.0,999,AS,Assam,OTH,4
+03086,Nowgong,003,4,Biren Chandra Das,491.0,ABHM,LOST,140655.0,0.0,003,AS,Assam,OTH,5
+03086,Nowgong,353,8,Shantana Mahato,376.0,IND,LOST,140655.0,0.0,353,AS,Assam,OTH,6
+03086,Nowgong,352,7,Jesmin Ahmed,322.0,IND,LOST,140655.0,0.0,352,AS,Assam,OTH,7
+03086,Nowgong,009,5,Mihir Paul,268.0,AITC,LOST,140655.0,0.0,009,AS,Assam,OTH,8
+03086,Nowgong,351,6,Anser Ali Alom,230.0,IND,LOST,140655.0,0.0,351,AS,Assam,OTH,9
+03087,Barhampur,013,1,Sri Prafulla Kumar Mahanta,65768.0,AGP,WON,135790.0,3.0,013,AS,Assam,BJP+,1
+03087,Barhampur,034,4,Suresh Bora,60599.0,INC,LOST,135790.0,1.0,034,AS,Assam,CONG,2
+03087,Barhampur,010,3,Shariful Islam Siddique,2787.0,AIUDF,LOST,135790.0,2.0,010,AS,Assam,AUDF,3
+03087,Barhampur,022,2,Lakhan Ch.Mirdha,1687.0,CPI,LOST,135790.0,0.0,022,AS,Assam,OTH,4
+03087,Barhampur,353,10,Prahlad Chandra Bhuyan,1184.0,IND,LOST,135790.0,0.0,353,AS,Assam,OTH,5
+03087,Barhampur,999,11,Nota,1179.0,NOTA,LOST,135790.0,0.0,999,AS,Assam,OTH,6
+03087,Barhampur,063,5,Abida Begum,754.0,RAJPA,LOST,135790.0,0.0,063,AS,Assam,OTH,7
+03087,Barhampur,029,6,Pawan Panika,607.0,FDLP,LOST,135790.0,0.0,029,AS,Assam,OTH,8
+03087,Barhampur,351,8,Abdul Ali,480.0,IND,LOST,135790.0,0.0,351,AS,Assam,OTH,9
+03087,Barhampur,352,9,Debabrata Saikia,461.0,IND,LOST,135790.0,0.0,352,AS,Assam,OTH,10
+03087,Barhampur,077,7,Sona Ram Bora,284.0,SUCI(C),LOST,135790.0,0.0,077,AS,Assam,OTH,11
+03088,Samaguri,034,3,Rakibul Hussain,66364.0,INC,WON,127751.0,1.0,034,AS,Assam,CONG,1
+03088,Samaguri,019,1,Jitu Goswami,51849.0,BJP,LOST,127751.0,3.0,019,AS,Assam,BJP+,2
+03088,Samaguri,010,2,Moskur Rahman Choudhury,6726.0,AIUDF,LOST,127751.0,2.0,010,AS,Assam,AUDF,3
+03088,Samaguri,351,4,Sri Chitta Ranjan Paul,1282.0,IND,LOST,127751.0,0.0,351,AS,Assam,OTH,4
+03088,Samaguri,999,6,Nota,968.0,NOTA,LOST,127751.0,0.0,999,AS,Assam,OTH,5
+03088,Samaguri,352,5,Pradip Kalita,562.0,IND,LOST,127751.0,0.0,352,AS,Assam,OTH,6
+03089,Kaliabor,013,1,Keshab Mahanta,64759.0,AGP,WON,104407.0,3.0,013,AS,Assam,BJP+,1
+03089,Kaliabor,034,4,Bindu Ganju,26769.0,INC,LOST,104407.0,1.0,034,AS,Assam,CONG,2
+03089,Kaliabor,010,3,Boloram Nag,3682.0,AIUDF,LOST,104407.0,2.0,010,AS,Assam,AUDF,3
+03089,Kaliabor,352,8,Bijay Kumar Chamaria,2325.0,IND,LOST,104407.0,0.0,352,AS,Assam,OTH,4
+03089,Kaliabor,022,2,Promode Bhuyan,2063.0,CPI,LOST,104407.0,0.0,022,AS,Assam,OTH,5
+03089,Kaliabor,999,10,Nota,1626.0,NOTA,LOST,104407.0,0.0,999,AS,Assam,OTH,6
+03089,Kaliabor,351,7,Jayanta Orang,1016.0,IND,LOST,104407.0,0.0,351,AS,Assam,OTH,7
+03089,Kaliabor,049,6,Bhupen Chandra Borah,870.0,LDP,LOST,104407.0,0.0,049,AS,Assam,OTH,8
+03089,Kaliabor,353,9,Bhaskar Sharma,794.0,IND,LOST,104407.0,0.0,353,AS,Assam,OTH,9
+03089,Kaliabor,017,5,Biren Mirdha,503.0,BVM,LOST,104407.0,0.0,017,AS,Assam,OTH,10
+03090,Jamunamukh,010,1,Abdur Rahim Ajmal,65599.0,AIUDF,WON,154088.0,2.0,010,AS,Assam,AUDF,1
+03090,Jamunamukh,357,12,Rejaul Karim Chowdhury,52394.0,IND,LOST,154088.0,0.0,357,AS,Assam,OTH,2
+03090,Jamunamukh,034,3,Bashir Uddin Laskar,23849.0,INC,LOST,154088.0,1.0,034,AS,Assam,CONG,3
+03090,Jamunamukh,013,2,Zia Uddin Ahmed,4732.0,AGP,LOST,154088.0,3.0,013,AS,Assam,BJP+,4
+03090,Jamunamukh,354,9,Badar Uddin,1956.0,IND,LOST,154088.0,0.0,354,AS,Assam,OTH,5
+03090,Jamunamukh,999,15,Nota,1129.0,NOTA,LOST,154088.0,0.0,999,AS,Assam,OTH,6
+03090,Jamunamukh,351,6,Abdul Wahid,904.0,IND,LOST,154088.0,0.0,351,AS,Assam,OTH,7
+03090,Jamunamukh,358,13,Shamal Das,756.0,IND,LOST,154088.0,0.0,358,AS,Assam,OTH,8
+03090,Jamunamukh,359,14,Sumitra Borah,653.0,IND,LOST,154088.0,0.0,359,AS,Assam,OTH,9
+03090,Jamunamukh,356,11,Jugal Bodo (Dilu),611.0,IND,LOST,154088.0,0.0,356,AS,Assam,OTH,10
+03090,Jamunamukh,040,4,Nurul Hoque,489.0,JNCP,LOST,154088.0,0.0,040,AS,Assam,OTH,11
+03090,Jamunamukh,038,5,Sunti Bora,309.0,JMBP,LOST,154088.0,0.0,038,AS,Assam,OTH,12
+03090,Jamunamukh,355,10,Minaz Uddin,266.0,IND,LOST,154088.0,0.0,355,AS,Assam,OTH,13
+03090,Jamunamukh,353,8,Basir Uddin,233.0,IND,LOST,154088.0,0.0,353,AS,Assam,OTH,14
+03090,Jamunamukh,352,7,Kamal Uddin,208.0,IND,LOST,154088.0,0.0,352,AS,Assam,OTH,15
+03091,Hojai,019,3,Shiladitya Dev,105615.0,BJP,WON,194147.0,3.0,019,AS,Assam,BJP+,1
+03091,Hojai,010,2,Dhaniram Thousen,49756.0,AIUDF,LOST,194147.0,2.0,010,AS,Assam,AUDF,2
+03091,Hojai,034,1,Ardhendu Kumar Dey,35207.0,INC,LOST,194147.0,1.0,034,AS,Assam,CONG,3
+03091,Hojai,351,4,Md Zakir Hussain,1432.0,IND,LOST,194147.0,0.0,351,AS,Assam,OTH,4
+03091,Hojai,999,6,Nota,1342.0,NOTA,LOST,194147.0,0.0,999,AS,Assam,OTH,5
+03091,Hojai,352,5,Mainul Hoque,795.0,IND,LOST,194147.0,0.0,352,AS,Assam,OTH,6
+03092,Lumding,019,2,Sibu Misra,72072.0,BJP,WON,156524.0,3.0,019,AS,Assam,BJP+,1
+03092,Lumding,034,1,Netra Ranjan Mahanta,41672.0,INC,LOST,156524.0,1.0,034,AS,Assam,CONG,2
+03092,Lumding,010,3,Swapan Kar,39075.0,AIUDF,LOST,156524.0,2.0,010,AS,Assam,AUDF,3
+03092,Lumding,999,7,Nota,1232.0,NOTA,LOST,156524.0,0.0,999,AS,Assam,OTH,4
+03092,Lumding,351,5,Ujjal Deb,1109.0,IND,LOST,156524.0,0.0,351,AS,Assam,OTH,5
+03092,Lumding,040,4,Kamrul Islam Barbhuyan,746.0,JNCP,LOST,156524.0,0.0,040,AS,Assam,OTH,6
+03092,Lumding,352,6,Kamal Patar,618.0,IND,LOST,156524.0,0.0,352,AS,Assam,OTH,7
+03093,Bokakhat,013,1,Atul Bora,62962.0,AGP,WON,105454.0,3.0,013,AS,Assam,BJP+,1
+03093,Bokakhat,034,2,Arun Phukan,22769.0,INC,LOST,105454.0,1.0,034,AS,Assam,CONG,2
+03093,Bokakhat,351,3,Anima Gogoi,11872.0,IND,LOST,105454.0,0.0,351,AS,Assam,OTH,3
+03093,Bokakhat,354,6,Reba Kanta Gogoi,3414.0,IND,LOST,105454.0,0.0,354,AS,Assam,OTH,4
+03093,Bokakhat,999,7,Nota,2181.0,NOTA,LOST,105454.0,0.0,999,AS,Assam,OTH,5
+03093,Bokakhat,352,4,Bijoy Kutum,1351.0,IND,LOST,105454.0,0.0,352,AS,Assam,OTH,6
+03093,Bokakhat,353,5,Mrityunjoy Pegu,905.0,IND,LOST,105454.0,0.0,353,AS,Assam,OTH,7
+03094,Sarupathar,034,2,Roselina Tirkey,67150.0,INC,WON,186263.0,1.0,034,AS,Assam,CONG,1
+03094,Sarupathar,013,1,Binod Gowalla,64223.0,AGP,LOST,186263.0,3.0,013,AS,Assam,BJP+,2
+03094,Sarupathar,352,5,Biswajit Phukan,37281.0,IND,LOST,186263.0,0.0,352,AS,Assam,OTH,3
+03094,Sarupathar,010,3,Satya Dev Sahu,7596.0,AIUDF,LOST,186263.0,2.0,010,AS,Assam,AUDF,4
+03094,Sarupathar,353,6,Bhadreswar Tanti,4058.0,IND,LOST,186263.0,0.0,353,AS,Assam,OTH,5
+03094,Sarupathar,999,8,Nota,3212.0,NOTA,LOST,186263.0,0.0,999,AS,Assam,OTH,6
+03094,Sarupathar,354,7,Ruhit Basumatary,1554.0,IND,LOST,186263.0,0.0,354,AS,Assam,OTH,7
+03094,Sarupathar,351,4,Dipu Saikia,1189.0,IND,LOST,186263.0,0.0,351,AS,Assam,OTH,8
+03095,Golaghat,034,1,Ajanta Neog,73862.0,INC,WON,147225.0,1.0,034,AS,Assam,CONG,1
+03095,Golaghat,019,3,Bitupan Saikia,68649.0,BJP,LOST,147225.0,3.0,019,AS,Assam,BJP+,2
+03095,Golaghat,010,2,Syed Jahid Abdullah,1804.0,AIUDF,LOST,147225.0,2.0,010,AS,Assam,AUDF,3
+03095,Golaghat,999,5,Nota,1717.0,NOTA,LOST,147225.0,0.0,999,AS,Assam,OTH,4
+03095,Golaghat,351,4,Dipankar Das,1193.0,IND,LOST,147225.0,0.0,351,AS,Assam,OTH,5
+03096,Khumtai,019,3,Mrinal Saikia,57637.0,BJP,WON,104267.0,3.0,019,AS,Assam,BJP+,1
+03096,Khumtai,034,2,Bismita Gogoi,40763.0,INC,LOST,104267.0,1.0,034,AS,Assam,CONG,2
+03096,Khumtai,022,4,Lalan Thakur,2005.0,CPI,LOST,104267.0,0.0,022,AS,Assam,OTH,3
+03096,Khumtai,010,1,Sahjahan Ali,1763.0,AIUDF,LOST,104267.0,2.0,010,AS,Assam,AUDF,4
+03096,Khumtai,999,6,Nota,1286.0,NOTA,LOST,104267.0,0.0,999,AS,Assam,OTH,5
+03096,Khumtai,351,5,Hemanta Doloi,813.0,IND,LOST,104267.0,0.0,351,AS,Assam,OTH,6
+03097,Dergaon,013,3,Bhabendra Nath Bharali,63079.0,AGP,WON,120611.0,3.0,013,AS,Assam,BJP+,1
+03097,Dergaon,034,2,Aroti Hazarika Kachari,46807.0,INC,LOST,120611.0,1.0,034,AS,Assam,CONG,2
+03097,Dergaon,352,5,Rita Das,3622.0,IND,LOST,120611.0,0.0,352,AS,Assam,OTH,3
+03097,Dergaon,351,4,Bhuban Chandra Saikia,3225.0,IND,LOST,120611.0,0.0,351,AS,Assam,OTH,4
+03097,Dergaon,999,6,Nota,2050.0,NOTA,LOST,120611.0,0.0,999,AS,Assam,OTH,5
+03097,Dergaon,056,1,Ajit Hazarika,1828.0,NCP,LOST,120611.0,0.0,056,AS,Assam,OTH,6
+03098,Jorhat,019,4,Hitendra Nath Goswami,69209.0,BJP,WON,130809.0,3.0,019,AS,Assam,BJP+,1
+03098,Jorhat,034,2,Rana Goswami,55571.0,INC,LOST,130809.0,1.0,034,AS,Assam,CONG,2
+03098,Jorhat,023,1,Nirmal Chandra Gogoi,1548.0,CPI(M),LOST,130809.0,0.0,023,AS,Assam,OTH,3
+03098,Jorhat,049,5,Prodyut Kumar Bora,1372.0,LDP,LOST,130809.0,0.0,049,AS,Assam,OTH,4
+03098,Jorhat,999,8,Nota,1184.0,NOTA,LOST,130809.0,0.0,999,AS,Assam,OTH,5
+03098,Jorhat,010,3,Sanjeev Rajkhowa,842.0,AIUDF,LOST,130809.0,2.0,010,AS,Assam,AUDF,6
+03098,Jorhat,352,7,Bhaskar Jyoti Mahanta,635.0,IND,LOST,130809.0,0.0,352,AS,Assam,OTH,7
+03098,Jorhat,351,6,Jibon Chandra Sarmah,448.0,IND,LOST,130809.0,0.0,351,AS,Assam,OTH,8
+03099,Majuli,019,2,Sarbananda Sonowal,49602.0,BJP,WON,97761.0,3.0,019,AS,Assam,BJP+,1
+03099,Majuli,034,1,Rajib Lochan Pegu,30679.0,INC,LOST,97761.0,1.0,034,AS,Assam,CONG,2
+03099,Majuli,351,4,Ranjit Doley,15695.0,IND,LOST,97761.0,0.0,351,AS,Assam,OTH,3
+03099,Majuli,999,5,Nota,987.0,NOTA,LOST,97761.0,0.0,999,AS,Assam,OTH,4
+03099,Majuli,077,3,Hemanta Pegu,798.0,SUCI(C),LOST,97761.0,0.0,077,AS,Assam,OTH,5
+03100,Titabar,034,3,Sri Tarun Gogoi,62025.0,INC,WON,113504.0,1.0,034,AS,Assam,CONG,1
+03100,Titabar,019,1,Sri Kamakhya Prasad Tasa,44530.0,BJP,LOST,113504.0,3.0,019,AS,Assam,BJP+,2
+03100,Titabar,022,2,Sri Kula Das,2413.0,CPI,LOST,113504.0,0.0,022,AS,Assam,OTH,3
+03100,Titabar,999,7,Nota,1726.0,NOTA,LOST,113504.0,0.0,999,AS,Assam,OTH,4
+03100,Titabar,017,4,Sri Biren Gogoi,1332.0,BVM,LOST,113504.0,0.0,017,AS,Assam,OTH,5
+03100,Titabar,351,5,Sri Dilip Gogoi,763.0,IND,LOST,113504.0,0.0,351,AS,Assam,OTH,6
+03100,Titabar,352,6,Nang Smritirekha Shyam,715.0,IND,LOST,113504.0,0.0,352,AS,Assam,OTH,7
+03101,Mariani,034,3,Rupjyoti Kurmi,36701.0,INC,WON,90548.0,1.0,034,AS,Assam,CONG,1
+03101,Mariani,056,1,Alok Kumar Ghosh,34908.0,NCP,LOST,90548.0,0.0,056,AS,Assam,OTH,2
+03101,Mariani,019,2,Dulen Nayak,14602.0,BJP,LOST,90548.0,3.0,019,AS,Assam,BJP+,3
+03101,Mariani,351,4,Dr. Jintu Hazarika,1954.0,IND,LOST,90548.0,0.0,351,AS,Assam,OTH,4
+03101,Mariani,999,6,Nota,1613.0,NOTA,LOST,90548.0,0.0,999,AS,Assam,OTH,5
+03101,Mariani,352,5,Diganta Phukan,770.0,IND,LOST,90548.0,0.0,352,AS,Assam,OTH,6
+03102,Teok,013,2,Renupoma Rajkhowa,40928.0,AGP,WON,95446.0,3.0,013,AS,Assam,BJP+,1
+03102,Teok,034,1,Pallabi Saikia Gogoi,35879.0,INC,LOST,95446.0,1.0,034,AS,Assam,CONG,2
+03102,Teok,353,6,Gojanand Munda,3923.0,IND,LOST,95446.0,0.0,353,AS,Assam,OTH,3
+03102,Teok,355,8,Bubul Dutta,3645.0,IND,LOST,95446.0,0.0,355,AS,Assam,OTH,4
+03102,Teok,356,9,Mohendra Kumar Gogoi,3270.0,IND,LOST,95446.0,0.0,356,AS,Assam,OTH,5
+03102,Teok,024,3,Jiten Tanti,1611.0,CPI(ML)(L),LOST,95446.0,0.0,024,AS,Assam,OTH,6
+03102,Teok,999,12,Nota,1570.0,NOTA,LOST,95446.0,0.0,999,AS,Assam,OTH,7
+03102,Teok,358,11,Ranjan Jyoti Phukon,1441.0,IND,LOST,95446.0,0.0,358,AS,Assam,OTH,8
+03102,Teok,354,7,Chiranjit Borah,1088.0,IND,LOST,95446.0,0.0,354,AS,Assam,OTH,9
+03102,Teok,352,5,Krishnaa Gogoi,811.0,IND,LOST,95446.0,0.0,352,AS,Assam,OTH,10
+03102,Teok,351,4,Ashraf Hussain,753.0,IND,LOST,95446.0,0.0,351,AS,Assam,OTH,11
+03102,Teok,357,10,Jotin Saikia,527.0,IND,LOST,95446.0,0.0,357,AS,Assam,OTH,12
+03103,Amguri,013,3,Prodip Hazarika,42010.0,AGP,WON,96014.0,3.0,013,AS,Assam,BJP+,1
+03103,Amguri,034,1,Angkita Dutta,40390.0,INC,LOST,96014.0,1.0,034,AS,Assam,CONG,2
+03103,Amguri,354,8,Dulal Baruah,5498.0,IND,LOST,96014.0,0.0,354,AS,Assam,OTH,3
+03103,Amguri,352,6,Janardan Hazarika,3420.0,IND,LOST,96014.0,0.0,352,AS,Assam,OTH,4
+03103,Amguri,999,9,Nota,1399.0,NOTA,LOST,96014.0,0.0,999,AS,Assam,OTH,5
+03103,Amguri,353,7,Dilram Karmakar,1053.0,IND,LOST,96014.0,0.0,353,AS,Assam,OTH,6
+03103,Amguri,010,2,Gayatri Borah Kalita,873.0,AIUDF,LOST,96014.0,2.0,010,AS,Assam,AUDF,7
+03103,Amguri,007,4,Rajkumar Dowarah,699.0,AIFB,LOST,96014.0,0.0,007,AS,Assam,OTH,8
+03103,Amguri,351,5,Anwar Hussain,672.0,IND,LOST,96014.0,0.0,351,AS,Assam,OTH,9
+03104,Nazira,034,2,Debabrata Saikia,52869.0,INC,WON,98321.0,1.0,034,AS,Assam,CONG,1
+03104,Nazira,019,3,Prohlad Gowala,38014.0,BJP,LOST,98321.0,3.0,019,AS,Assam,BJP+,2
+03104,Nazira,022,1,Kanak Gogoi,4507.0,CPI,LOST,98321.0,0.0,022,AS,Assam,OTH,3
+03104,Nazira,351,4,Ribulaya Gogoi,1501.0,IND,LOST,98321.0,0.0,351,AS,Assam,OTH,4
+03104,Nazira,999,5,Nota,1430.0,NOTA,LOST,98321.0,0.0,999,AS,Assam,OTH,5
+03105,Mahmara,019,1,Jogen Mohan,49036.0,BJP,WON,103228.0,3.0,019,AS,Assam,BJP+,1
+03105,Mahmara,034,3,Suruj Dehingia,34711.0,INC,LOST,103228.0,1.0,034,AS,Assam,CONG,2
+03105,Mahmara,013,4,Hiranya Kumar Konwar,9316.0,AGP,LOST,103228.0,3.0,013,AS,Assam,BJP+,3
+03105,Mahmara,353,12,Hemen Pegu,2194.0,IND,LOST,103228.0,0.0,353,AS,Assam,OTH,4
+03105,Mahmara,999,13,Nota,1795.0,NOTA,LOST,103228.0,0.0,999,AS,Assam,OTH,5
+03105,Mahmara,017,8,Baldev Teli,1178.0,BVM,LOST,103228.0,0.0,017,AS,Assam,OTH,6
+03105,Mahmara,352,11,Prasun Rajkonwar,1140.0,IND,LOST,103228.0,0.0,352,AS,Assam,OTH,7
+03105,Mahmara,040,9,Sunit Kumar Mahanta,872.0,JNCP,LOST,103228.0,0.0,040,AS,Assam,OTH,8
+03105,Mahmara,056,2,Rajen Gogoi,812.0,NCP,LOST,103228.0,0.0,056,AS,Assam,OTH,9
+03105,Mahmara,049,5,Kali Boruah,744.0,LDP,LOST,103228.0,0.0,049,AS,Assam,OTH,10
+03105,Mahmara,351,10,Dibya Buragohain Gogoi,731.0,IND,LOST,103228.0,0.0,351,AS,Assam,OTH,11
+03105,Mahmara,069,7,Nityananda Gogoi,448.0,RCPI(R),LOST,103228.0,0.0,069,AS,Assam,OTH,12
+03105,Mahmara,063,6,Girish Phukon,251.0,RAJPA,LOST,103228.0,0.0,063,AS,Assam,OTH,13
+03106,Sonari,019,1,Topon Kumar Gogoi,73327.0,BJP,WON,131346.0,3.0,019,AS,Assam,BJP+,1
+03106,Sonari,034,2,Sarat Barkataky,49210.0,INC,LOST,131346.0,1.0,034,AS,Assam,CONG,2
+03106,Sonari,999,8,Nota,3144.0,NOTA,LOST,131346.0,0.0,999,AS,Assam,OTH,3
+03106,Sonari,351,7,Ratan Hemrom,1579.0,IND,LOST,131346.0,0.0,351,AS,Assam,OTH,4
+03106,Sonari,043,3,Anup Bhowmik,1330.0,JD(U),LOST,131346.0,0.0,043,AS,Assam,OTH,5
+03106,Sonari,017,4,Bishnu Koya,1254.0,BVM,LOST,131346.0,0.0,017,AS,Assam,OTH,6
+03106,Sonari,040,6,Raymond Kujur,770.0,JNCP,LOST,131346.0,0.0,040,AS,Assam,OTH,7
+03106,Sonari,049,5,Monil Bokalial,732.0,LDP,LOST,131346.0,0.0,049,AS,Assam,OTH,8
+03107,Thowra,019,1,Kushal Dowari,41560.0,BJP,WON,85836.0,3.0,019,AS,Assam,BJP+,1
+03107,Thowra,034,3,Sushanta Borgohain,40334.0,INC,LOST,85836.0,1.0,034,AS,Assam,CONG,2
+03107,Thowra,022,2,Kushal Borgohain,2066.0,CPI,LOST,85836.0,0.0,022,AS,Assam,OTH,3
+03107,Thowra,999,4,Nota,1876.0,NOTA,LOST,85836.0,0.0,999,AS,Assam,OTH,4
+03108,Sibsagar,034,3,Pranab Kumar Gogoi,48584.0,INC,WON,113331.0,1.0,034,AS,Assam,CONG,1
+03108,Sibsagar,019,4,Surabhi Rajkonwar,48042.0,BJP,LOST,113331.0,3.0,019,AS,Assam,BJP+,2
+03108,Sibsagar,351,6,Ashini Kumar Chetia,10188.0,IND,LOST,113331.0,0.0,351,AS,Assam,OTH,3
+03108,Sibsagar,022,1,Jiten Borpatra Gohain,2174.0,CPI,LOST,113331.0,0.0,022,AS,Assam,OTH,4
+03108,Sibsagar,353,8,Jayanta Rajkonwar,1506.0,IND,LOST,113331.0,0.0,353,AS,Assam,OTH,5
+03108,Sibsagar,999,9,Nota,893.0,NOTA,LOST,113331.0,0.0,999,AS,Assam,OTH,6
+03108,Sibsagar,352,7,Anwar Hussain,722.0,IND,LOST,113331.0,0.0,352,AS,Assam,OTH,7
+03108,Sibsagar,010,2,Dilshad Hussain Ahmed,663.0,AIUDF,LOST,113331.0,2.0,010,AS,Assam,AUDF,8
+03108,Sibsagar,049,5,Dr. Gunin Basumatari,559.0,LDP,LOST,113331.0,0.0,049,AS,Assam,OTH,9
+03109,Bihpuria,019,1,Debananda Hazarika,66563.0,BJP,WON,109694.0,3.0,019,AS,Assam,BJP+,1
+03109,Bihpuria,034,2,Bhupen Kumar Borah,40376.0,INC,LOST,109694.0,1.0,034,AS,Assam,CONG,2
+03109,Bihpuria,999,6,Nota,834.0,NOTA,LOST,109694.0,0.0,999,AS,Assam,OTH,3
+03109,Bihpuria,352,5,Premadhar Bora,754.0,IND,LOST,109694.0,0.0,352,AS,Assam,OTH,4
+03109,Bihpuria,066,3,Sundar Deori,693.0,RSSC,LOST,109694.0,0.0,066,AS,Assam,OTH,5
+03109,Bihpuria,351,4,Gargi Deori,474.0,IND,LOST,109694.0,0.0,351,AS,Assam,OTH,6
+03110,Naoboicha,010,2,Mamun Imdadul Haque Chawdhury,56003.0,AIUDF,WON,162236.0,2.0,010,AS,Assam,AUDF,1
+03110,Naoboicha,019,3,Rao Gajendra Singh,54770.0,BJP,LOST,162236.0,3.0,019,AS,Assam,BJP+,2
+03110,Naoboicha,034,4,Sanjay Raj Subba,33862.0,INC,LOST,162236.0,1.0,034,AS,Assam,CONG,3
+03110,Naoboicha,013,1,Jayanta Khaund,8070.0,AGP,LOST,162236.0,3.0,013,AS,Assam,BJP+,4
+03110,Naoboicha,356,11,Simanta Baruah,2787.0,IND,LOST,162236.0,0.0,356,AS,Assam,OTH,5
+03110,Naoboicha,355,10,Pawan Majhi Sautal,2481.0,IND,LOST,162236.0,0.0,355,AS,Assam,OTH,6
+03110,Naoboicha,999,12,Nota,1176.0,NOTA,LOST,162236.0,0.0,999,AS,Assam,OTH,7
+03110,Naoboicha,351,6,Saheba Ahmed,827.0,IND,LOST,162236.0,0.0,351,AS,Assam,OTH,8
+03110,Naoboicha,077,5,Anupam Chutia,737.0,SUCI(C),LOST,162236.0,0.0,077,AS,Assam,OTH,9
+03110,Naoboicha,354,9,Dr. Debabrat Gogoi,640.0,IND,LOST,162236.0,0.0,354,AS,Assam,OTH,10
+03110,Naoboicha,352,7,Safiqul Islam,512.0,IND,LOST,162236.0,0.0,352,AS,Assam,OTH,11
+03110,Naoboicha,353,8,Dilwar Hussain,371.0,IND,LOST,162236.0,0.0,353,AS,Assam,OTH,12
+03111,Lakhimpur,013,2,Utpal Dutta,45917.0,AGP,WON,135518.0,3.0,013,AS,Assam,BJP+,1
+03111,Lakhimpur,034,3,Joy Prakash Das,41762.0,INC,LOST,135518.0,1.0,034,AS,Assam,CONG,2
+03111,Lakhimpur,352,7,Ghana Buragohain,23493.0,IND,LOST,135518.0,0.0,352,AS,Assam,OTH,3
+03111,Lakhimpur,357,12,Mahim Hazarika,11272.0,IND,LOST,135518.0,0.0,357,AS,Assam,OTH,4
+03111,Lakhimpur,351,6,Uday Shankar Hazarika,4750.0,IND,LOST,135518.0,0.0,351,AS,Assam,OTH,5
+03111,Lakhimpur,010,4,Dipak Chetia,1313.0,AIUDF,LOST,135518.0,2.0,010,AS,Assam,AUDF,6
+03111,Lakhimpur,022,1,Arup Kalita,1313.0,CPI,LOST,135518.0,0.0,022,AS,Assam,OTH,6
+03111,Lakhimpur,358,13,Minakhi Gohain Baruah,1092.0,IND,LOST,135518.0,0.0,358,AS,Assam,OTH,8
+03111,Lakhimpur,999,15,Nota,888.0,NOTA,LOST,135518.0,0.0,999,AS,Assam,OTH,9
+03111,Lakhimpur,359,14,Hira Gogoi,861.0,IND,LOST,135518.0,0.0,359,AS,Assam,OTH,10
+03111,Lakhimpur,355,10,Fazlur Rahman,730.0,IND,LOST,135518.0,0.0,355,AS,Assam,OTH,11
+03111,Lakhimpur,353,8,Dilip Dutta,662.0,IND,LOST,135518.0,0.0,353,AS,Assam,OTH,12
+03111,Lakhimpur,354,9,Nanda Kishore Maheswari,640.0,IND,LOST,135518.0,0.0,354,AS,Assam,OTH,13
+03111,Lakhimpur,356,11,Mahim Konwar,481.0,IND,LOST,135518.0,0.0,356,AS,Assam,OTH,14
+03111,Lakhimpur,077,5,Birinchi Pegu,344.0,SUCI(C),LOST,135518.0,0.0,077,AS,Assam,OTH,15
+03112,Dhakuakhana,019,1,Naba Kumar Doley,81557.0,BJP,WON,147073.0,3.0,019,AS,Assam,BJP+,1
+03112,Dhakuakhana,034,2,Bharat Chandra Narah,57014.0,INC,LOST,147073.0,1.0,034,AS,Assam,CONG,2
+03112,Dhakuakhana,023,3,Lakhi Nath Sonowal,2270.0,CPI(M),LOST,147073.0,0.0,023,AS,Assam,OTH,3
+03112,Dhakuakhana,351,6,Dilip Kumar Chowdhury,2032.0,IND,LOST,147073.0,0.0,351,AS,Assam,OTH,4
+03112,Dhakuakhana,352,7,Bhumi Ranjan Doley,1855.0,IND,LOST,147073.0,0.0,352,AS,Assam,OTH,5
+03112,Dhakuakhana,999,8,Nota,1111.0,NOTA,LOST,147073.0,0.0,999,AS,Assam,OTH,6
+03112,Dhakuakhana,049,5,Dr Rajendra Nath Pegu,812.0,LDP,LOST,147073.0,0.0,049,AS,Assam,OTH,7
+03112,Dhakuakhana,077,4,Jutika Doley,422.0,SUCI(C),LOST,147073.0,0.0,077,AS,Assam,OTH,8
+03113,Dhemaji,019,2,Pradan Baruah,69592.0,BJP,WON,170160.0,3.0,019,AS,Assam,BJP+,1
+03113,Dhemaji,034,3,Sumitra Doley Patir,50471.0,INC,LOST,170160.0,1.0,034,AS,Assam,CONG,2
+03113,Dhemaji,351,7,Paramananda Chayengia,21874.0,IND,LOST,170160.0,0.0,351,AS,Assam,OTH,3
+03113,Dhemaji,353,9,Sailen Sonowal,16548.0,IND,LOST,170160.0,0.0,353,AS,Assam,OTH,4
+03113,Dhemaji,023,1,Gandheswar Borah,3830.0,CPI(M),LOST,170160.0,0.0,023,AS,Assam,OTH,5
+03113,Dhemaji,049,4,Kiranban Deori,2456.0,LDP,LOST,170160.0,0.0,049,AS,Assam,OTH,6
+03113,Dhemaji,352,8,Rajkumar Doley,2173.0,IND,LOST,170160.0,0.0,352,AS,Assam,OTH,7
+03113,Dhemaji,999,10,Nota,1417.0,NOTA,LOST,170160.0,0.0,999,AS,Assam,OTH,8
+03113,Dhemaji,050,5,Durgeswar Patir,1275.0,LJP,LOST,170160.0,0.0,050,AS,Assam,OTH,9
+03113,Dhemaji,077,6,Hem Kanta Miri,524.0,SUCI(C),LOST,170160.0,0.0,077,AS,Assam,OTH,10
+03114,Jonai,355,7,Bhubon Pegu,88441.0,IND,WON,206216.0,0.0,355,AS,Assam,OTH,1
+03114,Jonai,019,1,Aswini Pait,39148.0,BJP,LOST,206216.0,3.0,019,AS,Assam,BJP+,2
+03114,Jonai,351,3,Satho Basumatary,33265.0,IND,LOST,206216.0,0.0,351,AS,Assam,OTH,3
+03114,Jonai,034,2,Sushil Pegu,30890.0,INC,LOST,206216.0,1.0,034,AS,Assam,CONG,4
+03114,Jonai,356,8,Lenindra Kumar Doley,5625.0,IND,LOST,206216.0,0.0,356,AS,Assam,OTH,5
+03114,Jonai,357,9,Hitesh Deori,2290.0,IND,LOST,206216.0,0.0,357,AS,Assam,OTH,6
+03114,Jonai,354,6,Bhupen Narah,2120.0,IND,LOST,206216.0,0.0,354,AS,Assam,OTH,7
+03114,Jonai,999,10,Nota,1850.0,NOTA,LOST,206216.0,0.0,999,AS,Assam,OTH,8
+03114,Jonai,352,4,Janki Kumar Pegu,1519.0,IND,LOST,206216.0,0.0,352,AS,Assam,OTH,9
+03114,Jonai,353,5,Naren Sonowal,1068.0,IND,LOST,206216.0,0.0,353,AS,Assam,OTH,10
+03115,Moran,019,1,Chakradhar Gogoi,54571.0,BJP,WON,100811.0,3.0,019,AS,Assam,BJP+,1
+03115,Moran,034,2,Paban Singh Ghatowar,38340.0,INC,LOST,100811.0,1.0,034,AS,Assam,CONG,2
+03115,Moran,351,4,Ashok Kumar Urang,2322.0,IND,LOST,100811.0,0.0,351,AS,Assam,OTH,3
+03115,Moran,999,7,Nota,1673.0,NOTA,LOST,100811.0,0.0,999,AS,Assam,OTH,4
+03115,Moran,022,3,Hiranya Boruah,1650.0,CPI,LOST,100811.0,0.0,022,AS,Assam,OTH,5
+03115,Moran,353,6,Sunil Rajkonwar,1464.0,IND,LOST,100811.0,0.0,353,AS,Assam,OTH,6
+03115,Moran,352,5,Rubul Buragohain,791.0,IND,LOST,100811.0,0.0,352,AS,Assam,OTH,7
+03116,Dibrugarh,019,3,Prasanta Phukan,63985.0,BJP,WON,104861.0,3.0,019,AS,Assam,BJP+,1
+03116,Dibrugarh,034,1,Chandra Kanta Barua,36611.0,INC,LOST,104861.0,1.0,034,AS,Assam,CONG,2
+03116,Dibrugarh,999,8,Nota,1116.0,NOTA,LOST,104861.0,0.0,999,AS,Assam,OTH,3
+03116,Dibrugarh,022,2,Diganta Phukan,1086.0,CPI,LOST,104861.0,0.0,022,AS,Assam,OTH,4
+03116,Dibrugarh,353,6,Bipul Chandra Das,748.0,IND,LOST,104861.0,0.0,353,AS,Assam,OTH,5
+03116,Dibrugarh,351,4,Avinash Singh,503.0,IND,LOST,104861.0,0.0,351,AS,Assam,OTH,6
+03116,Dibrugarh,354,7,Jugen Kachari,501.0,IND,LOST,104861.0,0.0,354,AS,Assam,OTH,7
+03116,Dibrugarh,352,5,Padmeswar Phukan,311.0,IND,LOST,104861.0,0.0,352,AS,Assam,OTH,8
+03117,Lahowal,019,1,Rituparna Baruah,59013.0,BJP,WON,109577.0,3.0,019,AS,Assam,BJP+,1
+03117,Lahowal,034,2,Prithibi Majhi,39414.0,INC,LOST,109577.0,1.0,034,AS,Assam,CONG,2
+03117,Lahowal,999,8,Nota,3039.0,NOTA,LOST,109577.0,0.0,999,AS,Assam,OTH,3
+03117,Lahowal,022,3,Rajesh Rajput,3022.0,CPI,LOST,109577.0,0.0,022,AS,Assam,OTH,4
+03117,Lahowal,352,6,Ranjit Konwar,1753.0,IND,LOST,109577.0,0.0,352,AS,Assam,OTH,5
+03117,Lahowal,353,7,Sombhulal Sabor,1568.0,IND,LOST,109577.0,0.0,353,AS,Assam,OTH,6
+03117,Lahowal,351,5,Priya Nath Gogoi,911.0,IND,LOST,109577.0,0.0,351,AS,Assam,OTH,7
+03117,Lahowal,040,4,Boga Kumar Nag,857.0,JNCP,LOST,109577.0,0.0,040,AS,Assam,OTH,8
+03118,Duliajan,019,1,Terash Gowalla,58450.0,BJP,WON,112072.0,3.0,019,AS,Assam,BJP+,1
+03118,Duliajan,034,2,Dhruba Jyoti Gogoi,41364.0,INC,LOST,112072.0,1.0,034,AS,Assam,CONG,2
+03118,Duliajan,999,12,Nota,2761.0,NOTA,LOST,112072.0,0.0,999,AS,Assam,OTH,3
+03118,Duliajan,354,9,Jatin Konwar,1816.0,IND,LOST,112072.0,0.0,354,AS,Assam,OTH,4
+03118,Duliajan,355,10,Ramesh Chandra Phukan,1816.0,IND,LOST,112072.0,0.0,355,AS,Assam,OTH,4
+03118,Duliajan,356,11,Hiranya Sonowal (Raju),1144.0,IND,LOST,112072.0,0.0,356,AS,Assam,OTH,6
+03118,Duliajan,351,6,Amiya Gogoi,1144.0,IND,LOST,112072.0,0.0,351,AS,Assam,OTH,6
+03118,Duliajan,040,3,Anjali Senapati,1037.0,JNCP,LOST,112072.0,0.0,040,AS,Assam,OTH,8
+03118,Duliajan,024,5,Sunil Tanti,710.0,CPI(ML)(L),LOST,112072.0,0.0,024,AS,Assam,OTH,9
+03118,Duliajan,353,8,Probin Kumar Hazarika,651.0,IND,LOST,112072.0,0.0,353,AS,Assam,OTH,10
+03118,Duliajan,352,7,Isak Karkaria,637.0,IND,LOST,112072.0,0.0,352,AS,Assam,OTH,11
+03118,Duliajan,074,4,Jhuma Deb Nath,542.0,SHS,LOST,112072.0,0.0,074,AS,Assam,OTH,12
+03119,Tingkhong,019,2,Bimal Borah,57072.0,BJP,WON,104500.0,3.0,019,AS,Assam,BJP+,1
+03119,Tingkhong,034,1,Atuwa Munda,38734.0,INC,LOST,104500.0,1.0,034,AS,Assam,CONG,2
+03119,Tingkhong,351,5,Anup Phukon,2935.0,IND,LOST,104500.0,0.0,351,AS,Assam,OTH,3
+03119,Tingkhong,999,7,Nota,2075.0,NOTA,LOST,104500.0,0.0,999,AS,Assam,OTH,4
+03119,Tingkhong,024,4,Mira Tanti,1299.0,CPI(ML)(L),LOST,104500.0,0.0,024,AS,Assam,OTH,5
+03119,Tingkhong,352,6,Dilip Bharali,1235.0,IND,LOST,104500.0,0.0,352,AS,Assam,OTH,6
+03119,Tingkhong,045,3,Eliash Sichan,1150.0,JDP,LOST,104500.0,0.0,045,AS,Assam,OTH,7
+03120,Naharkatia,013,1,Naren Sonowal (Botali),46051.0,AGP,WON,98504.0,3.0,013,AS,Assam,BJP+,1
+03120,Naharkatia,034,2,Pranatee Phukan,42520.0,INC,LOST,98504.0,1.0,034,AS,Assam,CONG,2
+03120,Naharkatia,023,3,Suresh Ch. Deka,4026.0,CPI(M),LOST,98504.0,0.0,023,AS,Assam,OTH,3
+03120,Naharkatia,352,6,Mohan Nag,2708.0,IND,LOST,98504.0,0.0,352,AS,Assam,OTH,4
+03120,Naharkatia,999,7,Nota,1719.0,NOTA,LOST,98504.0,0.0,999,AS,Assam,OTH,5
+03120,Naharkatia,351,5,Mahendra Dhadumiya,783.0,IND,LOST,98504.0,0.0,351,AS,Assam,OTH,6
+03120,Naharkatia,040,4,Sadananda Das,697.0,JNCP,LOST,98504.0,0.0,040,AS,Assam,OTH,7
+03121,Chabua,019,1,Binod Hazarika,69351.0,BJP,WON,116043.0,3.0,019,AS,Assam,BJP+,1
+03121,Chabua,034,2,Raju Sahu,38597.0,INC,LOST,116043.0,1.0,034,AS,Assam,CONG,2
+03121,Chabua,999,6,Nota,3012.0,NOTA,LOST,116043.0,0.0,999,AS,Assam,OTH,3
+03121,Chabua,024,3,Debnath Majhi,2516.0,CPI(ML)(L),LOST,116043.0,0.0,024,AS,Assam,OTH,4
+03121,Chabua,352,5,Rabin Chandra Kachari,1315.0,IND,LOST,116043.0,0.0,352,AS,Assam,OTH,5
+03121,Chabua,351,4,Utpal Kakoti,1252.0,IND,LOST,116043.0,0.0,351,AS,Assam,OTH,6
+03122,Tinsukia,019,3,Sanjoy Kishan,70937.0,BJP,WON,115843.0,3.0,019,AS,Assam,BJP+,1
+03122,Tinsukia,034,2,Rajendra Prasad Singh,35868.0,INC,LOST,115843.0,1.0,034,AS,Assam,CONG,2
+03122,Tinsukia,352,7,Lakhyajyoti Boruah,4056.0,IND,LOST,115843.0,0.0,352,AS,Assam,OTH,3
+03122,Tinsukia,999,8,Nota,1986.0,NOTA,LOST,115843.0,0.0,999,AS,Assam,OTH,4
+03122,Tinsukia,056,1,Cintu Baruah,1020.0,NCP,LOST,115843.0,0.0,056,AS,Assam,OTH,5
+03122,Tinsukia,040,4,Ananta JyotiBhattacharjee,773.0,JNCP,LOST,115843.0,0.0,040,AS,Assam,OTH,6
+03122,Tinsukia,351,6,Ram Darshan Singh,667.0,IND,LOST,115843.0,0.0,351,AS,Assam,OTH,7
+03122,Tinsukia,074,5,Ram Narayan Singh,536.0,SHS,LOST,115843.0,0.0,074,AS,Assam,OTH,8
+03123,Digboi,019,3,Suren Phukan,49167.0,BJP,WON,95525.0,3.0,019,AS,Assam,BJP+,1
+03123,Digboi,034,1,Gautam Dhanowar,34874.0,INC,LOST,95525.0,1.0,034,AS,Assam,CONG,2
+03123,Digboi,353,6,Pranab Chetia,4841.0,IND,LOST,95525.0,0.0,353,AS,Assam,OTH,3
+03123,Digboi,999,9,Nota,2246.0,NOTA,LOST,95525.0,0.0,999,AS,Assam,OTH,4
+03123,Digboi,351,4,Imran Siddique,1166.0,IND,LOST,95525.0,0.0,351,AS,Assam,OTH,5
+03123,Digboi,354,7,Biswanath Sarma Bordoloi,977.0,IND,LOST,95525.0,0.0,354,AS,Assam,OTH,6
+03123,Digboi,056,2,Nogen Dhekial Phukan,923.0,NCP,LOST,95525.0,0.0,056,AS,Assam,OTH,7
+03123,Digboi,355,8,Bhabakanta Chutia,743.0,IND,LOST,95525.0,0.0,355,AS,Assam,OTH,8
+03123,Digboi,352,5,Chandan Bagh,588.0,IND,LOST,95525.0,0.0,352,AS,Assam,OTH,9
+03124,Margherita,019,2,Bhaskar Sharma,76365.0,BJP,WON,136740.0,3.0,019,AS,Assam,BJP+,1
+03124,Margherita,034,1,Pradyut Bordoloi,53621.0,INC,LOST,136740.0,1.0,034,AS,Assam,CONG,2
+03124,Margherita,999,7,Nota,2137.0,NOTA,LOST,136740.0,0.0,999,AS,Assam,OTH,3
+03124,Margherita,352,4,Nidan Purty,1332.0,IND,LOST,136740.0,0.0,352,AS,Assam,OTH,4
+03124,Margherita,354,6,Bishwanath Singha,1306.0,IND,LOST,136740.0,0.0,354,AS,Assam,OTH,5
+03124,Margherita,351,3,Umesh Bora,1289.0,IND,LOST,136740.0,0.0,351,AS,Assam,OTH,6
+03124,Margherita,353,5,Purna Chetri,690.0,IND,LOST,136740.0,0.0,353,AS,Assam,OTH,7
+03125,Doom Dooma,034,2,Durga Bhumij,46938.0,INC,WON,103392.0,1.0,034,AS,Assam,CONG,1
+03125,Doom Dooma,019,1,Dilip Moran,46156.0,BJP,LOST,103392.0,3.0,019,AS,Assam,BJP+,2
+03125,Doom Dooma,999,10,Nota,3317.0,NOTA,LOST,103392.0,0.0,999,AS,Assam,OTH,3
+03125,Doom Dooma,356,9,Hrishikesh Baruah,1481.0,IND,LOST,103392.0,0.0,356,AS,Assam,OTH,4
+03125,Doom Dooma,040,3,Monoj Kumar Sawashi,1443.0,JNCP,LOST,103392.0,0.0,040,AS,Assam,OTH,5
+03125,Doom Dooma,354,7,Rajesh Karmakar,1441.0,IND,LOST,103392.0,0.0,354,AS,Assam,OTH,6
+03125,Doom Dooma,355,8,Sarfaraz Alam,846.0,IND,LOST,103392.0,0.0,355,AS,Assam,OTH,7
+03125,Doom Dooma,351,4,Isab Hussain,642.0,IND,LOST,103392.0,0.0,351,AS,Assam,OTH,8
+03125,Doom Dooma,353,6,Ranjit Singh Gorh,571.0,IND,LOST,103392.0,0.0,353,AS,Assam,OTH,9
+03125,Doom Dooma,352,5,Bhaba Kanta Chutia,557.0,IND,LOST,103392.0,0.0,352,AS,Assam,OTH,10
+03126,Sadiya,019,3,Bolin Chetia,38845.0,BJP,WON,120848.0,3.0,019,AS,Assam,BJP+,1
+03126,Sadiya,034,4,Birinchi Neog,32279.0,INC,LOST,120848.0,1.0,034,AS,Assam,CONG,2
+03126,Sadiya,357,11,Lakhin Chandra Chetia,22005.0,IND,LOST,120848.0,0.0,357,AS,Assam,OTH,3
+03126,Sadiya,352,6,Dindayal Verma,12481.0,IND,LOST,120848.0,0.0,352,AS,Assam,OTH,4
+03126,Sadiya,351,5,Tikendra Thapa,5047.0,IND,LOST,120848.0,0.0,351,AS,Assam,OTH,5
+03126,Sadiya,023,2,Drona Charingia Phukan,2310.0,CPI(M),LOST,120848.0,0.0,023,AS,Assam,OTH,6
+03126,Sadiya,999,13,Nota,2044.0,NOTA,LOST,120848.0,0.0,999,AS,Assam,OTH,7
+03126,Sadiya,353,7,Biswanath Baruah,1430.0,IND,LOST,120848.0,0.0,353,AS,Assam,OTH,8
+03126,Sadiya,358,12,Shrikumar Dohutia,1264.0,IND,LOST,120848.0,0.0,358,AS,Assam,OTH,9
+03126,Sadiya,056,1,Anup Pratim Borbaruah,846.0,NCP,LOST,120848.0,0.0,056,AS,Assam,OTH,10
+03126,Sadiya,354,8,Bulbul Gowala,783.0,IND,LOST,120848.0,0.0,354,AS,Assam,OTH,11
+03126,Sadiya,355,9,Ramen Borgohain,758.0,IND,LOST,120848.0,0.0,355,AS,Assam,OTH,12
+03126,Sadiya,356,10,Lalit Deori,756.0,IND,LOST,120848.0,0.0,356,AS,Assam,OTH,13

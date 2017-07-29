@@ -1,0 +1,79 @@
+#agency-name{
+	background: black;
+	padding: 10px 30px;
+	font-size: 40px;
+}
+
+#nodata{
+	display: none;
+}
+#agency-donut {
+	margin-top: -35px;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: transparent;
+  shape-rendering: crispEdges;
+}
+
+/* network18 CSS */
+#netmainrow{
+	margin-top: 15px;  /*125px*/
+}
+.tvnav.network{
+	margin-top: -64px;
+}
+.tvnav.network a{
+	margin-right: 25px;
+}
+
+@media screen and (min-width: 1920px) {
+
+}
+@media screen and (max-width: 992px) {
+	.network-title{
+		width: 100% !important;
+		margin-left: 0 !important;
+		text-align: center;
+	}
+	#header{
+		width: 100% !important;
+	}
+}
+@media screen and (max-width: 800px) {
+	#netmainrow {
+	    margin-top: 25px;
+	}
+	#netmainrow svg{
+		margin-left: 0 !important;
+	}
+	#agency-stacked{
+		margin-left: 0 !important;
+	}
+	#agency-stacked svg text{
+		font-size: 3.3em !important;
+	}
+}
+@media screen and (max-width: 480px){
+	.network-dropdown.rightnav span {
+	    width: 55px !important;
+	}
+	.network-dropdown.rightnav .dropdown-content a {
+	    padding: 0px !important;
+	}
+	.network-dropdown.rightnav .dropdown-content{
+		min-width: 150px !important;
+	}
+	.states p, .agencies p{
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+	#agency-stacked svg text {
+	    font-size: 4em !important;
+	}
+	#netmainrow {
+	    margin-top: 0px;
+	}
+}

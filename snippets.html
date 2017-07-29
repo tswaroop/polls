@@ -1,0 +1,192 @@
+<script type="text/template" id="filter-template">
+
+  <div class="row" id="searchRow" style="cursor: pointer;">
+    <div class="col-md-8 col-xs-8">
+      <input id="constFilter">
+    </div>
+    <div class="col-md-4">
+      <button id="eac-submitBtn" class="btn btn-filter font-25">Submit</button>
+    </div>
+  </div>
+  
+
+  <p class="margin-bottom-20 margin-top-20">
+    <% var dstate = mask_to_hindi($(".dropdown span:first").text()) %>
+    <% var dyear = mask_to_hindi($(".dropdown span:last").text()) %>
+    <% var dtype = dyear == '2012' ? 'Assembly' : 'Parliament' %>
+
+    <span class="bold-weight filter-types font-50"><%= dstate %> &nbsp;-&nbsp; <%= dyear %></span><span class="bold-weight year-type filter-types font-50"> (<%= dtype %>)</span>
+  </p>
+
+  <p class="margin-bottom-20">
+    <% _.each(filterData.filters, function(filter){ %>
+      
+      <% if(filter.column != 'PARTY'){ %>
+
+        <button data-column="<%= filter.column %>" class="margin-bottom-10 btn btn-xs btn-default btn-filter-remove">
+          <%= filter.value %>
+          <span class="filter-close-icon">&nbsp;|&nbsp;<i class="fa fa-times"></i></%></span>
+        </button>
+
+      <% } %>
+
+    <% }) %>
+  </p>
+
+  <% _.each(filterData.entities, function(entity){ %>
+    
+    <p>
+      
+      <span class="filter-types" data-attr="<%= entity.type  %>"><%= entity.name  %></span>
+      
+      <% _.each(entity.filters, function(filter){ %>
+
+        <button class="btn btn-filter btn-filter-type <%= filter.status == 'active' ? 'btn-filter-active' : '' %>"><%= filter.name %></button>
+      
+      <% }) %>
+      
+    </p>
+
+  <% }) %>
+
+  <p><button class="btn btn-filter btn-filter-clearall">Clear All</button></p>
+
+</script>
+
+<script type="text/template" id="legend-template">
+
+  <p><span id="totalseats"></span></p>
+
+  <% _.each(partiesData.parties, function(party){ %>
+
+      <p class="legendPara">
+        <button style="color: <%= partyColors[party.name] || defaultLegendColor %> !important;" class="btn btn-filter btn-filter-type btn-legend <%= party.status == 'active' ? 'btn-filter-active' : '' %>">
+          <%= party.name %> <span id="seatcount-<%= party.name %>"></span>
+        </button>
+      </p>
+
+  <% }) %>
+
+  <p>
+    <button style="color: <%= defaultLegendColor %> !important;" class="btn btn-filter btn-filter-type btn-legend <%= partiesData.status == 'active' ? 'btn-filter-active' : '' %>">
+      OTH<span id="seatcount-others"></span>
+    </button>
+  </p>
+
+</script>
+
+<script type="text/template" id="constituency-template">
+
+  <div class="contestant-info padding-20">
+
+    <div class="fixed-top-contestant">
+      <span class="filter-types font-50 color-white"><b><%= mask_to_hindi(data.area.toUpperCase()) %></b></span>
+      <button class="btn btn-filter close-info pull-right"><b>X</b></button>
+      <div class="clearfix"></div>
+      <hr id="area-votes-classify">
+    </div>
+
+    <div class="fixed-top-header">
+      <p class="info pull-right info-votes">VOTES</p>
+      <p class="clearfix"></p>
+    </div>
+
+    <% _.each(data.top_3, function(top_contestant){ %>
+      
+      <div class="margin-top-10">
+
+        <div class="pull-left">
+          <img class="top_3_imgs" src="<%= partyLogos[top_contestant.PARTY] || defaultPartyLogo %>" alt="">
+        </div>
+
+        <div>
+          <p class="info padding-top-5 font-30 pull-right margin-right-30"><%= votesFormat(top_contestant.VOTES) %></p>
+          <p class="info padding-top-5 font-35 margin-left-90"><b><%= mask_to_hindi(top_contestant.NAME).split(' ').slice(0,2).join(' ') %></b></p>
+          <p class="info margin-left-90 margin-top-35 font-40" style="color: <%= partyColors[top_contestant.PARTY] || '#9B9B9B'%>"><%= mask_to_hindi(top_contestant.PARTY) %></p>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    <% }) %>
+
+    <div class="clearfix"></div>
+    
+    <div>
+      <p id="curr-cont-label">2017 Contestants</p>
+      <hr id="curr-cont-line">
+      <br>
+    </div>
+    
+    <% _.each(data.contestants, function(contestant){ %>
+      
+      <div class="col-md-12 margin-top-10" style="padding:0">
+        <img class="curr-cont-img" src="<%= partyLogos[contestant.PARTY] || defaultPartyLogo %>" alt="">
+        <div class="curr-cont-contestants">          
+          <p class="info font-35 margin-bottom-35"><b><%= mask_to_hindi(contestant.NAME).split(' ').slice(0,2).join(' ') %></b></p>
+          <p class="info font-40" style="color: <%= partyColors[contestant.PARTY] || '#9B9B9B'%>"><%= mask_to_hindi(contestant.PARTY) %></p>
+        </div>
+      </div>
+      
+    <% }) %>
+
+  </div>
+
+</script>
+
+<script type="text/template" id="header-template">
+  
+  <div class="pull-left dropdown border" id="filter-state">
+    <span>UTTAR PRADESH</span><i class="margin-left-10 fa fa-caret-down"></i>
+    <div class="dropdown-content" id="otherstates">
+      <% _.each(data.states, function(state){ %>
+        <p data-type="state"><%= state.toUpperCase() %></p>  
+      <% }) %>
+    </div>
+  </div>
+
+  <div class="pull-left dropdown border-right" id="filter-year">
+    <span>2012</span><i class="margin-left-10 fa fa-caret-down"></i>
+    <div class="dropdown-content" id="otheryears">
+      <% _.each(data.years, function(year){ %>
+        <p data-type="year"><%= year %></p>  
+      <% }) %>
+    </div>
+  </div>
+
+  <div id="title"><%= mask_to_hindi("ELECTION ANALYTICS CENTRE") %></div>
+  <div class="pull-right logo-container logo-tv">
+    <img id="gramener-logo" src="img/gramener.png" alt="">
+  </div>
+
+</script>
+
+<script type="text/template" id="landing-div-template">
+
+  <div id="landing-title"><%= mask_to_hindi("ELECTION ANALYTICS CENTRE") %></div>
+  <div class="row landing-row">
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">UTTAR PRADESH</a>
+      </div>
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">PUNJAB</a>
+      </div>
+  </div>
+  <div class="row landing-row">
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">UTTARAKHAND</a>
+      </div>
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">MANIPUR</a>
+      </div>
+  </div>
+  <div class="row landing-row">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4">
+          <a class="btn btn-landing btn-block">GOA</a>
+      </div>
+      <div class="col-lg-4"></div>
+  </div>
+
+</script>

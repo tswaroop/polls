@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Election Analysis</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="/bower_components/EasyAutocomplete/dist/easy-autocomplete.min.css">
+        <link rel="stylesheet" href="css/constPopUp.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="live/css/style.css">
+
+
+        <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="/bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+        <script type="text/javascript" src="/bower_components/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+        <script type="text/javascript" src="js/G.min.js"></script>
+        <style>
+          #filter-year {
+            /*display: none;*/
+            pointer-events: none;
+          }
+          #filter-section {
+            /*display: none;*/
+          }
+        </style>
+    </head>
+<script>
+var rmslug = function(x) { return (x || '').toString().replace(' ', '') }
+// console.log(const_id_map)
+</script>
+    <body>
+    <div class="live-container" id="live_id">
+    	<div id="header" class="live-header"></div>
+        <div class="clearfix"></div>
+        <br>
+        <div class="row" id="arcSunres">
+            <div class="col-md-12 col-sm-12" id="result-arc"></div>
+        </div>
+        <div class="row" id="map_id">
+            <div id="party-filters" class="col-lg-2 col-md-2 col-xs-2 live-party-filters">
+                <!-- <p class="party-total">Total - 100</p> -->
+                <script type="text/template" id="party-btns">
+                <p class="party_total">
+                    <%= mask_to_hindi("Total") %> <%= data.declared %> / <%= data.total_seats %>
+                </p>
+                <% _.each(data.prty_seats, function(val){ %>
+                    <p>
+                        <button class="btn btn-lg urlfilter <%= data.filter.indexOf(val.Name) > -1 ? 'active' : '' %>" style="color: <%= partyColors[val.Name] %>" data-href="?party_alnc=<%= encodeURIComponent(val.Name) %>" data-toggle="toggle">
+                            <%= mask_to_hindi(val.Name) + ' ' + val.Seats %>
+                        </button>
+                    </p>
+                <% }) %>
+                </script>
+            </div>
+            <div id="mapContainer" class="col-lg-6 col-md-6 col-xs-8 live-map-container">
+                <div id="map"></div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 live-filters" id="filters"></div>
+        </div>
+        <div class="row tablerow" id="result_id">
+            <div class="col-lg-12 col-md-12 col-xs-12" id="table-result"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div style="width: 100%; background-color: white; display: none; position: absolute; z-index: 1000;" id="const_body">
+    </div>
+
+<script type="text/javascript" src="components/map.js"></script>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/rectangle.js"></script>
+<script type="text/javascript" src="js/global_utilities.js"></script>
+<script type="text/javascript" src="js/map-globals.js"></script>
+<script type="text/javascript" src="components/root.js"></script>
+<script type="text/javascript" src="components/arcres.js"></script>
+<script type="text/javascript" src="components/rect3d.js"></script>
+<script type="text/javascript" src="live/js/filters.js"></script>
+<script type="text/javascript" src="live/js/live.js"></script>
+
+<script>
+
+    $('body')
+      .aspect({
+        selector: '[data-height]'
+      })
+      .urlfilter({
+        selector: '.urlfilter',
+        attr: 'data-href',
+        target: 'pushState'
+      })
+      .on('click', '.reload', function(e) {
+        e.preventDefault()
+        // reload()
+      })
+      .on('loaded.g.urlfilter', function() {
+        redraw()
+        // console.log("test redraw")
+      })
+
+    $(window)
+        .on('popstate', redraw)
+
+    function render_modal(state, d) {
+    $(window).scrollTop(0);
+     popUp(state, d);
+     $('.live-container').css('display', 'none');
+     $('#const_body').css('display', 'block');
+   }
+    $('#const_body').on('click', '.glyphicon-remove', function(){
+
+               $('.live-container').css('display', 'block');
+               $('#const_body').css('display', 'none');
+               $(window).scrollTop($('#mapContainer').offset().top);
+           });
+
+    $('#const_body').on('click', '.glyphicon-refresh', function(){
+            popUp(const_module.getStateName(),const_module.getAcName())
+        });
+</script>
+<script type="text/javascript" src="js/data_retreive.js"></script>
+</body>
+</html>

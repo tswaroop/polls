@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Election Analysis</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/constPopUp.css">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="live/css/style.css">
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/G.min.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+    </head>
+
+    <body>
+    <div class="container-fluidic">
+        <div class="row tablerow">
+    	   <div id="header" class="col-lg-12 col-md-12 homepage_header" style="font-size: 80px;color:white">ELECTION ANALYTICS CENTRE</div>
+        </div>
+        <div class="row tablerow home-row" style="padding-top: 5%;padding-left: 150px">
+            <div class="col-lg-4 col-md-4" id="live_mainpage">
+                <a href="/live?state=uttar-pradesh">
+                    <img src="img/live.png" style="width: 74%;cursor: pointer;" />
+                </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-4" id="intraday_mainpage">
+                <a href="strike?state=uttar pradesh">
+                    <img src="img/intra.png" style="width: 74%;cursor: pointer;" />
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4" id="key_mainpage">
+                <a href="/keycandidate?state=uttar pradesh">
+                    <img src="img/key_cand.png" style="width: 74%;cursor: pointer;" />
+                </a>
+            </div>
+        </div>
+        <div class="row tablerow home-row"  style="padding-top: 0%;padding-left: 150px">
+            <div class="col-lg-4 col-md-4" id="roti_mainpage">
+                <a href="/roti/up">
+                    <img src="img/roti.png" style="width: 74%;cursor: pointer;"/>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4" id="roti_punjab_mainpage">
+                <a href="/roti/punjab">
+                    <img src="img/Roti-Punjab.png" style="width: 74%;cursor: pointer;"/>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4" id="swingseat_mainpage">
+                <a href="/swing/?state=uttar pradesh">
+                    <img src="img/swing.png" style="width: 74%;cursor: pointer;" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $("img").bind("contextmenu",function(e){
+        return false;
+      });
+    var parsed_url = G.url.parse(location.href)
+    var lang = parsed_url.searchKey.lang || null
+    if(lang == 'HIN' || lang!=null && lang.toUpperCase() == 'HIN'){
+        $(".homepage_header").text("इलेक्शन सेंटर")
+        console.log("hi")
+        d3.selectAll("div a").each(function(e){
+            var sel = d3.select(this)
+            var href = sel.attr("href")
+            if(href == "/roti/up" || href == "/roti/punjab"){
+                sel.attr("href",href+"?lang=HIN")
+            }
+            else{
+                sel.attr("href",href+"&lang=HIN")
+            }
+        })
+        d3.selectAll("div a img").each(function(e){
+            var sel = d3.select(this)
+            var href = sel.attr("src")
+            var sr = href.split(".")[0]
+            sel.attr("src",sr+"_hin.png")
+        })
+    }
+    });
+  </script>
+</body>
+</html>

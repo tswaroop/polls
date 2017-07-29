@@ -1,0 +1,264 @@
+
+.agencies{
+	padding-top: 100px;
+}
+
+.agencies p{
+	line-height: 70px;
+}
+
+.unwanted-predictions{
+	display: none !important;
+}
+
+text {
+	pointer-events: none;
+}
+
+.darkborder {
+	stroke: #000;
+	stroke-width: 4px;
+}
+
+.whiteborder {
+	stroke: #000;
+	stroke-width: 4px;
+}
+
+.gotohome {
+	cursor: pointer;
+}
+#filter-state, #filter-year {
+	color: #FFFFFF;
+	font-family: "Roboto";
+	background: rgb(107, 107, 107);
+	font-size: 20px;
+	padding: 17px 30px;
+	min-width: 20px;
+	margin: -1px 0 0 -1px;
+}
+div.border-right:before{
+	content: '';
+	position:absolute;
+	left: 100%;
+	top: 0;
+	border-top: 30px solid transparent;
+	border-bottom: 32px solid transparent;
+	border-left: 30px solid #6b6b6b;
+}
+.dropdown-content{
+	margin-left: -31px;
+}
+.gotohome{
+	margin-right: 10px !important;
+	margin-top: -70px !important;
+	width: 50px;
+	height: 40px;
+}
+#precision svg .parties text{
+	font-family: "Roboto" !important;
+}
+
+#precision svg .netws18btn rect{
+	height: 50px !important;
+}
+/*#precision svg .parties rect{
+	height: 47px !important;
+}*/
+/*#precision svg .parties text{
+    alignment-baseline: middle;
+    dominant-baseline: central;
+}*/
+#precision svg .agencies text, #precision svg .netws18btn text{
+	/*fill: #fff !important;*/
+	font-family: "Roboto" !important;
+	font-size: 20px !important;
+}
+
+.dropdown-content > p {
+    width: 100%;
+}
+/*.darkborder{
+	stroke: #fff;
+}*/
+#precision {
+    width: 80%;
+    margin: 80px auto;
+}
+
+@media screen and (min-width: 1920px) {
+
+	#precision {
+	    width: 100%;
+	    margin: 80px auto;
+	}
+
+	div.border-right:before{
+		content: '';
+		position:absolute;
+		left: 100%;
+		top: 0;
+		border-top: 50px solid transparent !important;
+		border-bottom: 50px solid transparent !important;
+		border-left: 50px solid #920000 !important;
+	}
+	.agencies{
+		padding-top: 100px;
+	}
+
+	.agencies p{
+		line-height: 70px;
+	}
+
+	.unwanted-predictions{
+		display: none !important;
+	}
+
+	text {
+		pointer-events: none;
+	}
+
+	.darkborder {
+		stroke: #fff;
+		stroke-width: 4px;
+	}
+
+	.whiteborder {
+		stroke: #fff;
+		stroke-width: 4px;
+	}
+
+	.gotohome {
+		cursor: pointer;
+	}
+
+
+	#filter-state, #filter-year {
+	color: #FFFFFF;
+	font-family: "Helvetica Inserat LT Std" !important;
+	background: #920000;
+	font-size: 46px !important;
+	padding: 18px 30px;
+	min-width: 20px;
+	margin: -1px 0 0 -1px;
+	}
+	.dropdown-content{
+		margin-left: -31px;
+	}
+	.gotohome{
+		margin-right: 20px !important;
+		margin-top: -14px !important;  /*-96px !important;*/
+		width: 60px;
+		height: 50px;
+	}
+	#precision svg .parties text{
+		font-family: "Helvetica Inserat LT Std" !important;
+	}
+
+	#precision svg .netws18btn rect{
+		height: 50px !important;
+	}
+	#precision svg .agencies text, #precision svg .netws18btn text{
+		/*fill: #fff !important;*/
+		font-family: "Helvetica Inserat LT Std" !important;
+		/*font-size: 20px !important;*/
+	}
+	#precision{
+		margin-top: 120px;
+	}
+	#precision svg .agencies text, #precision svg .netws18btn text{
+		font-size: 25px !important;
+	}
+
+}
+
+@media screen and (min-width: 3200px) {
+	#precision svg .agencies text, #precision svg .netws18btn text{
+		font-size: 23px !important;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	#agency-donut{
+		float: none;
+		margin:auto;
+	}
+	#agency-stacked{
+		float: none;
+		margin: 40px auto 0;
+		width: 70%;
+	}
+	#header{
+		width: 100%;
+		position: static;
+	}
+	#precision{
+		width: 100%;
+	}
+	#title {
+	    color: #241a0f;
+	    font-size: 25px;
+	    margin-left: 0 !important;
+	    margin-right: 0;
+	    margin-top: 10px;
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+	}
+	.gotohome{
+		margin-top: -170px !important;
+	}
+
+	/*.gotocomparison img, .gotocomparison + a img{
+		margin-top: 0 !important;
+	}*/
+}
+
+@media screen and (max-width: 640px) {
+	/*#header{
+		background: none;
+		border-width: 0;
+	}
+	#filter-state, #filter-year, #filter-agency{
+		margin-top: 10px;
+	}*/
+	/*#title {
+		float: left;
+	    font-size: 32px;
+	    margin-bottom: 0px;
+	    margin-left: 0px !important;
+	    margin-right: 0;
+	    margin-top: 20px !important;
+	    width: 100%;
+	    text-align: center;
+	}*/
+	#header{
+		width: 100%;
+	}
+	.visuals{
+		margin-top: 0 !important;
+	}
+	.gotohome{
+		margin-top: -230px !important;
+	}
+	/*.gotocomparison img, .gotocomparison + a img{
+		margin-top: -185px;
+	}*/
+}
+@media screen and (max-width: 480px) {
+	.gotohome {
+	    margin-top: -250px !important;
+	}
+	#title {
+	    float: left;
+	    font-size: 24px;
+	    margin-bottom: 20px;
+	    margin-left: 0 !important;
+	    margin-right: 0;
+	    margin-top: 30px !important;
+	    width: 100%;
+	    text-align: center;
+	}
+}
+

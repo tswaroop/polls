@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - SWING SEATS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="/css/constPopUp.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/G.min.js"></script>
+        <script type="text/javascript" src="/js/util.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+        <script type="text/javascript" src="/js/global_utilities.js"></script>
+
+       <script type="text/javascript" src="/bower_components/topojson/topojson.min.js"></script>
+       <script type="text/javascript" src="/bower_components/leaflet/dist/leaflet.js"></script>
+
+        <script type="text/javascript" src="/js/rectangle.js"></script>
+        <script type="text/javascript" src="/js/data_retreive.js"></script>
+
+
+    </head>
+    <body>
+    <div id="parent_container">
+        <div id="header">
+            <div class="text-center">
+                <span>
+                    <img id="landing-news18-logo" src="/img/logo.png" alt="">
+                </span>
+                <span>
+                    <img id="landing-gramener-logo" src="/img/gramener.png" alt="Gramener">
+                </span>
+            </div>
+        </div>
+
+        <div id="swing_buttons">
+        </div>
+
+        <div id="mapContainer"></div>
+        <div id="lead_margin_container">
+            <div class="disp-txt" style="padding-bottom: 10%">
+                <span id="total-txt">Total - </span>
+                <span id="less_one_txt"></span><span>/</span>
+                <span id="less_two_txt"></span>
+            </div>
+            <div class="disp-txt" style="padding-bottom: 5%" id="lead-margin-txt">Lead Margin</div>
+
+            <div class="swing-btn">
+                <button id="less_one_btn" class="lead-btn btn btn-filter btn-filter-type btn-legend clicked">< 1%</button>
+            </div>
+            <div class="swing-btn">
+                <button id="less_two_btn" class="lead-btn btn btn-filter btn-filter-type btn-legend">< 2%</button>
+            </div>
+        </div>
+    </div>
+
+
+ <div style="width: 100%; background-color: white; display: none; position: absolute; z-index: 100000;" id="const_body">
+ </div>
+        <script type="text/javascript" src="/components/map.js"></script>
+        <script type="text/javascript" src="js/swing.js"></script>
+        <script type="text/javascript">
+            partyColors['OTH'] = '#8B6D53';
+            swing_module.get_data();
+
+            $('#swing_buttons').on('click', '.swing-btn button', function(){
+                var party = $(this).attr('data-title');
+
+                var margin = ($('.lead-btn.clicked').text() == '< 1%') ? 1 : 2;
+
+                var margins = swing_module.get_lead_margin(margin, 2);
+
+                $('#less_one_txt').text(margins[0]);
+              var state = G.url.parse(window.location.href).searchKey.state;
+              state = state ? state : 'uttar pradesh';
+                $('#less_two_txt').text(total_seats[state.toUpperCase()]);
+
+                var filter = function(d){ return d.Margin < margin };
+                var btn_prop = false;
+
+                if(!$(this).hasClass('clicked')){
+                    filter = function(d){
+                        return (d.Party == party) && (d.CandiStatus == 'WON') && (d.Margin < margin);
+                    }
+                    btn_prop = true;
+                }
+
+
+                swing_module
+                .render_swing_btns(
+                    swing_module.get_lead_trail_data(filter),
+                    party, $(this).hasClass('clicked'));
+
+                var btns = $('#swing_buttons button[data-title!="'+party+'"]');
+
+                if($('button[data-title="'+party+'"]').hasClass('clicked')){
+                    btns.prop('disabled', true);
+
+                }else{
+                    btns.prop('disabled', false);
+                }
+                var color = partyColors[party]
+                swing_module.toggleOpacity($('#mapContainer path[fill!='+color+']'));
+
+            });
+
+            $('.lead-btn').on('click', function(){
+                if(!$(this).hasClass('clicked')){
+                    $('.lead-btn.clicked').toggleClass('clicked');
+                    $(this).toggleClass('clicked');
+                }
+                var margin = ($(this).text() == '< 2%') ? 2 : 1;
+
+                var margins = swing_module.get_lead_margin(margin, 2);
+
+                $('#less_one_txt').text(margins[0]);
+                var state = G.url.parse(window.location.href).searchKey.state;
+                state = state ? state : 'uttar pradesh';
+                $('#less_two_txt').text(total_seats[state.toUpperCase()]);
+
+                var lead_trail_data = swing_module.get_lead_trail_data(function(d){ return d.Margin < margin; });
+                parties = _.map(lead_trail_data, 'Party');
+                swing_module.render_swing_btns(lead_trail_data);
+
+                var state = G.url.parse(window.location.href).searchKey.state;
+                state = state ? state : 'uttar pradesh';
+                swing_module.leaflet.render('/geojson/'+state_file_mapping[
+                    state.toLowerCase()],
+                    {},
+                    swing_module.get_map_data(
+                  function(d){ return d.CandiStatus == 'WON' && d.Margin < margin; }
+                  ), swing_module.render_modal);
+            });
+
+            $('#header').urlfilter({
+              selector: '.urlfilter'
+            });
+
+            $('#header').on('click', '.urlfilter', function(e){
+                swing_module.get_data();
+                $('#filter-state span').text($(this).text());
+                $('#less_one_btn').addClass('clicked');
+                $('#less_two_btn').removeClass('clicked');
+                $('.dropdown-content').addClass('none');
+                swing_module.render_header();
+            });
+
+            $('#const_body').on('click', '.glyphicon-remove', function(){
+                $('#parent_container').css('display', 'block');
+                $('#const_body').css('display', 'none');
+                $('#header').css('display', 'block');
+            });
+            $('#const_body').on('click', '.glyphicon-refresh', function(){
+                popUp(const_module.getStateName(),const_module.getAcName())
+            });
+
+
+            $('#header').on('click', '#refresh-logo', function(){
+               swing_module.get_data(refresh=true);
+            });
+
+            $('#header').on('click', '#title', function(){
+
+                var curr_url = G.url.parse(location.href)
+                var lang = curr_url.searchKey.lang || null
+                if(lang && lang.toUpperCase() == 'HIN'){
+                    window.location.href = "/countinghome?lang=HIN";
+                }else{
+                    window.location.href = "/countinghome";
+                }
+
+            });
+        </script>
+
+    </body>
+</html>
+

@@ -1,0 +1,599 @@
+#header {
+    height: 62px;
+}
+
+div#subtitle {
+    margin-top: 80px;
+    margin-left: calc(43%);
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+/*@media screen and (min-width: 3200px) {}
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 992px) {}
+@media screen and (max-width: 800px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 640px) {}
+@media screen and (max-width: 480px) {}
+@media screen and (max-width: 320px) {}*/
+.visuals{
+    /*margin-top: 120px !important;*/
+}
+#filter-state > span, #filter-agency > span{
+    font-size:20px;
+    font-family: "Roboto";
+}
+
+#title {
+    font-size:32px;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+.filter2 {
+    font-size: 36px;
+}
+.gotocomparison img, .gotocomparison + a img{
+    margin-top: -70px !important;
+    width: 40px;
+    height: 38px;
+}
+.filter-types{
+    font-family: "Roboto" !important;
+    fill: #000 !important;
+}
+/*#agency-donut{
+    width: 600px;
+}*/
+#agency-donut{
+    width: 50%;
+}
+#agency-stacked svg text{
+    font-family: "Roboto" !important;
+}
+.layer text{
+    fill: #000;
+}
+.layer rect{
+    fill: #8b6d53;
+}
+/*.chartLayer .arc:nth-child(2) path{
+    fill: #c547a3;
+}
+.chartLayer .arc:nth-child(1) path{
+    fill: #2cb82c;
+}*/
+
+.rightnav{
+    margin-top: -56px;
+    margin-right: 0;
+    background: rgb(107, 107, 107);
+    padding-right: 15px;
+}
+.rightnav a{
+    display: block;
+}
+.rightnav span a {
+    border-right-width: 0;
+    padding: 19px 15px;
+    color: #fff;
+    font-size: 17px;
+    margin-right: -18px;
+}
+.rightnav a {
+    border-right-width: 0;
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 17px;
+}
+.rightnav .fa-caret-down{
+    color: #fff;
+    margin-left: -20px;
+}
+.rightnav .dropdown-content{
+    margin-top: 0;
+    margin-left: 0;
+    min-width: 200px;
+    background: rgb(107, 107, 107);
+    right: -2px;
+}
+.rightnav span a:hover{
+    text-decoration: none;
+}
+#precision svg{
+    margin-left: 0 !important;
+}
+
+.tvnav{
+    display: none;
+}
+.footer-tv{
+    display: none;
+}
+.footer-web{
+    display: block;
+}
+
+@media screen and (min-width: 1920px) {
+    div#subtitle {
+        margin-top: 125px;
+        margin-left: calc(43%);
+        font-size: 8rem;
+        font-weight: bold;
+    }
+    .rightnav{
+        display: none;
+    }
+    .tvnav{
+        display: block !important;
+    }
+    /*.chartLayer g.arc:nth-child(1) path{
+        fill: #11ff00;
+    }
+    .chartLayer g.arc:nth-child(2) path{
+        fill: #FF19B6;
+    }*/
+    /*.layer rect{
+        fill: #FFD3AB;
+    }*/
+    #header {
+        height:100px;
+    }
+    #filter-state > span{
+        font-size:40px;
+    }
+    #filter-agency > span {
+        font-size:40px;
+    }
+
+    #title {
+        font-size:54px;
+        text-transform: uppercase;
+        margin-top:10px;
+    }
+    .filter2 {
+        font-size: 36px;
+    }
+    .visuals{
+        margin-top: 50px !important;
+    }
+
+	#agency-donut{
+		width: 50%;
+	}
+	.filter-types{
+		fill: #000 !important;
+	}
+	.dropdown-content{
+		width: 100% !important;
+		min-width: 404px; /*350px*/
+	}
+	#filter-state > span, #filter-agency > span{
+		font-family: "Helvetica Inserat LT Std" !important;
+	}
+	#agency-stacked svg text{
+		font-family: "Helvetica Inserat LT Std" !important;
+	}
+	.gotocomparison img, .gotocomparison + a img{
+		margin-top: -95px !important;
+		width: 47px;
+		height: 50px;
+	}
+	.layer text{
+		fill: #000;
+	}
+	.footer-tv{
+		display: none;
+	}
+	.footer-web{
+		display: block;
+        height: 70px !important;
+        margin-bottom: 20px;
+        position: absolute;
+        right: 1%;
+        bottom: 0;
+	}
+}
+
+@media screen and (min-width: 3200px) {
+    #agency-donut {
+        width: 45%;
+    }
+    .footer-web{
+        display: block;
+        height: 140px !important;
+        margin-bottom: 20px;
+        position: absolute;
+        right: 5%;
+        bottom: 0;
+    }
+    div#subtitle {
+        margin-top: 200px;
+        margin-left: calc(43%);
+        font-size: 6.8rem;
+        font-weight: bold;
+    }
+
+    #filter-state > span, #filter-state, #filter-year {
+        font-size: 72px !important;
+    }
+    div.border-right:before {
+        border-top: 84px solid transparent !important;
+        border-bottom: 80px solid transparent !important;
+        border-left: 80px solid #920000 !important;
+    }
+    #title {
+        font-size: 90px;
+        margin-top: 18px;
+    }
+    .gotohome {
+        margin-right: 20px !important;
+        margin-top: -152px !important;
+        width: 100px;
+        height: 76px;
+    }
+    #precision svg {
+        margin-top: 90px !important;
+        margin-right: 30px !important;
+    }
+    body{
+        background: #d9d9d9;
+        background: -moz-linear-gradient(left, #d9d9d9 0%, #999999 100%);
+        background: -webkit-linear-gradient(left, #d9d9d9 0%,#999999 100%);
+        background: linear-gradient(to right, #d9d9d9 0%,#999999 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#999999',GradientType=1 );
+        width: 79%;
+        margin: 0 7% 0 14%;
+    }
+    #header{
+        height: 160px !important;
+        width: 78% !important;
+    }
+    #filter-agency > span {
+        font-size: 72px;
+    }
+    .tvnav.network {
+        margin-top: -105px;
+    }
+    #comparision-img, #home-img, .gotocomparison img, .gotocomparison + a img{
+        width: 100px;
+        height: 76px;
+        margin-right: 50px !important;
+    }
+    /*agency*/
+    .gotocomparison img, .gotocomparison + a img{
+        margin-top: -160px !important;
+    }
+    #netmainrow {
+        margin-top: 50px;
+    }
+    .filter-types {
+        fill: #000 !important;
+    }
+    #agency-donut svg text{
+        fill: #000 !important;
+    }
+    #agency-stacked svg .layer text{
+        fill: #000 !important;
+    }
+    .dropdown-content > p {
+        width: 450px;
+    }
+    #precision svg .parties rect {
+        height: 45px !important;
+    }
+    #precision svg .agencies rect {
+        height: 45px !important;
+    }
+/*    body{
+        width: 92%;
+        margin: 0 auto;
+    }
+    #header{
+        width: 92% !important;
+    }*/
+    .visuals {
+        margin-top: 70px !important;
+    }
+    #agency-stacked svg text{
+        font-size: 6rem !important;
+    }
+    #agency-stacked svg text.filter-types{
+        font-size: 38px !important;
+    }
+    #agency-stacked svg .layer text{
+        font-size: 4rem !important;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    #agency-donut{
+        width: 495px;
+    }
+    #title{
+        margin-left: calc(50% - 215px);
+    }
+    #precision {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #agency-donut {
+        width: 495px;
+    }
+    #filter-state, #filter-year, #filter-agency{
+        padding: 17px 20px;
+    }
+    #header{
+        width: 97%;
+    }
+/*  #title{
+        margin-top: 0px !important;
+    }*/
+}
+@media screen and (max-width: 992px) {
+    #title {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 70px;
+        text-align: center;
+    }
+    #agency-donut {
+        width: 390px;
+    }
+    #title {
+        font-size: 28px;
+    }
+    .rightnav{
+        margin-top: -111px;
+    }
+    #precision {
+        width: 100%;
+        margin: 110px auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    #agency-donut {
+        width: 520px;
+        float: none;
+        margin:auto;
+    }
+    #agency-stacked{
+        float: none;
+        margin: 40px auto 0;
+        width: 100%;
+    }
+    #header{
+        width: 100%;
+    }
+    /*.gotocomparison img, .gotocomparison + a img{
+        margin-top: 0 !important;
+    }*/
+    #header{
+        position: static;
+    }
+    body{
+        position: relative;
+    }
+    #footer img{
+        margin-bottom: 0;
+        margin-left: 0;
+        bottom: 10px;
+        right: 10px;
+    }
+    .visuals{
+        margin-top: 40px !important;
+    }
+    #title {
+        margin-left: 0 !important;
+        font-size: 25px;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .gotocomparison img, .gotocomparison + a img{
+        margin-top: -170px !important;
+    }
+    #title{
+        margin-top: 41px;
+    }
+    .rightnav{
+        margin-top: -138px;
+    }
+
+    #precision{
+        margin: 10px auto;
+    }
+    div.border-right.agency:before {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    #agency-donut svg{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    /*#header{
+        background: none;
+        border-width: 0;
+    }
+    #filter-state, #filter-year, #filter-agency{
+        margin-top: 10px;
+    }*/
+    #title {
+        float: left;
+        font-size: 32px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        width: 100%;
+    }
+    #header{
+        width: 100%;
+    }
+    .visuals{
+        margin-top: 0 !important;
+    }
+    .gotocomparison img, .gotocomparison + a img{
+        margin-top: -230px !important;
+    }
+    /*.gotocomparison img, .gotocomparison + a img{
+        margin-top: -185px;
+    }*/
+    .rightnav{
+        margin-top: -166px;
+    }
+    #agency-donut{
+        margin: 0 auto;
+    }
+    div.border-right:before{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 568px) {
+    #filter-state > span, #filter-agency > span {
+        font-size: 12px;
+        font-family: "Roboto";
+    }
+    #filter-state, #filter-year, #filter-agency, #filter-nav{
+        margin: -1px 0 0 -1px;
+    }
+    .rightnav a{
+        font-size: 12px;
+        padding: 24px 15px;
+    }
+    .rightnav {
+        margin-top: -153px;
+    }
+    .rightnav span a {
+        padding: 19px 21px !important;
+        font-size: 12px;
+    }
+    .gotocomparison {
+        border-left: 1.5px solid black;
+    }
+    #title{
+        font-size: 26px;
+    }
+    #precision{
+        margin-top: 30px;
+    }
+    .rightnav a {
+        font-size: 12px;
+        padding: 5px 10px;
+        border-left: 0;
+    }
+    #agency-donut {
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .gotocomparison img, .gotocomparison + a img {
+        margin-top: -250px !important;
+    }
+    #title {
+        float: left;
+        font-size: 22px;
+        margin-bottom: 20px;
+        margin-left: 0 !important;
+        margin-right: 0;
+        margin-top: 30px !important;
+        width: 100%;
+        text-align: center;
+    }
+    #agency-donut {
+        width: 320px;
+        float: none;
+        margin: auto;
+    }
+    #header {
+        position: static;
+        border: none;
+        background: none;
+    }
+    .rightnav{
+        margin-top: -125px;
+        float: left !important;
+    }
+    .rightnav a:last-child{
+        margin-left: 1px;
+    }
+    #filter-state, #filter-year, #filter-agency{
+        font-size: 15px;
+        padding: 6px 20px;
+    }
+    .rightnav a {
+        font-size: 12px;
+        padding: 0;
+    }
+    .rightnav {
+        margin-top: -114px;
+        float: right !important;
+        margin-right: 0px;
+/*      background: none;*/
+    }
+    .rightnav span a {
+        padding: 8px 15px !important;
+        width: 100%;
+    }
+    .rightnav .dropdown-content{
+        right: 0;
+        width: 100%;
+        min-width: 140px;
+    }
+    .rightnav span {
+        width: 125px;
+        text-align: center;
+    }
+    .dropdown-content{
+        margin-top: 5px;
+    }
+    #agency-donut svg{
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #filter-state, #filter-year, #filter-agency {
+        padding: 12px;
+    }
+    div.border-right::before{
+        display: none;
+    }
+    #filter-state, #filter-year, #filter-agency{
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .rightnav span a {
+        padding: 12px 14px !important;
+    }
+    .rightnav a {
+        font-size: 12px;
+        padding: 0px;
+    }
+    .rightnav a:last-child{
+        margin-left: 1px;
+    }
+    .rightnav {
+        margin-top: -105px;
+        float: left !important;
+        /*margin-right: 30px;*/
+        /*background: none;*/
+    }
+    #title{
+        margin-top: 60px !important;
+    }
+    .rightnav .dropdown-content {
+        left: 0 !important;
+    }
+    #precision svg{
+        margin-top: 0;
+    }
+    .rightnav span {
+        width: 133px;
+    }
+
+}

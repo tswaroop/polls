@@ -1,0 +1,208 @@
+#header{
+	height: 100px;
+	width: 98.5% !important;
+	background: #940215 !important;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+	border: 0px !important;
+	top: 0px;
+	/*background: radial-gradient(circle, #F9F8F8 0%, #A4A4A2 100%) !important;*/
+}
+.border-right {
+background: #000 !important;
+}
+#title{
+	color:#fff;
+}
+#state-all:hover{color:white !important;}
+.border {
+
+  border-right: 4px solid gray !important;
+  background: #000 !important;
+}
+.border-right:before {
+  border-left: 50px solid #000 !important;
+}
+.header{
+background-color: #940215 !important;}
+#linechartContainer{
+height: 700px;
+}
+#donutContainer0,#donutContainer1,#donutContainer2,#donutContainer3{
+height: 300px;
+}
+#linechartContainer-xAxis,#linechartContainer-yAxis
+{
+font-size: 25px;
+}
+body{
+background: url('/strike-rate/BAckgroundImage.png') fixed;
+background-size: cover;
+}
+.container-fludic {
+margin-top: 100px;
+}
+svg{
+margin-left: 1px !important;
+}
+#party_filter{margin-left: 2px}
+.filt-btn {
+width: 200px;
+height: 60px;
+opacity: 0.7270289;
+background-color: #000000;
+box-shadow: inset 10px 10px 10px 0 rgba(162,162,162,0.5);
+border: 1px solid #BCB6B6;
+border-radius: 38px;
+margin-right: 70px;
+margin-top: 50px;
+margin-left: 55px;
+padding-top: 6px;
+font-size: 35px;
+text-align: center;
+}
+
+.live-logo-container{
+margin-top: -40px;
+}
+.live-logo-container a{
+	margin-right: 20px;
+	display: inline-block;
+}
+.live-logo-container a .gramener-logo-live{
+	height: 32px;
+}
+.live-logo-container a .refresh{
+	height: 28px;
+}
+
+.dropdown-content > p {
+    width: 330px;
+    
+}
+.dropdown-content {
+	background-color: black;
+}
+.dropdown-content:hover{color:white !important;}
+#filter-state p:hover, #filter-year:hover, #filter-agency:hover{
+	color: white;
+	opacity: 0.8
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border: 0.25px solid #DECDCC;
+    min-width: 300px;
+    margin-left: -30px;
+    margin-top: 17.5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown span:hover{
+  color:#fff;
+  opacity:0.8;
+}
+.hilighter{
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1920px) {
+	.filt-btn{
+		margin-left: 0;
+	}
+	.container-fludic {
+	    margin-top: 20px !important;
+	}
+	.live-logo-container{
+		margin-top: -78px;
+	}
+	.live-logo-container a{
+		margin-right: 25px;
+		display: inline-block;
+	}
+	.live-logo-container a .gramener-logo-live{
+		height: 35px;
+	}
+	.live-logo-container a .refresh{
+		height: 45px;
+	}
+	#party-filters {
+		margin-top: 6em;
+		padding-left: 3em;
+	}
+
+	#party-filters .btn {
+		font-size: 35px;
+	}
+
+	#title {
+		margin-top: -6px !important;
+		margin-left: calc(45% - 250px);
+		font-size: 80px;
+	}
+
+	#filter-state {
+		font-size: 40px;
+		padding: 23px 30px;
+	}
+
+	#result-arc {
+			height: 980px;
+			margin-top: 150px;
+			margin-left: 0px;
+	}
+
+	#filters, .btn-filter-type, .filter-primary, #filters .btn {
+		font-size: 22px !important;
+		padding: 5px 7px !important;
+	}
+
+	#filters p:first-child span {
+		font-size: 20px !important;
+	}
+
+	.table .btn {
+		font-size: 30px
+	}
+
+	#filter-state:before {
+		border-top: 53px solid transparent !important;
+		border-bottom: 50px solid transparent !important;
+		border-left: 50px solid #000 !important;
+	}
+	body {
+		font-family: "Helvetica Inserat LT Std";
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 3200px) {
+	.container-fludic {
+	    margin-top: 90px !important;
+	}
+	#title{
+		margin-top: 25px !important;
+	}
+	#header{
+		width: 78% !important;
+	}
+	#filter-state, #filter-year, #filter-agency{
+		font-size: 64px !important;
+		padding: 36px 30px !important;
+	}
+	.live-logo-container a .gramener-logo-live {
+	    height: 50px;
+	}
+	.live-logo-container a .refresh {
+	    height: 70px;
+	}
+	.live-logo-container {
+	    margin-top: -92px;
+	}
+	.filt-btn {
+		margin-left: 55px;
+	}
+
+	
+}

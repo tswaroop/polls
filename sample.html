@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Components Sample</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="/bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="/bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+
+        <style>
+        	#mapContainer, #donutContainer, #arcsContainer, #linechartContainer{
+        		height: 600px;
+        	}
+
+        	#barContainer{
+        		height: 500px;
+        		width: 500px;
+        	}
+        	svg{
+        		pointer-events: all !important;
+        	}
+        </style>
+	</head>
+	<body>	
+		<!-- <div id="mapContainer"></div> -->
+		<!-- <hr> -->
+		<!-- <div id="linechartContainer"></div> -->
+		<!-- <hr> -->
+		<!-- <div id="arcsContainer"></div> -->
+		<!-- <hr> -->
+		<!-- <div id="donutContainer"></div> -->
+		<!-- <hr> -->
+ 		<div id="barContainer"></div>
+		<script type="text/javascript" src="components/root.js"></script>
+		<script type="text/javascript" src="components/map.js"></script>
+		<script type="text/javascript" src="components/donut.js"></script>
+		<script type="text/javascript" src="components/linechart.js"></script>
+		<script type="text/javascript" src="components/arcs.js"></script>
+		<script type="text/javascript" src="components/wheel.js"></script>
+		<script type="text/javascript" src="components/stackedbar.js"></script>
+		<script type="text/javascript" src="components/verticalStackedBar.js"></script>
+		<script type="text/javascript" src="components/image3d.js"></script>
+		<script type="text/javascript">
+
+			var sample_data = [
+				{x: 15, y: 2, type: 'main'},
+				{x: 28, y: 8, type: 'sec'}
+			]
+
+			var line_chart_sample_data = [
+				{x: 0, y: 0, z: 0, p: 0},
+				{x: 1, y: 2, z: 5, p: 4},
+				{x: 2, y: 9, z: 2, p: 6},
+				{x: 3, y: 4, z: 7, p: 1}
+			]
+
+			var line_chart_sample_data2 = [
+				{x: 0, y: 0, z: 0, p: 0},
+				{x: 1, y: 2, z: 5, p: 4},
+				{x: 2, y: 9, z: 2, p: 6},
+				{x: 3, y: 4, z: 7, p: 1},
+				{x: 4, y: 6, z: 7, p: 1},
+				{x: 5, y: 9, z: 7, p: 1}
+			]
+
+			var line_chart_sample_data3 = [
+				{x: 0, y: 0, z: 0, p: 0},
+				{x: 1, y: 2, z: 5, p: 4},
+				{x: 2, y: 9, z: 2, p: 6},
+				{x: 3, y: 4, z: 7, p: 1},
+				{x: 4, y: 6, z: 7, p: 1},
+				{x: 5, y: 9, z: 7, p: 1},
+				{x: 6, y: 11, z: 8, p: 3},
+				{x: 7, y: 12, z: 9, p: 4},
+			]
+
+			var arcs_sample_data = {
+				name: 'root',
+				color: 'white',
+				children: [
+					{
+						name: 'BJP',
+						color: 'red',
+						ac_name: 'abc1',
+						children: [{name: 'CONG', color: 'blue', ac_name: 'abc1', size: 1}]
+					},
+					{
+						name: 'BJP',
+						color: 'red',
+						ac_name: 'abc2',
+						children: [{name: 'CONG', color: 'blue', ac_name: 'abc2', size: 1}]
+					},
+					{
+						name: 'BJP',
+						color: 'red',
+						ac_name: 'abc3',
+						children: [{name: 'CONG', color: 'blue', ac_name: 'abc3', size: 1}]
+					}
+				]
+			}
+			
+			// var leaflet = new Map('mapContainer')
+			// leaflet.render('geojson/punjab_ac_map.json', {name: 'pathankot', size: 1600}, {}, null)
+			// setTimeout(function(){
+			// 	leaflet.render('geojson/up_ac_map.json', {name: 'behat', size: 12000}, {}, null)
+			// },3000)
+			// setTimeout(function(){
+			// 	leaflet.render('geojson/uk_ac_map.json', {name: 'purola', size: 19000}, {}, null)
+			// },6000)
+			// setTimeout(function(){
+			// 	leaflet.render('geojson/goa_ac_map.json', {name: 'tivim', size: 500}, {}, null)
+			// },999000)
+			
+			// leaflet.showSinglePoint('pathankot')
+
+			// var linechart = new Linechart('#linechartContainer','x')
+			// linechart.createSkeleton().render(line_chart_sample_data)
+			// setTimeout(function(){
+			// 	linechart.createSkeleton().render(line_chart_sample_data2)	
+			// },4000)
+			// setTimeout(function(){
+			// 	linechart.createSkeleton().render(line_chart_sample_data3)	
+			// },8000)
+			
+
+			// var arcs = new Arcs('#arcsContainer')
+			// arcs.createSkeleton().render(arcs_sample_data)
+
+			// var donut = new Donut('#donutContainer')
+			// donut.createSkeleton().render(50,200)
+			// setTimeout(function(){ donut.render(100,200) }, 1000)
+			// setTimeout(function(){ donut.render(125,200) }, 3000)
+			// setTimeout(function(){ donut.render(150,200) }, 5000)
+
+			var bar = new image3d('#barContainer', {main: '#0093FC', sec: '#007DD8', back: '#51B7FF'})
+			bar.createSkeleton().render(sample_data, 'x', '/img/party_candidate_images/MODI.jpg', 'Narendra Modi')
+
+		</script>
+	</body>
+</html>

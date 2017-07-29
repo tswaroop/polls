@@ -1,0 +1,255 @@
+<script type="text/template" id="filter-template">
+
+  <p class="margin-bottom-20">
+    <% _.each(filterData.filter_legend, function(filter){ %>
+
+
+        <button class="urlfilter margin-bottom-10 btn btn-default" data-href="?<%= rmslug(filter.type) + '=' %>">
+          <%var labels = [] %>
+          <% _.each(filter.labels, function(lbl){ labels.push(mask_to_hindi(lbl)) }) %>
+          <%= mask_to_hindi(filter.name) %>: <%= labels.join(',') %>
+          <span class="filter-close-icon">&nbsp;|&nbsp;<i class="fa fa-times"></i></%></span>
+        </button>
+
+
+
+    <% }) %>
+  </p>
+
+  <% _.each(filterData.entities, function(entity){ %>
+
+    <p class="btn-group btn-filters">
+
+      <button class="btn filter-primary" data-attr="<%= entity.type  %>"><%= mask_to_hindi(entity.name)  %></button>
+
+      <% _.each(entity.filters, function(filter){ %>
+
+        <button class="urlfilter btn btn-default btn-filter-type <%= filter.status == 'active' ? 'active' : '' %>" data-href="<%= '?'+ rmslug(entity.type) + '=' + encodeURIComponent(filter.value || filter.name) %>" data-toggle="toggle"> <%= mask_to_hindi(filter.name) %> </button>
+
+      <% }) %>
+
+    </p>
+
+  <% }) %>
+  <p><button class="btn btn-filter btn-filter-clearall" data-href="?<%= filterData.filters.join('=&') + '=' %>"><%= mask_to_hindi("Clear All") %></button></p>
+
+</script>
+
+<script type="text/template" id="constituency-template">
+
+  <div class="contestant-info padding-20">
+    <div>
+      <span class="filter-types font-50 color-white"><b><%= mask_to_hindi(data.area.toUpperCase()) %></b></span>
+      <button class="btn btn-filter close-info"><b>X</b></button>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <hr id="area-votes-classify">
+
+    <div>
+      <!-- <p class="info pull-left">CONTESTANT</p> -->
+      <p class="info pull-right info-votes">VOTES</p>
+      <p class="clearfix"></p>
+    </div>
+    <% _.each(data.top_3, function(top_contestant){ %>
+
+      <div class="margin-top-10">
+
+        <div class="pull-left">
+          <img class="top_3_imgs" src="<%= partyLogos[top_contestant.PARTY] || defaultPartyLogo %>" alt="">
+        </div>
+
+        <div>
+          <p class="info padding-top-5 font-30 pull-right margin-right-30"><%= votesFormat(top_contestant.VOTES) %></p>
+          <p class="info padding-top-5 font-35 margin-left-90"><b><%= mask_to_hindi(top_contestant.NAME).split(' ').slice(0,2).join(' ') %></b></p>
+          <p class="info margin-left-90 margin-top-35 font-40" style="color: <%= partyColors[top_contestant.PARTY] || '#9B9B9B'%>"><%= mask_to_hindi(top_contestant.PARTY) %></p>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    <% }) %>
+
+    <div class="clearfix"></div>
+
+    // <div>
+    //   <p id="curr-cont-label">2017 Contestants</p>
+    //   <hr id="curr-cont-line">
+    //   <br>
+    // </div>
+
+    <% _.each(data.contestants, function(contestant){ %>
+
+      <div class="col-md-12 margin-top-10" style="padding:0">
+        <img class="curr-cont-img" src="<%= partyLogos[contestant.PARTY] || defaultPartyLogo %>" alt="">
+        <div class="curr-cont-contestants">
+          <p class="info font-35 margin-bottom-35"><b><%= mask_to_hindi(contestant.NAME).split(' ').slice(0,2).join(' ') %></b></p>
+          <p class="info font-40" style="color: <%= partyColors[contestant.PARTY] || '#9B9B9B'%>"><%= mask_to_hindi(contestant.PARTY) %></p>
+        </div>
+      </div>
+
+    <% }) %>
+
+  </div>
+
+</script>
+
+<script type="text/template" id="header-template">
+
+  <div class="pull-left dropdown border" id="filter-state">
+    <span data-attr="<%= data.selected.toUpperCase() %>"><%= data.selected.toUpperCase() %></span><i class="margin-left-10 fa fa-caret-down"></i>
+    <div class="dropdown-content" id="otherstates">
+      <% _.each(data.states, function(state){ %>
+        <p data-type="state"><%= state.toUpperCase() %></p>
+      <% }) %>
+    </div>
+  </div>
+
+  <div class="pull-left dropdown border" id="filter-section">
+    <span><%= sections[0]['name'] %></span><i class="margin-left-10 fa fa-caret-down"></i>
+    <div class="dropdown-content" id="othersections">
+      <% _.each(sections.slice(1), function(sect){ %>
+        <p data-type="section" data-attr="<%= sect['id'] %>"><%= sect['name'].toUpperCase() %></p>
+      <% }) %>
+    </div>
+  </div>
+
+  <div class="pull-left dropdown border-right" id="filter-year">
+    <span>2017</span>
+  </div>
+
+  <div id="title" class="live-title"><%= mask_to_hindi("LIVE RESULTS") %></div>
+  <div class="pull-right live-logo-container">
+    <a href="#"> <img class="gramener-logo-live" src="img/gramener_LOGO_STANDARD_WHITE_.png" alt="Gramener" title="Gramener"> </a>
+    <a href="#"> <img class="gramener-logo-live-web" src="img/gramener_LOGO_STANDARD_BLUE_.png" alt="Gramener" title="Gramener"> </a>
+    <a href="#"> <img class="live-refresh" src="img/refresh.png" alt="refresh" title="refresh"> </a>
+    <a href="#"> <img class="live-refresh-web" src="img/refresh-web.png" alt="refresh" title="refresh"> </a>
+  </div>
+
+</script>
+
+<script type="text/template" id="landing-div-template">
+
+  <div id="landing-title"><%= mask_to_hindi("ELECTION ANALYTICS CENTRE") %></div>
+  <div class="row landing-row">
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">UTTAR PRADESH</a>
+      </div>
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">PUNJAB</a>
+      </div>
+  </div>
+  <div class="row landing-row">
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">UTTARAKHAND</a>
+      </div>
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">MANIPUR</a>
+      </div>
+  </div>
+  <div class="row landing-row">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4">
+          <a class="btn btn-landing btn-block">GOA</a>
+      </div>
+      <div class="col-lg-4"></div>
+  </div>
+
+</script>
+
+<script type="text/template" id="resultTable">
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th style="text-align: right"><%= mask_to_hindi("Party") %></th>
+      <th></th>
+      <th><%= mask_to_hindi("Seats") %></th>
+      <th><%= mask_to_hindi("Vote Share %") %></th>
+    </tr>
+  </thead>
+  <tbody>
+  <% var alliance_votes = data.alliance_votes %>
+  <% var party_votes = data.party_votes %>
+
+  <% var num_format = d3.format(',.2f') %>
+  <% var max_val = d3.max(_.map(data.curr_data, function(row){ return row.length })) %>
+  <% var total_votes = data.total_votes %>
+  <% var curr_data = data.curr_data %>
+  <% var seat_order = _.sortBy(_.map(curr_data, function(r, k){
+    return {'Name': k, 'Seats': r.length}
+  }), 'Seats').reverse() %>
+
+  <% _.each(seat_order, function(party_seat){ %>
+    <% var alliance = party_seat.Name %>
+    <% var row = curr_data[alliance] %>
+    <% var votes_polled = alliance_votes[alliance] %>
+    <% var vote_per = (votes_polled / total_votes) * 100 %>
+    <% var curr_val = row.length %>
+    <% var prev_val = 0, prev_data = data.prev_data,
+      color = "#D0021B", triangle = 'bottom', vote_per_disp = '-' %>
+    <% if((vote_per>0) && (total_votes>0)) vote_per_disp = num_format(vote_per); %>
+    <% if (prev_data[alliance]) prev_val = prev_data[alliance].length %>
+    <% if ((curr_val - prev_val)>0) color = "#417505", triangle = 'top' %>
+    <tr id=<%= rmslug(alliance) %>>
+      <td class="text-right">
+        <% if (alliance == 'OTH'){ %>
+        <span style="font-size:.7em;"
+        class="glyphicon glyphicon-triangle-bottom show-rest" aria-hidden="true"></span>
+        <% } %>
+          <%= mask_to_hindi(alliance) %></td>
+      <td class="text-right">
+        <%= curr_val %>
+        [<span style="font-size:.8em"><%= (curr_val - prev_val) %></span>
+        <span style="font-size:.8em; color: <%= color %>"
+        class="glyphicon glyphicon-triangle-<%= triangle %>" aria-hidden="true"></span>]
+      </td>
+      <td style="width: 40%">
+        <svg width="100%" viewbox="0 0 700 70">
+          <g transform="translate(40, 20)">
+            <%= rectangle_3d_modf(600, 50, partyColors[alliance], {}, max_val, curr_val) %>
+          </g>
+        </svg>
+      </td>
+      <td><%= vote_per_disp %></td>
+    </tr>
+
+    <% var party_grp = _.groupBy(row, 'PARTY') %>
+
+    <% var party_grp_blks = _.sortBy(_.map(_.groupBy(row, 'PARTY'), function(r, p){
+        return {'Name': p, 'Seats': r.length}
+    }),'Seats').reverse() %>
+
+    <% var lst_yr_grp = _.groupBy(prev_data[alliance], 'LY_WINNER') %>
+    <% var n_p = Object.keys(party_grp).length, i = 0, tr_class = 'show_tr', vote_per_disp = '-' %>
+    <% if (alliance == 'OTH') tr_class = 'hide_tr' %>
+    <% if (n_p > 1 || (party_grp_blks[0]['Name']) != alliance){ %>
+      <% _.each(party_grp_blks, function(parties_blk) { %>
+      <% var party =  parties_blk.Name %>
+      <% var parties = party_grp[party] %>
+      <% var votes_polled = party_votes[party] %>
+      <% var vote_per = (votes_polled / total_votes) * 100 %>
+      <% if(vote_per>0) vote_per_disp = num_format(vote_per) %>
+      <% var curr_val = parties.length %>
+      <% var prev_val = 0, prev_data = data.prev_data, color = "#D0021B", triangle = 'bottom' %>
+      <% if (lst_yr_grp[party]) prev_val = lst_yr_grp[party].length %>
+      <% if ((curr_val - prev_val)>0) color = "#417505", triangle = 'top' %>
+      <tr class="table-parties <%= tr_class %>">
+        <td class="text-right"><%= mask_to_hindi(party) %></td>
+        <td class="text-right">
+          <%= curr_val %>
+          [<span style="font-size:.7em"><%= (curr_val - prev_val) %></span>
+          <span style="font-size:.7em; color: <%= color %>"
+            class="glyphicon glyphicon-triangle-<%= triangle %>" aria-hidden="true"></span>]
+        </td>
+        <td style="width: 40%">
+        </td>
+        <td><%= vote_per_disp %></td>
+      </tr>
+      <% }) %>
+  <% } %>
+  <% }) %>
+  </tbody>
+</table>
+</script>

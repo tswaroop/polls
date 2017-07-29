@@ -1,0 +1,168 @@
+app:
+    listen:
+        port: 8888
+    settings:
+        auth: false
+        autoreload: false
+        debug: false
+        xsrf_cookies: false
+
+schedule:
+    run-every-min:
+        function: refresh_data.schedule_data
+        startup: true
+        minutes: '*/1'
+        thread: true
+
+url:
+    home:
+        pattern: /
+        handler: FileHandler
+        kwargs:
+            path: index.html
+
+    maps:
+        pattern: /maps
+        handler: FileHandler
+        kwargs:
+            path: maps.html
+
+    keycandidate:
+        pattern: /keycandidate
+        handler: FileHandler
+        kwargs:
+            path: key_candidate/keycandidate.html
+
+    live:
+        pattern: /live
+        handler: FileHandler
+        kwargs:
+            path: live.html
+            template: "*.html"
+            headers:
+              Cache-Control: no-cache
+
+    poll:
+        pattern: /poll
+        handler: FileHandler
+        kwargs:
+            path: poll.html
+
+    exitpoll:
+        pattern: /exitpoll
+        handler: FileHandler
+        kwargs:
+            path: exitpoll.html
+
+    pollhindi:
+        pattern: /pollhindi
+        handler: FileHandler
+        kwargs:
+            path: pollhindi.html
+
+    agency:
+        pattern: /agency
+        handler: FileHandler
+        kwargs:
+            path: agency.html
+
+    agencyexit:
+        pattern: /agencyexit
+        handler: FileHandler
+        kwargs:
+            path: agencyexit.html
+
+    agencyhindi:
+        pattern: /agencyhindi
+        handler: FileHandler
+        kwargs:
+            path: agencyhindi.html
+
+    landing:
+        pattern: /home
+        handler: FileHandler
+        kwargs:
+            path: home.html
+
+    landinghindi:
+        pattern: /homehindi
+        handler: FileHandler
+        kwargs:
+            path: homehindi.html
+
+    maphome:
+        pattern: /maphome
+        handler: FileHandler
+        kwargs:
+            path: maphome.html
+
+    maphomehindi:
+        pattern: /maphomehindi
+        handler: FileHandler
+        kwargs:
+            path: maphomehindi.html
+
+    net18:
+        pattern: /net
+        handler: FileHandler
+        kwargs:
+            path: network18.html
+
+    net18hindi:
+        pattern: /nethindi
+        handler: FileHandler
+        kwargs:
+            path: network18hindi.html
+
+    net18exit:
+        pattern: /netexit
+        handler: FileHandler
+        kwargs:
+            path: network18exit.html
+    const:
+        pattern: /constituencyPop
+        handler: FileHandler
+        kwargs:
+            path: constPopUp.html
+            template: "*.html"
+
+    test:
+        pattern: /test
+        handler: FileHandler
+        kwargs:
+            path: testing.html
+    strike:
+        pattern: /strike
+        handler: FileHandler
+        kwargs:
+            path: strike.html
+
+    home_page:
+        pattern: /countinghome
+        handler: FileHandler
+        kwargs:
+            path: homepage.html
+
+    refresh_data:
+        pattern: /refresh_data
+        handler: FunctionHandler
+        kwargs:
+           function: refresh_data.refresh_data
+           headers:
+               Content-Type: application/json
+
+    constPop_data:
+        pattern: /constPop_data
+        handler: FunctionHandler
+        kwargs:
+           function: const_popUp.constPopUp
+           headers:
+               Content-Type: application/json
+
+import:
+    roti: 'roti/roti.yaml'
+    keycandidate: 'key_candidate/key.yaml'
+    live_template_config: 'live/live.yaml'
+    swing_config: 'swing/swing.yaml'
+    strike-rate: strike-rate/strike.yaml
+

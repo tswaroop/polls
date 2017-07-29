@@ -1,0 +1,219 @@
+{
+  "config": [
+    {
+      "state": "uttar pradesh",
+      "parties":[       
+        "SP",
+        "CONG",
+        "BSP",
+        "BJP"
+      ],
+      "entities": [
+        {
+          "name": "Phases",
+          "type": "phase",
+          "filters": [
+            {"name":"1", "status": "inactive"},
+            {"name":"2", "status": "inactive"},
+            {"name":"3", "status": "inactive"},
+            {"name":"4", "status": "inactive"},
+            {"name":"5", "status": "inactive"},
+            {"name":"6", "status": "inactive"},
+            {"name":"7", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Region",
+          "type": "region",
+          "filters": [
+            {"name":"Avadh", "status": "inactive"},
+            {"name":"Bundelkhand", "status": "inactive"},
+            {"name":"Doab", "status": "inactive"},
+            {"name":"East", "status": "inactive"},
+            {"name":"West", "status": "inactive"},
+            {"name":"North East", "status": "inactive"},
+            {"name":"Ruhelkhand", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Geographic Status",
+          "type": "geography",
+          "filters": [
+            {"name":"Rural", "status": "inactive"},
+            {"name":"Semi-Urban", "status": "inactive"},
+            {"name":"Urban", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Muslim Population",
+          "type": "population",
+          "filters": [
+            {"name":"30% +", "status": "inactive"} 
+          ]
+        },
+        {
+          "name": "Win Margin",
+          "type": "margin",
+          "filters": [
+            {"name":"< 1%", "status": "inactive"},
+            {"name":"< 2%", "status": "inactive"} 
+          ]
+        }
+      ]
+    },
+    {
+      "state": "punjab",
+      "parties":[
+        "SAD",
+        "BJP",
+        "CONG",
+        "AAP"
+      ],
+      "entities": [
+        {
+          "name": "Regions",
+          "type": "region",
+          "filters": [
+            {"name":"Majha", "status": "inactive"},
+            {"name":"Doaba", "status": "inactive"},
+            {"name":"Malwa", "status": "inactive"} 
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Geographic Status",
+          "type": "geography",
+          "filters": [
+            {"name":"Rural", "status": "inactive"},
+            {"name":"Semi-Urban", "status": "inactive"},
+            {"name":"Urban", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Sikh Population",
+          "type": "population",
+          "filters": [
+            {"name":"60% +", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Hindu Population",
+          "type": "population",
+          "filters": [
+            {"name":"60% +", "status": "inactive"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "uttarakhand",
+      "parties":[
+        "BJP",
+        "CONG",
+        "BSP"
+      ],
+      "entities": [
+        {
+          "name": "Region",
+          "type": "region",
+          "filters": [
+            {"name":"Garhwal", "status": "inactive"},
+            {"name":"Kumaun", "status": "inactive"},
+            {"name":"Maidan", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"},
+            {"name":"ST", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Geographic Status",
+          "type": "geography",
+          "filters": [
+            {"name":"Rural", "status": "inactive"},
+            {"name":"Semi-Urban", "status": "inactive"},
+            {"name":"Urban", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Muslim Population",
+          "type": "population",
+          "filters": [
+            {"name":"30% +", "status": "inactive"} 
+          ]
+        }
+      ]
+    },
+    {
+      "state": "goa",
+      "parties":[
+        "BJP",
+        "CONG",
+        "AAP"
+      ],
+      "entities": [
+        {
+          "name": "Regions",
+          "type": "region",
+          "filters": [
+            {"name":"North", "status": "inactive"},
+            {"name":"South", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "manipur",
+      "parties":[
+        "BJP",
+        "CONG"
+      ],
+      "entities": [
+        {
+          "name": "Phases",
+          "type": "phase",
+          "filters": [
+            {"name":"1", "status": "inactive"},
+            {"name":"2", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Region",
+          "type": "region",
+          "filters": [
+            {"name":"Hills", "status": "inactive"},
+            {"name":"Valley", "status": "inactive"}
+          ]
+        }
+      ]
+    }
+  ]
+}

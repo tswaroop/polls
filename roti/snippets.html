@@ -1,0 +1,418 @@
+<script type="text/template" id="filter-template">
+
+  <div class="row">
+    <div class="col-md-8 col-xs-8">
+      <input id="constFilter">    
+    </div>
+    <div class="col-md-4">
+      <button id="eac-submitBtn" class="btn btn-filter font-25">Submit</button>
+    </div>
+  </div>
+  
+
+  <p class="margin-bottom-20 margin-top-20">
+    <% var dstate = mask_to_hindi($(".dropdown span:first").text()) %>
+    <% var dyear = mask_to_hindi($(".dropdown span:last").text()) %>
+    <% var dtype = dyear == '2012' ? 'Assembly' : 'Parliament' %>
+
+    <span class="bold-weight filter-types font-50"><%= dstate %> &nbsp;-&nbsp; <%= dyear %></span><span class="bold-weight year-type filter-types font-50"> (<%= dtype %>)</span>
+  </p>
+
+  <p class="margin-bottom-20">
+    <% _.each(filterData.filters, function(filter){ %>
+      
+      <% if(filter.column != 'PARTY'){ %>
+
+        <button data-column="<%= filter.column %>" class="margin-bottom-10 btn btn-xs btn-default btn-filter-remove">
+          <%= filter.value %>
+          <span class="filter-close-icon">&nbsp;|&nbsp;<i class="fa fa-times"></i></%></span>
+        </button>
+
+      <% } %>
+
+    <% }) %>
+  </p>
+
+  <% _.each(filterData.entities, function(entity){ %>
+    
+    <p>
+      
+      <span class="filter-types" data-attr="<%= entity.type  %>"><%= entity.name  %></span>
+      
+      <% _.each(entity.filters, function(filter){ %>
+
+        <button class="btn btn-filter btn-filter-type <%= filter.status == 'active' ? 'btn-filter-active' : '' %>"><%= filter.name %></button>
+      
+      <% }) %>
+      
+    </p>
+
+  <% }) %>
+
+  <p><button class="btn btn-filter btn-filter-clearall">Clear All</button></p>
+
+</script>
+
+<script type="text/template" id="legend-template">
+
+  <p><span id="totalseats"></span></p>
+
+  <% _.each(partiesData.parties, function(party){ %>
+
+      <p class="legendPara">
+        <button style="color: <%= partyColors[party.name] || defaultLegendColor %> !important;" class="btn btn-filter btn-filter-type btn-legend <%= party.status == 'active' ? 'btn-filter-active' : '' %>">
+          <%= party.name %> <span id="seatcount-<%= party.name %>"></span>
+        </button>
+      </p>
+
+  <% }) %>
+
+  <p>
+    <button style="color: <%= defaultLegendColor %> !important;" class="btn btn-filter btn-filter-type btn-legend <%= partiesData.status == 'active' ? 'btn-filter-active' : '' %>">
+      OTH<span id="seatcount-others"></span>
+    </button>
+  </p>
+
+</script>
+
+<script type="text/template" id="constituency-template">
+
+  <div class="contestant-info padding-20">
+
+    <div class="fixed-top-contestant">
+      <span class="filter-types font-50 color-white"><b><%= mask_to_hindi(data.area.toUpperCase()) %></b></span>
+      <button class="btn btn-filter close-info pull-right"><b>X</b></button>
+      <div class="clearfix"></div>
+      <hr id="area-votes-classify">
+    </div>
+
+    <div class="fixed-top-header">
+      <p class="info pull-right info-votes">VOTES</p>
+      <p class="clearfix"></p>
+    </div>
+
+    <% _.each(data.top_3, function(top_contestant){ %>
+      
+      <div class="margin-top-10">
+
+        <div class="pull-left">
+          <img class="top_3_imgs" src="<%= partyLogos[top_contestant.PARTY] || defaultPartyLogo %>" alt="">
+        </div>
+
+        <div>
+          <p class="info padding-top-5 font-30 pull-right margin-right-30"><%= votesFormat(top_contestant.VOTES) %></p>
+          <p class="info padding-top-5 font-35 margin-left-90"><b><%= mask_to_hindi(top_contestant.NAME).split(' ').slice(0,2).join(' ') %></b></p>
+          <p class="info margin-left-90 margin-top-35 font-40" style="color: <%= partyColors[top_contestant.PARTY] || '#9B9B9B'%>"><%= mask_to_hindi(top_contestant.PARTY) %></p>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    <% }) %>
+
+    <div class="clearfix"></div>
+    
+    <div>
+      <p id="curr-cont-label">2017 Contestants</p>
+      <hr id="curr-cont-line">
+      <br>
+    </div>
+    
+    <% _.each(data.contestants, function(contestant){ %>
+      
+      <div class="col-md-12 margin-top-10" style="padding:0">
+        <img class="curr-cont-img" src="<%= partyLogos[contestant.PARTY] || defaultPartyLogo %>" alt="">
+        <div class="curr-cont-contestants">          
+          <p class="info font-35 margin-bottom-35"><b><%= mask_to_hindi(contestant.NAME).split(' ').slice(0,2).join(' ') %></b></p>
+          <p class="info font-40" style="color: <%= partyColors[contestant.PARTY] || '#9B9B9B'%>"><%= mask_to_hindi(contestant.PARTY) %></p>
+        </div>
+      </div>
+      
+    <% }) %>
+
+  </div>
+
+</script>
+
+<script type="text/template" id="header-template">
+  
+  <div class="pull-left dropdown border-right" id="filter-state">
+    <span><%= data.curr_state %></span><i class="margin-left-10 fa fa-caret-down"></i>
+    <div class="dropdown-content" id="otherstates">
+        <p data-type="state"><%= data.other_state %></p>
+    </div>
+  </div>
+
+  <div class="pull-left dropdown border-right" id="filter-year">
+    <span>2017</span><i class="margin-left-10"></i>
+  </div>
+
+  <div id="title">RETURN ON TIME INVESTED</div>
+
+  <div class="pull-right live-logo-container">
+    <a href="#"> <img class="gramener-logo-live" src="../img/gramener_logo.png" alt="Gramener" title="Gramener"> </a>
+    <a href="#"> <img class="refresh" src="../img/refresh.png" alt="refresh" title="refresh"> </a>
+  </div>
+
+</script>
+
+<script type="text/template" id="landing-div-template">
+
+  <div id="landing-title"><%= mask_to_hindi("ELECTION ANALYTICS CENTRE") %></div>
+  <div class="row landing-row">
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">UTTAR PRADESH</a>
+      </div>
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">PUNJAB</a>
+      </div>
+  </div>
+  <div class="row landing-row">
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">UTTARAKHAND</a>
+      </div>
+      <div class="col-lg-6">
+          <a class="btn btn-landing btn-block">MANIPUR</a>
+      </div>
+  </div>
+  <div class="row landing-row">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4">
+          <a class="btn btn-landing btn-block">GOA</a>
+      </div>
+      <div class="col-lg-4"></div>
+  </div>
+
+</script>
+
+
+<!--  ==================================== ROTI ===================== -->
+
+<script type="text/template" id="one_person_template">
+    <div class="col-lg-8 col-md-4 col-sm-6" id="tile_<%= candidates_data[0].Name.replace(' ', '_').toUpperCase() %>" party-name="<%= candidates_data[0].Party_Name %>"></div>
+    <div class="col-lg-4" id="bar_<%= candidates_data[0].Name.replace(' ', '_').toUpperCase() %>"></div>
+</script>
+
+<script type="text/template" id="two_person_template">
+
+  <div class="row">
+  <% _.each(candidates_data, function(datum, i){ %>
+
+    <div class="<%= i !== 0 ?  'col-lg-3 normal_container' : 'col-lg-3 leading_container' %>">
+      <div class="highlight_encloser">
+        <div class="row">
+          <div class="col-lg-8 col-md-4 col-sm-6" id="tile_<%= datum.Name.replace(' ', '_').toUpperCase() %>"></div>
+        </div>
+        <!-- <div class="col-lg-4" id="bar_<%= candidates_data[0].Name.replace(' ', '_').toUpperCase() %>"></div> -->
+      </div>
+    </div>
+  <% }) %>
+    <!-- <div class="col-lg-3">
+      <div class="col-lg-4" id="bar_<%= candidates_data[1].Name.replace(' ', '_').toUpperCase() %>"></div>
+      <div class="col-lg-8 col-md-4 col-sm-6" id="tile_<%= candidates_data[1].Name.replace(' ', '_').toUpperCase() %>"></div>
+    </div> -->
+  </div>
+
+  <!-- <div class="row">
+    <div class="col-lg-12 candidate_constituencies">
+      <table class="table table-condensed">
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th colspan="2" class="heading-left">CONSTITUENCIES</th>
+            <th colspan="2"></th>
+            <th colspan="2"></th>
+            <th colspan="2" class="heading-right">CONSTITUENCIES</th>
+            <th colspan="2"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="headers-left">Campaigned</td>
+            <td colspan="2" class="values-left"><%= candidates_data[0].Campaigned %></td>
+            <td colspan="2" class="values-right"><%= candidates_data[1].Campaigned %></td>
+            <td colspan="2" class="headers-right">Campaigned</td>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="headers-left">Leading</td>
+            <td colspan="2" class="values-left"><%= candidates_data[0].Leading %></td>
+            <td colspan="2" class="values-right"><%= candidates_data[1].Leading %></td>
+            <td colspan="2" class="headers-right">Leading</td>
+            <td colspan="2"></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2" class="headers-left">Trailing</td>
+            <td colspan="2" class="values-left"><%= candidates_data[0].Trailing %></td>
+            <td colspan="2" class="values-right"><%= candidates_data[1].Trailing %></td>
+            <td colspan="2" class="headers-right">Trailing</td>
+            <td colspan="2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> -->
+
+</script>
+
+
+<script type="text/template" id="three_person_template">
+    <% _.each(candidates_data, function(datum){ %>
+      <div class="row candidate_constituencies">
+        <div class="col-md-3 col-lg-3" id="tile_<%= datum.Name.replace(' ', '_').toUpperCase() %>"></div>
+        <div class="col-md-6 col-lg-4">
+          <div class="horizontal_bar_percentage"><%= datum.Percentage %>%</div>
+          <div id="bar_<%= datum.Name.replace(' ', '_').toUpperCase() %>"></div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+            <div class="col-lg-12">
+              <table class="table table-condensed borderless">
+                <tbody>
+                <!-- <thead> -->
+                  <tr>
+                    <td colspan="6" class="horizontal_bar_left_heading">Constituencies</td>
+                    <td colspan="8"></td>
+                  </tr>
+                <!-- </thead> -->
+                <!-- <tbody> -->
+                  <tr>
+                    <td colspan="6" class="horizontal_bar_left">Campaigned</td>
+                    <td colspan="8" class="horizontal_bar_right"><%= datum.Campaigned %></td>
+                  </tr>
+                  <tr>
+      <!--               <td colspan="2"></td>
+                    <td colspan="6"></td> -->
+                    <td colspan="6" class="horizontal_bar_left"><img class="leading" src="../img/Lead.png">Leading</td>
+                    <td colspan="8" class="horizontal_bar_right"><%= datum.Leading %></td>
+                  </tr>
+                  <tr>
+      <!--               <td colspan="2"></td>
+                    <td colspan="6"></td> -->
+                    <td colspan="6" class="horizontal_bar_left"><img class="trailing" src="../img/Trail.png">Trailing</td>
+                    <td colspan="8" class="horizontal_bar_right"><%= datum.Trailing %></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+      </div>
+    <% }) %>
+
+</script>
+
+<script type="text/template" id="individual_template">
+
+  <div class="row">
+      <div class="col-md-6 headers-left individual_heading"><p><%= mask_to_hindi('Campaigned'.toUpperCase()) %></p></div>
+      <div class="col-md-3 headers-left individual_heading"><p><%= mask_to_hindi(data["Campaigned"]) %></p></div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col-md-6 headers-left"></div>
+      <div class="col-md-3 won_or_lead horizontal_bar_left_heading"><p><%= mask_to_hindi('Won / Lead'.toUpperCase()) %></p></div>
+      <div class="col-md-3"></div>
+  </div>
+  <br>
+  <% data.parties_data = JSON.parse(data.parties_data) %>
+  <% var sorted_keys = _.reverse(_.sortBy(Object.keys(data.parties_data), function(d) { return data.parties_data[d] })) %>
+    <% _.each(sorted_keys, function(key){ %>
+      <div class="row">
+        <div class="col-md-6 headers-left"><p class="<%= key.replace('+', '_') %>"><%= mask_to_hindi(key) %></p></div>
+        <div class="col-md-3 values-left"><p class="<%= key.replace('+', '_') %>"><%= mask_to_hindi(data.parties_data[key]) %></p></div>
+        <div class="col-md-3"></div>
+      </div>
+    <% }) %>
+</script>
+
+<script type="text/template" id="map_filters">
+  <table class="table table-condensed borderless">
+    <tbody>
+    <!-- <thead> -->
+      <% _.each(data, function(datum){ %>
+        <% if (datum.Phases.length != 0) { %>
+        <tr>
+          <td class="heading">Phases</td>
+          <td class="phases">
+            <% _.each(datum.Phases, function(e){ %>
+              <button class="btn btn-filter btn-filter-type btn-legend <%= _.indexOf(prev_selections.Phases, e.toString()) < 0 ? '' : 'active' %>"><%= mask_to_hindi(e) %></button>
+            <% }) %>
+          </td>
+        </tr>
+        <% } %>
+        <% if (datum.Regions.length != 0) { %>
+          <tr>
+            <td class="heading">Regions</td>
+            <td class="regions">
+              <% _.each(datum.Regions, function(e){ %>
+                <button class="btn btn-filter btn-filter-type btn-legend <%= _.indexOf(prev_selections.Regions, e.toString()) < 0 ? '' : 'active' %>"><%= mask_to_hindi(e) %></button>
+              <% }) %>
+            </td>
+          </tr>
+        <% } %>
+        <% if (datum.Regions.length != 0 || datum.Phases.length != 0) { %>
+          <tr>
+            <td></td>
+            <td>
+              <button class="btn btn-filter btn-filter-type btn-legend" id="clear_map_filters"><%= mask_to_hindi(Clear All)</button>
+            </td>
+          </tr>
+        <% } %>
+
+      <% }) %>
+<!--       <tr>
+        <button class="btn btn-filter btn-filter-type btn-legend">Clear All</button>
+      </tr> -->
+      </tbody>
+</script>
+
+<script type="text/template" id="modal_template">
+  <div class="modal fade" id="modal_window">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Test</h4>
+            </div>
+
+            <div class="modal-body">
+              <iframe src="http://localhost:8888/constituencyPop?ac_name=BEHAT" width="800" height="700"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+
+<script type="text/template" id="map-filter-template">
+  <% _.each(filterData.entities, function(entity){ %>
+    
+    <p>
+      
+      <span class="filter-types" data-attr="<%= entity.type  %>"><%= entity.name  %></span>
+      
+      <% _.each(entity.filters, function(filter){ %>
+
+        <button data-val="<%= filter.name %>" class="btn btn-filter btn-filter-type btn-filter-<%= entity.name.toLowerCase() %> <%= filter.status == 'active' ? 'btn-filter-active' : '' %>"><%= mask_to_hindi(filter.name) %></button>
+      
+      <% }) %>
+      
+    </p>
+
+  <% }) %>
+
+  <p><button class="btn btn-filter btn-filter-clearall">Clear All</button></p>
+</script>
+
+<script type="text/template" id="image-3d-template">
+  <svg width="150%" height="350" viewBox="-30 -70 550 1000" id="clickableMap" class="left punjab multiple_candidates" preserveAspectRatio="xMinYMin meet">
+   <g transform="translate(20,0)"><rect x="10" y="10" width="100%" height="600px" fill="<%= data.partyColor %>"></rect><image x="10" y="0" width="100%" height="720px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="<%= data.img %>"></image><rect x="10" y="610px" width="100%" height="150px" fill="<%= data.partyBorderColor %>"></rect><rect x="13" y="-11" width="100%" height="50px" fill="<%= data.partyColor %>" transform="translate(-40, -30) skewX(45)" fill-opacity="0.6"></rect><rect x="-39" y="-2" width="9%" height="600px" fill="<%= data.partyColor %>" transform="skewY(45)" fill-opacity="0.71"></rect>
+   <text x="50" y="715" fill="#FFF" font-size="75px" class="candi_text">
+     <%= mask_to_hindi(data.name) %>
+   </text>
+   <rect x="-39" y="600px" width="9%" height="150px" fill="<%= data.partyBorderColor %>" transform="skewY(45)"></rect></g>
+ </svg>
+</script>

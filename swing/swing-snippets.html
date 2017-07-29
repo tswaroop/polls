@@ -1,0 +1,62 @@
+<script type="text/template" id="swing_buttons_template">
+  <% 
+    var clicked_class = '';
+    var disabled = '';
+  %>
+  <% _.forEach(parties, function(party){ %>
+    <% clicked_class = (party == clicked_btn) ? 'clicked' : clicked_btn; %>
+    <% var d = _.filter(data, {'Party': party})[0] %>
+        <div class="swing-btn">
+            <button data-title="<%= party %>" class="<%= clicked_class %> btn btn-filter btn-filter-type btn-legend">
+                <table class="swing-btn-table">
+                  <thead>
+                    <tr><th class="<%= party %>" style="color:<%= partyColors[party] %>" colspan="2"><%= swing_module.mask_to_hindi(party) %></th></tr>                    
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <th><%= swing_module.mask_to_hindi('Lead') %></th>
+                        <th><%= swing_module.mask_to_hindi('Trail') %></th>
+                    </tr>
+                    <tr>
+                        <td><%= d.WON ? d.WON : '-' %></td>
+                        <td><%= d.LOST ? d.LOST : '-' %></td>
+                    </tr>                    
+                  </tbody>
+                </table>
+            </button>
+        </div>  
+  <% }) %>
+</script>
+
+
+<script type="text/template" id="header-template">
+  
+  <div class="pull-left dropdown border" id="filter-state">
+  <% var selected_state = G.url.parse(window.location.href).searchKey.state; %>
+  <% selected_state = selected_state ? selected_state : 'uttar pradesh'%>
+    <span><%= selected_state.toUpperCase() %></span><i class="margin-left-10 fa fa-caret-down"></i>
+    <div class="dropdown-content" id="otherstates">
+      <% _.each(data.states, function(state){ %>
+        <% if(selected_state != state){ %>
+          <p class="urlfilter" data-target="pushState" href="?state=<%= state %>" data-type="state"><%= state.toUpperCase() %></p>
+        <% } %>
+      <% }) %>
+    </div>
+  </div>
+
+  <div class="pull-left dropdown border-right" id="filter-year">
+    <span>2017</span>
+  </div>
+
+  <div id="title"><%= swing_module.mask_to_hindi(data.title) %></div>
+  <div class="pull-right logo-container logo-tv">
+    <a href="#">
+      <img id="gramener-logo" src="/img/gramener_LOGO_STANDARD_WHITE_.png" alt="">      
+    </a>
+    <a href="#">
+      <img id="refresh-logo" src="/img/refresh.png" alt="">
+    </a>
+  </div>
+
+</script>
+

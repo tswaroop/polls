@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Return Of Time Invested</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/constPopUp.css">
+        <link rel="stylesheet" href="/roti/css/style.css">
+
+
+        <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="/bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+        <script type="text/javascript" src="/js/G.min.js"></script>
+        <script type="text/javascript" src="/js/util.js"></script>
+        <script type="text/javascript" src="/js/global_utilities.js"></script>
+        <script type="text/javascript" src="/components/root.js"></script>
+        <script type="text/javascript" src="/components/map.js"></script>
+        <script type="text/javascript" src="/js/rectangle.js"></script>
+        <script type="text/javascript" src="/js/data_retreive.js"></script>
+        <script type="text/javascript" src="/components/stackedbar.js"></script>
+    </head>
+    <body>
+        <div class="roti_main">
+          	<!-- <div id="header">
+                
+            </div> -->
+            <div id="header">              
+            </div>
+            <div class="clearfix"></div>
+            <br>
+            <div class="margin-top-150">
+                <div class="col-md-6 padding-left-50">
+                    <div id="candidateShowCase" class="row">
+                        <div id="candidatePic" class="col-md-3 text-center"></div>
+                        <div class="col-md-9 padding-left-50">
+                            <div id="candidateAnimatedNumbers"></div>
+                            <div id="candidateBar"></div>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="candidateNumbers"></div>
+                </div>
+                <div id="mapSection" class="col-md-6">
+                    <div id="mapContainer"></div>
+                    <div id="mapFilters"></div>
+                </div>
+            </div>
+        </div>
+        <div style="width: 99%; background-color: white; display: none; position: absolute; z-index: 1000;margin-top: 0px" id="const_body">
+        </div>
+        <script type="text/javascript" src="/roti/js/roticandidate.js"></script>
+        <script type="text/template" id="candidate_header_punjab">
+            <div class="pull-left dropdown border-right" id="filter-state">
+                    <span><%= selected_state.toUpperCase() %></span><i class="margin-left-10 fa"></i>
+                    <!-- <div class="dropdown-content" id="otherstates">
+                        <p data-type="state"><%= mask_to_hindi(other_state.toUpperCase()) %></p>
+                    </div> -->
+                  </div>
+
+                  <div class="pull-left dropdown border-right" id="filter-year">
+                    <span>2017</span><i class="margin-left-10"></i>
+                  </div>            
+                  <div id="title"><p><%= mask_to_hindi('RETURN ON TIME INVESTED') %></p></div>
+                  <div class="pull-right live-logo-container">
+                    <a href="#"> <img class="gramener-logo-live" src="img/gramener_LOGO_STANDARD_WHITE_.png" alt="Gramener" title="Gramener"> </a>
+                    <a href="#"> <img class="refresh" src="../img/refresh.png" alt="refresh" title="refresh"> </a>
+            </div>
+        </script>
+    </body>
+</html>

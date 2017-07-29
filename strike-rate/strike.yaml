@@ -1,0 +1,8 @@
+url :
+  strikelive:
+    pattern: /strikelive
+    handler: FunctionHandler
+    kwargs: 
+      function : data_filter.strike_data
+      handlers:
+        content-Type : application/json

@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Election Analysis</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="../bower_components/EasyAutocomplete/dist/easy-autocomplete.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="../bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="../bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="../bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script> -->
+        <script type="text/javascript" src="../bower_components/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+        <script type="text/javascript" src="../js/G.min.js"></script>
+
+        <style type="text/css">
+            #mapContainer{
+                height: 800px;
+            }
+/*            #individual_candidate [id^=bar_]{
+                width: 400px;
+                height: 100px;
+            }*/
+        </style>
+    </head>
+    <body class="uttar_pradesh multiple">
+        <div class="roti_main container-fluid">
+        	<div id="header"></div>
+            <div class="clearfix"></div>
+            <br>
+            <div id="modal_container"></div>
+            <div class="row">
+                <div id="individual_candidate_container" style="display: none;">
+                    <div class="col-xs-12 col-md-6 col-lg-6" id="individual_candidate"></div>
+                    <div class="map_encloser col-md-6 col-lg-5">
+                        <div id="mapContainer" class="row"></div>
+                        <div id="map_filters"></div>
+                    </div>
+                </div>
+    <!--             <div class="col-xs-4 col-md-4" id="filters"></div>
+                <div class="col-xs-4 col-md-4" style="display: none" id="constituency"></div> -->
+                <div id="candidate_comparison_container">
+                    <div class="col-md-1 col-lg-1"></div>
+                    <div id="candidate_comparison" class="col-md-10 col-lg-10"></div>
+                    <div class="col-md-1 col-lg-1"></div>
+                </div>
+            </div>
+            <div class="pull-right logo-container logo-desktop">
+                <img id="gramener-logo" src="../img/gramener.png" alt="">
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+        <div style="width: 99%; background-color: white; display: none; position: absolute; z-index: 1000;" id="const_body">
+        </div>
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/constPopUp.css">
+        <script type="text/javascript" src="/js/rectangle.js"></script>
+        <script type="text/javascript" src="/js/data_retreive.js"></script>
+
+        <script type="text/javascript" src="../js/util.js"></script>
+        <script type="text/javascript" src="../js/global_utilities.js"></script>
+        <script type="text/javascript" src="../components/root.js"></script>
+        <!-- <script type="text/javascript" src="js/map-globals.js"></script> -->
+        <!-- <script type="text/javascript" src="js/filters.js"></script> -->
+    	<!-- <script type="text/javascript" src="js/maps.js"></script> -->
+        <script type="text/javascript" src="../components/map.js"></script>
+        <script type="text/javascript" src="../components/stackedbar.js"></script>
+        <script type="text/javascript" src="../components/roti_components.js"></script>
+        <script type="text/javascript" src="js/roti_utils.js"></script>
+        <script type="text/javascript">
+            var leaflet_roti = new Map('mapContainer');
+            var args = G.url.parse(location.href).searchKey;
+            var state = args.state.toLowerCase().replace(' ', '_');
+            $('body').attr("class", state);
+            $('#header').on('click', '#title', function(){
+                window.location.href = "/countinghome";
+            });
+            $('#const_body').on('click', '.glyphicon-remove', function(){
+                $('.roti_main').css('display', 'block');
+                $('#const_body').css('display', 'none');
+            });
+            
+            $('#const_body').on('click', '.glyphicon-refresh', function(){
+                popUp(const_module.getStateName(),const_module.getAcName())
+            });
+        </script>
+    </body>
+</html>

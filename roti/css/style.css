@@ -1,0 +1,798 @@
+.SP_CONG{
+	color: #0C9753 !important;
+}
+
+.BJP_{
+	color: #FFB200 !important;
+}
+.AAP_{
+	color: #00B68D !important;
+}
+.SAD_BJP{
+	color: #FFB200 !important;
+}
+.BSP{
+	color: #FF19B6 !important;
+}
+.CONG{
+	color: #007DD8 !important;
+}
+
+
+p, .btn-filter, .hindi_text, .candi_text, div[id=filter-state] span{
+	font-weight: bold !important;
+}
+
+body.uttar_pradesh.multiple{
+	background: url("../../img/background_map_up.png") no-repeat center center fixed !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body.punjab.multiple{
+	background: url("../../img/background_map_punjab.png") no-repeat center center fixed !important;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body.punjab.individual, body.uttar_pradesh.individual{
+/*	background: url("../../img/background.png") no-repeat center center fixed !important;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	background: #d9d9d9;
+	background: -moz-linear-gradient(left, #d9d9d9 0%, #999999 100%);
+	background: -webkit-linear-gradient(left, #d9d9d9 0%,#999999 100%);
+	background: linear-gradient(to right, #d9d9d9 0%,#999999 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#999999',GradientType=1 );
+}
+
+#header{
+	height: 62px;
+	background: #d8d8d8;
+	border: 1px solid #979797;
+	position: fixed;
+	z-index: 5000;
+	background: linear-gradient(180deg, #81000B 0%, #9F041B 100%);
+}
+#title{
+	color: #FFF;
+	margin-left: calc(45% - 250px);
+	margin-top: -2px;
+	font-size: 75px;
+	font-family: "Helvetica Inserat LT Std";
+	font-weight: bold;
+}
+#filter-state{
+	background-color: #000;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown-content{
+	background-color: #000 !important;
+}
+.dropdown-content p:hover, .dropdown span:hover{
+	color: #FFF;
+	opacity: 0.8;
+}
+
+
+
+.live-logo-container{
+	margin-top: -40px;
+}
+
+.live-logo-container{
+	margin-top: -40px;
+}
+.live-logo-container a{
+	margin-right: 20px;
+	display: inline-block;
+}
+.live-logo-container a .gramener-logo-live{
+	height: 32px;
+}
+.live-logo-container a .refresh{
+	height: 28px;
+}
+
+#filter-year{
+    color: #ffffff;
+    background: #000000;
+}
+
+svg{margin-left: 0px !important}
+ .table{
+    margin-top: 80px !important;
+}
+
+@media screen and (min-width: 1920px) {
+	.candidate_constituencies{
+		margin-bottom: 5px;
+	}
+	.horizontal_bar_left{
+		font-size: 35px !important;
+	}
+	.horizontal_bar_right{
+		font-size: 40px !important;
+	}
+	.candidate_constituencies [id^=tile_] svg {
+	    height: 270px !important;
+	}
+	.horizontal_bar_percentage {
+	    font-size: 55px !important;
+	    margin-left: 0px !important;
+	    margin-top: 8px;
+	}
+	.lead-camp {
+	    margin-left: 0px !important;
+	    font-size: 35px !important;
+	}
+	#candidate_comparison [id^=bar_] svg {
+	    position: absolute;
+	    left: 20px !important;
+	}
+	.table {
+	    margin-top: 20px !important;
+	}
+	#candidate_comparison_container {
+	    margin-top: 4% !important;
+	    position: relative;
+	}
+
+	.live-logo-container a .gramener-logo-live {
+	    margin-top: -40px !important;
+	}
+	#candidate_comparison [id^=tile_] svg[class*=uttar_pradesh]{
+		height: 630px;
+		padding-right: 5px;
+	}
+	.up_tile{
+		width:91%;
+	}
+	svg[class*=uttar_pradesh]{
+		height: 630px !important;
+	}
+	#tile_NARENDRA_MODI.up_tile_active svg{
+		border: 5px solid #FDA51A;
+		border-radius: 5px;
+	}
+	#tile_RAHUL_GANDHI.up_tile_active svg{
+		border: 5px solid #0093FC;
+		border-radius: 5px;
+	}
+	#tile_AKHILESH_YADAV.up_tile_active svg{
+		border: 5px solid #78E600;
+		border-radius: 5px;
+	}
+	#tile_MAYAWATI.up_tile_active svg{
+		border: 5px solid #D62CA8;
+		border-radius: 5px;
+	}
+
+
+	#punjab_tile_NARENDRA_MODI.punjab_tile_active{
+		border: 5px solid #FDA51A;
+		border-radius: 5px;
+	}
+	#punjab_tile_RAHUL_GANDHI.punjab_tile_active{
+		border: 5px solid #0093FC;
+		border-radius: 5px;
+	}
+	#punjab_tile_ARVIND_KEJRIWAL.punjab_tile_active{
+		border: 5px solid #00B68D;
+		border-radius: 5px;
+	}
+
+	#title{
+	    margin-top: -4px;
+		font-size: 80px;
+	}
+	#filter-state, #filter-year, #filter-agency{
+		font-size: 46px;
+		padding: 22px 30px;
+	}
+	.won_or_lead{
+		font-size: 40px !important;
+	}
+
+	.individual_heading, .headers-left, .values-left {
+	    font-size: 60px !important;
+	}
+
+	#const_body{
+		margin-top: 125px;
+	}
+
+	.btn-filter-active, .btn-filter-active:hover, .btn-filter-active:active, .btn-filter-active:visited{
+		border: 2px solid #000 !important;
+		background: rgb(107, 107,107) !important;
+	}
+
+	#mapContainer{
+		min-height: 550px;
+		height: 550px;
+	}
+	#mapFilters{
+		margin-left: 125px;
+	}
+
+	.margin-top-150{
+		margin-top: 150px;
+	}
+
+	h3{
+		padding: 10px;
+		background: grey;
+	}
+	.padding-left-50{
+		padding-left: 50px;
+		margin-top:-75px;
+	}
+
+	#candidatePic svg{
+		cursor: pointer;
+		height: 400px;
+	}
+	#candidateBar{
+		height: 200px !important;
+	}
+
+	#candidateAnimatedNumbers{
+		margin: 90px 0 20px 0;
+	}
+
+	#candidate_comparison{
+		padding-left: 4%;
+	}
+	.map_encloser svg{
+		margin-left: 0 !important;
+	}
+	#mapSection{
+		padding: 10px;
+		background: rgba(19,55,108,0.17);
+		margin-top: -60px !important;
+	}
+
+	svg{margin-left: 0px !important}
+
+#filter-year{
+    color: #ffffff;
+    background: #000000;
+}
+	#header{
+		height: 110px !important;
+		width: 98.5% !important;
+		box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		background: linear-gradient(180deg, #81000B 0%, #9F041B 100%) !important;
+		top: 0px;
+		position: fixed;
+
+	}
+
+	div.border-right:before {
+	    border-top: 50px solid transparent;
+	    border-bottom: 50px solid transparent;
+	    border-left: 50px solid #000000;
+	    }
+
+	.live-logo-container{
+		margin-top: -65px;
+	}
+	.live-logo-container a{
+		margin-right: 25px;
+		display: inline-block;
+	}
+	.live-logo-container a .gramener-logo-live{
+		height: 35px !important;
+	}
+	.live-logo-container a .refresh{
+		height: 45px !important;
+	}
+}
+
+@media screen and (min-width: 3100px) {
+
+
+	.padding-left-50{
+		padding-left: 50px;
+		margin-top:0px !important;
+	}
+	/*#mapContainer {
+	    height: 630px;
+	}*/
+	body{
+		width: 79%;
+		margin: 0 7% 0 14%;
+		background: #d9d9d9;
+		background: -moz-linear-gradient(left, #d9d9d9 0%, #999999 100%);
+		background: -webkit-linear-gradient(left, #d9d9d9 0%,#999999 100%);
+		background: linear-gradient(to right, #d9d9d9 0%,#999999 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#999999',GradientType=1 );
+	}
+	#header{
+		width: 78% !important;
+	}
+	#title {
+	    font-size: 80px;
+	    margin-left: calc(45% - 240px);
+	    margin-top: 25px;
+	}
+	#individual_candidate [id^=bar_] svg {
+	    margin-left: 40% !important;
+	    height: 600px;
+	}
+	#header{
+		height: 161px !important;
+	}
+	div.border-right:before {
+	    border-top: 80px solid transparent;
+	    border-bottom: 80px solid transparent;
+	    border-left: 80px solid #000000;
+	}
+	.live-logo-container {
+	    margin-top: -80px;
+	}
+	.live-logo-container a .gramener-logo-live {
+	    height: 50px !important;
+        margin-top: -5px !important;
+	}
+	.live-logo-container a .refresh{
+		height: 70px !important;
+	}
+	#candidate_comparison [id^=tile_] svg[class*=uttar_pradesh]{
+		height: 900px !important;
+	}
+	.candidate_constituencies [id^=tile_] svg{
+		height: 300px !important;
+	}
+	#individual_candidate [id^=tile_] svg{
+		height: 700px;
+		width: 60%;
+	}
+	/*#candidate_comparison{
+		padding-left: 8%;
+	}*/
+	#individual_candidate_container [id^=tile_] svg[class*="individual_candidate"] {
+	    margin-left: 35% !important;
+	}
+	#individual_candidate [id^=bar_] svg {
+	    margin-top: 0% !important;
+	    margin-left: 45% !important;
+	}
+	.map_encloser #mapContainer{
+		height: 800px !important;
+	}
+	#map_filters .heading{
+		font-size: 50px !important;
+	}
+	.individual_heading {
+	    font-size: 60px !important;
+	}
+	.won_or_lead{
+		font-size: 48px !important;
+	}
+	.candidate_constituencies .headers-left, #individual_candidate .headers-left{
+		font-size: 60px !important;
+	}
+	.candidate_constituencies .values-left, #individual_candidate .values-left{
+		font-size: 60px !important;
+	}
+	#candidate_comparison .col-lg-3{
+		width: 23% !important;
+		margin: 20px 20px 5px 20px !important;
+		display: inline-block;
+	}
+	#candidate_comparison{
+		margin-top: 50px;
+	}
+	.up_tile{
+		width: 90% !important;
+	}
+	.horizontal_bar_percentage {
+	    font-size: 60px !important;
+	    margin-left: 25px;
+	    margin-top: 30px;
+	}
+	#candidatePic svg {
+	    cursor: pointer;
+	    height: 500px;
+	}
+	.up_bottom{
+		width: 99% !important;
+	}
+	#mapContainer {
+	    height: 680px;
+	}
+	.roti_main #mapContainer{
+		margin: 25px 0 20px 0;
+	}
+	#candidate_comparison [id^=bar_] svg {
+	    position: absolute;
+	    left: 25px !important;
+	}
+}
+
+@media screen and (min-width: 992px){
+
+	.live-logo-container a .gramener-logo-live {
+    	margin-top:	-20px;
+    	/*height: 35px !important;
+    	font-size: 35px;*/
+	}
+	.live-logo-container a .refresh {
+    	margin-top:	-20px;
+    	height: 52px;
+    	font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 768){
+	.live-logo-container a .gramener-logo-live {
+	    height: 18px;
+	    margin-right: 5px;
+	}
+	.live-logo-container a .refresh {
+    	height: 16px;
+	}
+	.live-logo-container{
+		margin-right: 10px;
+	}
+	.live-logo-container a{
+		margin-right: 5px;
+	}
+}
+#const_body{
+	z-index: 99999 !important;
+}
+body{
+	/*background: none;*/
+	/*position: relative;*/
+/*	opacity: 0.47096547;
+	background-color: rgba(216,216,216,0.47);
+	border: 1px solid #979797;*/
+}
+
+.candidate_constituencies{
+	/*opacity: 0.17999999;*/
+	/*background-color: #012C60;*/
+	background-color: rgba(1, 44, 96, 0.179);
+	border: 1px solid #FFFFFF;
+	border-radius: 34px;
+	/*height: 250px;*/
+	z-index: 1
+	/*margin-bottom:-250px;*/
+}
+/*.individual_candidate{
+
+}*/
+
+.candidate_constituencies .table-condensed, .individual_candidate .table-condensed{
+	margin: 20px;
+	padding: 20px;
+}
+
+/*h1{
+	color: rgba(141, 1, 18, 1);
+}*/
+
+.candidate_constituencies .heading-left, .individual_candidate .heading-left{
+	/*width: 281px;*/
+	/*height: 40px;*/
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 40px;
+	text-align: right;
+	line-height: 40px;
+	/*color: #8D0112;*/
+	color: rgba(141, 1, 18, 1);
+}
+
+.candidate_constituencies .heading-right, .individual_candidate .heading-right{
+	/*width: 14.64%;
+	height: 3.42%;*/
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 40px;
+	text-align: left;
+	line-height: 40px;
+	/*color: #8D0112;*/
+	color: rgba(141, 1, 18, 1);
+}
+
+.candidate_constituencies .headers-left, #individual_candidate .headers-left{
+	/*width: 13.28%;*/
+	/*height: 22.26%;*/
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 60px;
+	text-align: right;
+	line-height: 65px;
+	color: #000000;
+}
+
+.candidate_constituencies .headers-right, .individual_candidate .headers-right{
+	/*width: 13.28%;
+	height: 22.26%;*/
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 35px;
+	line-height: 65px;
+	color: #000000;
+}
+
+
+.candidate_constituencies .values-left, #individual_candidate .values-left{
+	/*width: 3.13%;*/
+	/*height: 16.95%;*/
+/*	font-family: "Helvetica Inserat LT Std";
+	font-size: 60px;
+	text-align: right;
+	line-height: 66px;
+	color: #000000;
+	padding-right: 6%;
+*/
+
+	height: 29.63%;
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 60px;
+	text-align: right;
+	/*line-height: 80px;*/
+	/*color: #0093FC;*/
+}
+
+.candidate_constituencies .values-right, .individual_candidate .values-right{
+	/*width: 3.13%;*/
+	/*height: 16.95%;*/
+/*	font-family: "Helvetica Inserat LT Std";
+	font-size: 60px;
+	text-align: right;
+	line-height: 66px;
+	color: #000000;
+	padding-right: 6%;*/
+
+	/*width: 11.82%;*/
+	height: 29.63%;
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 60px;
+	text-align: right;
+	line-height: 80px;
+	/*color: #0093FC;*/
+}
+
+
+/*.candidate_constituencies td{
+	width: 16%;
+}*/
+
+.candidate_constituencies text, .individual_candidate text{
+	font-family: "Helvetica Inserat LT Std";
+}
+
+#candidate_comparison_container{
+	margin-top:6%;
+	position:relative;
+}
+#individual_candidate_container{
+	margin-top:5%;
+	position:relative;
+}
+#individual_candidate_container [id^=tile_] svg{
+	margin-left: -10% !important;
+}
+#individual_candidate_container [id^=tile_] svg[class*="individual_candidate"]{
+	margin-left: 45% !important;
+}
+
+/*#candidate_comparison svg.left{
+	margin-left: 0.5% !important;
+}*/
+
+/*#candidate_comparison svg[class*="punjab"]{
+	margin-left: 5% !important;
+}
+
+#candidate_comparison svg[class*="uttar"]{
+	margin-left: 0.5% !important;
+}
+
+#candidate_comparison svg.right{
+	position:absolute;
+	right: -6%;
+}
+*/
+
+#candidate_comparison [id^=tile_] g, #individual_candidate [id^=tile_] g{
+	/*margin-top: -40%;*/
+	cursor: pointer;
+}
+#individual_candidate [id^=bar_] svg{
+	margin-top: -14% !important;
+	margin-left: 15% !important;
+}
+
+.map_encloser{
+	background-color: rgba(19, 55, 108, 0.17);
+	border-radius: 16px;
+	margin-top: 30px;
+}
+
+.btn-legend{
+/*	font-size: 50px !important;
+	width: inherit !important;*/
+	width: inherit !important;
+	height: 54px;
+	background-color: #000000;
+	box-shadow: inset 10px 10px 15px 0 rgba(192,192,192,0.5);
+	border-radius: 100px;
+}
+.btn-filter{
+	font-size: 32px !important;
+	padding: 9px 24px !important;
+	height: auto !important;
+}
+
+#map_filters .heading{
+	font-family: Impact;
+	font-size: 40px;
+	color: #8D0112;
+}
+
+#map_filters .active{
+	border: 8px solid #17A05E !important;
+}
+
+}
+
+.individual_heading{
+	font-family: Impact !important;
+	font-size: 50px !important;
+	color: #8D0112 !important;
+}
+
+.tile_bottom{
+	text-align: center;
+	box-sizing: border-box;
+	font-family: "Helvetica Inserat LT Std" !important;
+	font-size: 120px;
+	text-align: center;
+	line-height: 120px;
+	fill: #FFFFFF;
+	margin-top: -10%;
+	/*background-color: #767774;*/
+}
+/*.tile_bottom.leading > h1{
+	text-align: center;
+	box-sizing: border-box;
+	font-family: "Helvetica Inserat LT Std" !important;
+	font-size: 120px;
+	text-align: center;
+	line-height: 120px;
+	color: #86FF02;
+	margin-top: -10%;
+	background-color: #6E6E6E;
+}*/
+/*.normal_container .highlight_encloser{
+	width: 93%;
+	box-sizing: border-box;
+	background-color: #747471;
+	border-radius: 26px;
+}*/
+
+/*.leading_container .highlight_encloser{
+	width: 98%;
+	box-sizing: border-box;
+	background-color: #747474;
+	border-radius: 26px;
+}*/
+
+/*#candidate_comparison  .col-lg-3.leading_container{
+	background-color: #6E6E6E;
+}*/
+
+/*#candidate_comparison .col-lg-3{
+	background-color: #767774;
+}*/
+
+#candidate_comparison .col-lg-3{
+	width: 21%;
+	margin: 20px;
+	display: inline-block;
+}
+
+.borderless tr td {
+    border: none !important;
+    padding: 0px !important;
+}
+
+#candidate_comparison [id^=bar_] svg{
+    position: absolute;
+    left: -35%;
+    margin-top: 5% !important;
+}
+
+/*.row.candidate_constituencies{
+	max-height: 400px;
+}*/
+
+.horizontal_bar_percentage{
+	font-size: 100px;
+    margin-left: 25px;
+}
+.vertical_bar_percentage{
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 50px;
+	text-align: right;
+	line-height: 50px;
+	color: #242424;
+}
+
+.won_or_lead{
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 36px;
+	color: #000000;
+}
+
+.horizontal_bar_left_heading{
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 40px;
+	text-align: right;
+	line-height: 30px;
+	color: #85000D;
+}
+
+.horizontal_bar_left{
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 45px;
+	text-align: right;
+	line-height: 65px;
+	color: #000000;
+}
+
+.horizontal_bar_right{
+	font-family: "Helvetica Inserat LT Std";
+	font-size: 50px;
+	text-align: right;
+	line-height: 66px;
+	color: #000000;
+}
+
+/*.candidate_constituencies.punjab [id^=tile_] svg{
+	max-height:
+}*/
+
+/*.hide_dropdown_header:hover .dropdown-content{
+	display:none;
+}*/
+
+#prev_winner svg{
+	margin-left: 0% !important
+}
+
+.highlight_encloser [id^=tile_]{
+	margin-top: -8% !important;
+}
+
+.leading{
+	/*width: 38px;
+	height: 40px;*/
+	margin-right: 20px;
+	font-family: "Font Awesome";
+	font-size: 40px;
+	text-align: right;
+	line-height: 40px;
+	color: #598428;
+}
+
+.trailing{
+	/*width: 1.98%;
+	height: 3.7%;*/
+	margin-right: 20px;
+	font-family: "Font Awesome";
+	font-size: 40px;
+	text-align: right;
+	line-height: 40px;
+	color: #D0021B;
+	/*transform: scaleY(-1);*/
+}

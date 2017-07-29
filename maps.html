@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Election Analysis</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="/bower_components/EasyAutocomplete/dist/easy-autocomplete.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="/bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+        <script type="text/javascript" src="/bower_components/EasyAutocomplete/dist/jquery.easy-autocomplete.min.js"></script>
+        <script type="text/javascript" src="js/G.min.js"></script>
+    </head>
+    <body>
+    	<div id="header"></div>
+        <div class="clearfix"></div>
+        <br>
+        <div class="row">
+            <div id="mapContainer" class="col-xs-12 col-md-8">
+                <div id="map"></div>
+            </div>
+            <div class="col-xs-4 col-md-4" id="filters"></div>
+            <div class="col-xs-4 col-md-4" style="display: none" id="constituency"></div>
+        </div>
+        <div class="pull-right logo-container logo-desktop">
+            <img id="gramener-logo" src="img/gramener.png" alt="">
+        </div>
+
+        <div class="clearfix"></div>
+
+        <script type="text/javascript" src="js/util.js"></script>
+        <script type="text/javascript" src="js/globals.js"></script>
+        <script type="text/javascript" src="js/map-globals.js"></script>
+        <script type="text/javascript" src="js/filters.js"></script>
+    	<script type="text/javascript" src="js/maps.js"></script>
+    </body>
+</html>

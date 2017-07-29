@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Network 18 - Agency Drilldown</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/bower_components/leaflet/dist/leaflet.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/agency.css">
+        <link rel="stylesheet" href="css/agency_specific.css">
+
+        <script type="text/javascript" src="/bower_components/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="/bower_components/topojson/topojson.min.js"></script>
+        <script type="text/javascript" src="/bower_components/leaflet/dist/leaflet.js"></script>
+        <script type="text/javascript" src="/bower_components/d3/d3.min.js"></script>
+        <style>
+            #title {
+                margin-left: calc(42%);
+                font-size: 68px;
+            }
+            .tvnav.pull-right {
+                margin-top: -18px;
+            }
+            @media screen and (min-width: 1920px) {
+                div#subtitle {
+                    margin-left: calc(46%);
+                    font-size: 7rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+          <div class="pull-left dropdown border state" id="filter-state">
+            <span></span> <i class="margin-left-10 fa fa-caret-down"></i>
+            <div class="dropdown-content states" id="otherstates">
+            </div>
+          </div>
+          <div class="pull-left dropdown border-right agency" id="filter-agency" data-toggle="dropdown">
+            <span>2012</span> <i class="margin-left-10 fa fa-caret-down"></i>
+            <div class="dropdown-content agencies" id="otheragency">
+            </div>
+          </div>
+          <div id="title">महा एक्ज़िट पोल</div>
+          <div class="tvnav pull-right">
+            <a href="#" class="gotocomparison">
+                <img width="47px" height="45px" style="margin-right: 30px;margin-top: -95px;" src="img/comparison.png" alt="">
+            </a>
+
+            <a href="/homehindi">
+                <img width="60px" height="50px" style="margin-right: 20px;margin-top: -100px;" src="img/home.png" alt="">
+            </a>
+          </div>
+          <!-- <div class="rightnav pull-right">
+            <a href="#" class="gotocomparison">EXPORT</a>
+            <a href="#" class="gotocomparison">COMPARE</a>
+            <a href="/home">HOME</a>
+          </div> -->
+          <div class="rightnav dropdown1 pull-right" data-toggle="dropdown">
+            <span style="display: inline-block;"> <a class="gotocomparison"> COMPARE </a> </span> <i class="margin-left-10 fa fa-caret-down"></i>
+            <div class="dropdown-content">
+                <!-- <a href="#" class="gotocomparison">EXPORT</a> -->
+                <a href="/home">ANALYSIS HOME</a>
+            </div>
+          </div>
+
+        </div>
+        <div id="subtitle">Opinion Polls</div>
+        <div class="clearfix"></div>
+
+        <br>
+        <span class="filter-types" id="agency-name"></span>
+        <div class="row visuals">
+            <div class="col-md-6 col-sm-6 col-xs-12" id="agency-donut">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12" id="agency-stacked" >
+
+            </div>
+        </div>
+
+        <div id="nodata">
+            <h1 class="filter-types" align="center">NO DATA</h1>
+        </div>
+
+
+        <div id="footer">
+            <!-- <img style="width: 100%;margin-top: -30px; z-index: 1; height: 60px;" src="img/footer.png" alt=""> -->
+            <img class="footer-web" style="height: 52px ;margin-top: -70px; z-index: 3; margin-left: 85%; position: absolute;" src="img/gramener.png" alt="">
+
+            <img class="footer-tv" style="height: 52px ;margin-top: -70px; z-index: 3; margin-left: 85%; position: absolute;" src="img/powered.png" alt="">
+        </div>
+        <script type="text/javascript" src="js/G.min.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
+        <script type="text/javascript" src="js/globals.js"></script>
+        <script type="text/javascript" src="js/agencyhindi.js"></script>
+    </body>
+</html>

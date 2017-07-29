@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div id="pop"></div>
+<select id="tested">
+  <option value="BEHAT">BEHAT</option>
+  <option value="AURAI">AURAI</option>
+  <option value="NAKUR">NAKUR</option>
+</select>
+</body>
+<script type="text/javascript">
+$("#tested").change(function () {
+    var end = this.value;
+    $("#tested").hide()
+    $.get('/constituencyPop?ac_name='+end, function( data ) {
+			$("#pop").html( data );
+	});
+})
+</script>
+</html>

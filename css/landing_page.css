@@ -1,0 +1,283 @@
+@font-face {
+		font-family: "Helvetica Inserat LT Std";
+		src: url("helvetica-inserat.otf") format("opentype");
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("roboto.ttf") format("opentype");
+}
+
+body{
+	/*background: #fff;*/
+	font-family: "Roboto";
+	padding: 15px;
+}
+/*div.container {
+	margin-left: 15.5%!important;
+}*/
+#header{
+	height: 62px;
+		background: #d8d8d8;
+		border: 1px solid #979797;
+		position: fixed;
+		z-index: 5000;
+		width: 98%;
+}
+
+#footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-left:-15px;
+}
+
+/* css for buttons in the landing page */
+.clear {
+	font-size:50px;
+	font-family: "Helvetica Inserat LT Std";
+	text-transform: uppercase;
+	color:white;
+	line-height:70px;
+	border: 3px solid #FFFFFF;
+	border-radius: 100px;
+	margin:2% 0;
+	padding: 15px;
+}
+.clear:hover{
+	text-decoration: none;
+	color:white;
+}
+
+.divcontent-align-center {
+	text-align: center;
+}
+.divcontent-align-center img{
+		width: 160px;
+		height: 48px;
+		margin-left: 10px;
+		margin-top: 7px;
+}
+.landing-gramener-logo {
+		width: 200px;
+		height: 60px;
+		margin-left: 10px;
+}
+#title {
+		margin-bottom: 50px;
+		font-weight: bold;
+		font-size: 50px;
+		font-family: "Roboto";
+		color: #333;
+		margin-top: 125px;
+		text-align: center;
+}
+.divcontent-align-center {
+	text-align: center;
+}
+.clear {
+		font-size: 25px;
+		font-family: "Roboto";
+		text-transform: uppercase;
+		color: black;
+		line-height: 50px;
+		border: 3px solid #000;
+		border-radius: 100px;
+		padding: 10px;
+}
+.clear:hover{
+	text-decoration: none;
+  color: white;
+  background: #920000;
+}
+.poll-logo{
+	display: none;
+}
+#home-news18-logo{
+	display: inline-block;
+}
+
+@media screen and (min-width: 1920px) {
+	.poll-logo{
+		display: inline-block;
+	}
+	#home-news18-logo{
+		display: none;
+	}
+	body{
+		background: url(../../img/counting_bg_tv.png) repeat fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+	}
+	#header{
+		height: 100px;
+		background: radial-gradient(circle, #F9F8F8 0%, #A4A4A2 100%);
+		/*box-shadow: -9px -9px 24px 0 rgba(0,0,0,0.5);*/
+		box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+		border: 1px solid #979797;
+		/*box-shadow: inset 10px 10px 47px 0 rgba(0,0,0,0.5), -7px -9px 30px 0 rgba(0,0,0,0.5);*/
+	}
+	.divcontent-align-center img{
+		width: 200px;
+		height: 75px;
+		margin-top: 10px;
+	}
+	.landing-gramener-logo {
+			width: 200px;
+			height: 80px;
+			margin-top: 10px;
+			margin-left: 10px;
+	}
+	#title{
+		font-size: 74px;
+		/*margin-left: 13%;*/
+		margin-top: 12%;
+		/*margin-left: calc(40% - 146px)!important;*/
+		/*margin-left:24%;*/
+		font-family: "Helvetica Inserat LT Std";
+		/*font-size: 70px;*/
+		margin-bottom:5%;
+		color: #000;
+		/*margin-right: 100px;*/
+		text-align: center;
+	}
+	#footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		margin-left:-15px;
+	}
+
+	/* css for buttons in the landing page */
+	.clear {
+		font-size: 75px;
+		font-family: "Helvetica Inserat LT Std";
+		text-transform: uppercase;
+		color:black;
+		line-height:70px;
+		border: 3px solid #000;
+		border-radius: 100px;
+		margin:2% 0;
+		padding: 15px;
+	}
+	.clear:hover{
+		text-decoration: none;
+		color: #fff;
+		background: #920000;
+		border-color: #000;
+	}
+
+	.divcontent-align-center {
+		text-align: center;
+	}
+
+}
+
+@media screen and (min-width: 3200px) {
+/*	body{
+		background: url(../../img/counting_bg_tv.png) repeat fixed;
+		background-size: cover;
+		-moz-background-size: cover;
+	}*/
+	body{
+		background: #d9d9d9;
+		background: -moz-linear-gradient(left, #d9d9d9 0%, #999999 100%);
+		background: -webkit-linear-gradient(left, #d9d9d9 0%,#999999 100%);
+		background: linear-gradient(to right, #d9d9d9 0%,#999999 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9d9d9', endColorstr='#999999',GradientType=1 );
+		width: 79%;
+		margin: 0 7% 0 14%;
+	}
+	#header{
+		height: 160px !important;
+		width: 78% !important;
+	}
+	#header{
+		width: 99%;
+		height: 160px !important;
+	}
+	.poll-logo {
+	    width: 350px !important;
+	    height: 140px !important;
+	    margin-top: 6px !important;
+	}
+	.landing-gramener-logo {
+	    width: 350px !important;
+	    height: 135px !important;
+	    margin-top: 10px !important;
+	}
+	#title{
+		font-size: 80px;
+		margin-top: 8%;
+		margin-bottom: 3%;
+		color: #000;
+	}
+	.clear{
+		font-size: 80px !important;
+		padding: 45px 0 !important;
+	    border: 3px solid #000;	
+	    color: #000;
+	}
+	.clear:hover{
+	    color: #fff;
+        background: #920000;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#header{
+		width: 97%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.btn.clear.btn-block{
+		margin-left: 0 !important;
+	}
+}
+@media screen and (max-width: 800px) {
+	#header{
+		width: 96%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.divcontent-align-center span {
+		display: inline-block;
+	}
+	#title {
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.clear {
+		font-size: 25px;
+    	line-height: 35px;
+	}
+	.divcontent-align-center img {
+		height: 48px;
+		width: 120px;
+	}
+	#header{
+		width: 96%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.divcontent-align-center span {
+		display: inline-block;
+	}
+	#title {
+		font-size: 25px;
+		margin-bottom: 25px;
+		margin-top: 100px;
+	}
+	.clear {
+		font-size: 20px;
+    	line-height: 35px;
+	}
+	.divcontent-align-center img {
+		height: 48px;
+		width: 120px;
+	}
+	#header{
+		width: 92%;
+	}
+}

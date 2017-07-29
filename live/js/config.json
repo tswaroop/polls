@@ -1,0 +1,383 @@
+{
+  "config": [
+    {
+      "state": "uttar pradesh",
+      "parties":[
+        "SP",
+        "CONG",
+        "BSP",
+        "BJP"
+      ],
+      "entities": [
+        {
+          "name": "Phases",
+          "type": "phase",
+          "filter_col": "PHASE",
+          "filters": [
+            {"name":"1", "status": "inactive"},
+            {"name":"2", "status": "inactive"},
+            {"name":"3", "status": "inactive"},
+            {"name":"4", "status": "inactive"},
+            {"name":"5", "status": "inactive"},
+            {"name":"6", "status": "inactive"},
+            {"name":"7", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Region",
+          "type": "region",
+          "filter_col": "REGION",
+          "filters": [
+            {"name":"Avadh", "status": "inactive"},
+            {"name":"Bundelkhand", "status": "inactive"},
+            {"name":"Doab", "status": "inactive"},
+            {"name":"East", "status": "inactive"},
+            {"name":"West", "status": "inactive"},
+            {"name":"North East", "status": "inactive"},
+            {"name":"Ruhelkhand", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filter_col": "AC_TYPE",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Geographic Status",
+          "type": "geography",
+          "filter_col": "GEOSTATUS",
+          "filters": [
+            {"name":"Rural", "status": "inactive"},
+            {"name":"Semi-Urban", "status": "inactive"},
+            {"name":"Urban", "status": "inactive"}
+          ]
+        },
+        {
+          "name": " Bastion",
+          "type": "bastion",
+          "filter_col": "BASTION",
+          "filters": [
+            {"name":"BJP", "status": "inactive"},
+            {"name":"SP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BSP", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Factor",
+          "type": "factor",
+          "filter_col": "FACTOR",
+          "filters": [
+            {"name":"Muslim", "status": "inactive", "value": "MUSLIM"},
+            {"name":"Dalit", "status": "inactive", "value": "DALIT"},
+            {"name":"Brahmin", "status": "inactive", "value": "BRAHMIN"},
+            {"name":"Yadav", "status": "inactive", "value": "YADAV"},
+            {"name":"Kurmi", "status": "inactive", "value": "KURMI"},
+            {"name":"Jat", "status": "inactive", "value": "JAT"},
+            {"name":"Lodh", "status": "inactive", "value": "LODH"},
+            {"name":"Rajput", "status": "inactive", "value": "RAJPUT"}
+          ]
+        },
+        {
+          "name": "BSP Muslim Candidates",
+          "type": "BSP_MUSLIM",
+          "filter_col": "BSP_MUSLIM",
+          "filters": [
+            {"name":"Yes", "status": "inactive", "value": "Y"}
+          ]
+        },
+        {
+          "name": "Shivpal Factor",
+          "type": "SHIVPAL_FACTOR",
+          "filter_col": "SHIVPAL_FACTOR",
+          "filters": [
+            {"name":"Yes", "status": "inactive", "value": "Y"}
+          ]
+        },
+        {
+          "name": "Win Margin",
+          "type": "margin",
+          "filters": [
+            {"name":"< 1%", "status": "inactive", "value": "1"},
+            {"name":"< 2%", "status": "inactive", "value": "2"}
+          ]
+        },
+        {
+          "name": "2012 Parties",
+          "type": "party_lyr",
+          "filters": [
+            {"name":"SP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BJP", "status": "inactive"},
+            {"name":"BSP", "status": "inactive"},
+            {"name":"RLD", "status": "inactive"},
+            {"name":"PCP", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2014 Leads",
+          "type": "lead_2014",
+          "filters": [
+            {"name":"BJP", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2017 Parties",
+          "type": "party",
+          "filters": [
+            {"name":"SP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BJP", "status": "inactive"},
+            {"name":"BSP", "status": "inactive"},
+            {"name":"RLD", "status": "inactive"},
+            {"name":"APD", "status": "inactive"},
+            {"name":"PCP", "status": "inactive"},
+            {"name":"SBSP", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "punjab",
+      "parties":[
+        "SAD",
+        "BJP",
+        "CONG",
+        "AAP"
+      ],
+      "entities": [
+        {
+          "name": "Regions",
+          "type": "region",
+          "filters": [
+            {"name":"Majha", "status": "inactive"},
+            {"name":"Doaba", "status": "inactive"},
+            {"name":"Malwa", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Geographic Status",
+          "type": "geography",
+          "filters": [
+            {"name":"Rural", "status": "inactive"},
+            {"name":"Semi-Urban", "status": "inactive"},
+            {"name":"Urban", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2012 Parties",
+          "type": "party_lyr",
+          "filters": [
+            {"name":"SAD", "status": "inactive"},
+            {"name":"BJP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2014 Leads",
+          "type": "lead_2014",
+          "filters": [
+            {"name":"AAP", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2017 Parties",
+          "type": "party",
+          "filters": [
+            {"name":"SAD", "status": "inactive"},
+            {"name":"BJP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"AAP", "status": "inactive"},
+            {"name":"LIFP", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Factor",
+          "type": "factor",
+          "filter_col": "FACTOR",
+          "filters": [
+            {"name":"Hindu", "status": "inactive", "value": "HINDU"},
+            {"name":"Sikh", "status": "inactive", "value": "SIKH"}
+          ]
+        },
+        {
+          "name": "Win Margin",
+          "type": "margin",
+          "filters": [
+            {"name":"< 1%", "status": "inactive", "value": "1"},
+            {"name":"< 2%", "status": "inactive", "value": "2"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "uttarakhand",
+      "parties":[
+        "BJP",
+        "CONG",
+        "BSP"
+      ],
+      "entities": [
+        {
+          "name": "Region",
+          "type": "region",
+          "filters": [
+            {"name":"Garhwal", "status": "inactive"},
+            {"name":"Kumaun", "status": "inactive"},
+            {"name":"Maidan", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"},
+            {"name":"ST", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Geographic Status",
+          "type": "geography",
+          "filters": [
+            {"name":"Rural", "status": "inactive"},
+            {"name":"Semi-Urban", "status": "inactive"},
+            {"name":"Urban", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2017 Parties",
+          "type": "party",
+          "filters": [
+            {"name":"BJP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BSP", "status": "inactive"},
+            {"name":"UKKD", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2012 Parties",
+          "type": "party_lyr",
+          "filters": [
+            {"name":"BJP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BSP", "status": "inactive"},
+            {"name":"UKKD", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "goa",
+      "parties":[
+        "BJP",
+        "CONG",
+        "AAP"
+      ],
+      "entities": [
+        {
+          "name": "Regions",
+          "type": "region",
+          "filters": [
+            {"name":"North", "status": "inactive"},
+            {"name":"South", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Reservation Status",
+          "type": "reservation",
+          "filters": [
+            {"name":"General", "status": "inactive"},
+            {"name":"SC", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2017 Parties",
+          "type": "party",
+          "filters": [
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BJP", "status": "inactive"},
+            {"name":"AAP", "status": "inactive"},
+            {"name":"GFWP", "status": "inactive"},
+            {"name":"IND", "status": "inactive"},
+            {"name":"MGP", "status": "inactive"},
+            {"name":"GSKM", "status": "inactive"},
+            {"name":"SS", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2012 Parties",
+          "type": "party_lyr",
+          "filters": [
+            {"name":"CONG", "status": "inactive"},
+            {"name":"BJP", "status": "inactive"},
+            {"name":"MGP", "status": "inactive"},
+            {"name":"IND", "status": "inactive"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "manipur",
+      "parties":[
+        "BJP",
+        "CONG"
+      ],
+      "entities": [
+        {
+          "name": "Phases",
+          "type": "phase",
+          "filters": [
+            {"name":"1", "status": "inactive"},
+            {"name":"2", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Region",
+          "type": "region",
+          "filters": [
+            {"name":"Hills", "status": "inactive"},
+            {"name":"Valley", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "2017 Parties",
+          "type": "party",
+          "filters": [
+            {"name":"BJP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"PRJA", "status": "inactive"}
+          ]
+        }
+        ,
+        {
+          "name": "2012 Parties",
+          "type": "party_lyr",
+          "filters": [
+            {"name":"BJP", "status": "inactive"},
+            {"name":"CONG", "status": "inactive"},
+            {"name":"TMC", "status": "inactive"}
+          ]
+        }
+      ]
+    }
+  ]
+}

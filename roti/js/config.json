@@ -1,0 +1,49 @@
+{
+  "config": [
+    {
+      "state": "up",
+      "entities": [
+        {
+          "name": "Phases",
+          "type": "phase",
+          "filters": [
+            {"name":"1", "status": "inactive"},
+            {"name":"2", "status": "inactive"},
+            {"name":"3", "status": "inactive"},
+            {"name":"4", "status": "inactive"},
+            {"name":"5", "status": "inactive"},
+            {"name":"6", "status": "inactive"},
+            {"name":"7", "status": "inactive"}
+          ]
+        },
+        {
+          "name": "Regions",
+          "type": "region",
+          "filters": [
+            {"name":"Avadh", "status": "inactive"},
+            {"name":"Bundelkhand", "status": "inactive"},
+            {"name":"Doab", "status": "inactive"},
+            {"name":"East", "status": "inactive"},
+            {"name":"West", "status": "inactive"},
+            {"name":"North East", "status": "inactive"},
+            {"name":"Ruhelkhand", "status": "inactive"}
+          ]
+        }
+      ]
+    },
+    {
+      "state": "punjab",
+      "entities": [
+        {
+          "name": "Regions",
+          "type": "region",
+          "filters": [
+            {"name":"Majha", "status": "inactive"},
+            {"name":"Doaba", "status": "inactive"},
+            {"name":"Malwa", "status": "inactive"} 
+          ]
+        }
+      ]
+    }
+  ]
+}

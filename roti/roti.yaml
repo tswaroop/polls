@@ -1,0 +1,55 @@
+url:
+   roti/up:
+       pattern: /roti/up
+       handler: FileHandler
+       kwargs:
+           path: roti/roti_up.html
+
+   roti/punjab:
+       pattern: /roti/punjab
+       handler: FileHandler
+       kwargs:
+           path: roti/roti_punjab.html
+
+   data/roti/up:
+       pattern: /data/roti/up
+       handler: FunctionHandler
+       kwargs:
+          function: roti_utils.get_up_data
+
+   data/roti/punjab:
+       pattern: /data/roti/punjab
+       handler: FunctionHandler
+       kwargs:
+          function: roti_utils.get_punjab_data
+
+   roti/candidate:
+       pattern: /roticandidate
+       handler: FileHandler
+       kwargs:
+           path: roti/roticandidate.html
+
+
+   get_candidates_data:
+     pattern: /get_candidates_data
+     handler: FunctionHandler
+     kwargs:
+        function: roti_utils.get_candidates_data
+        headers:
+            Content-Type: application/json
+
+   get_individual_data:
+     pattern: /get_individual_data
+     handler: FunctionHandler
+     kwargs:
+        function: roti_utils.get_individual_data
+        headers:
+            Content-Type: application/json
+
+   refresh_roti_data:
+     pattern: /refresh_roti_data
+     handler: FunctionHandler
+     kwargs:
+        function: roti_utils.refresh_roti_data
+        headers:
+            Content-Type: application/json

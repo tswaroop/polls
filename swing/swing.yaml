@@ -1,0 +1,8 @@
+url:
+    swing:
+        pattern: /swing_data
+        handler: gramex.handlers.FunctionHandler
+        kwargs:
+            function: swing.get_swing_data
+            headers:
+                Content-Type: application/json
